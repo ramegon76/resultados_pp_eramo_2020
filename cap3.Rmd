@@ -1,0 +1,16 @@
+---
+title: "**Resultados**"
+--- 
+
+<div class=text-justify>
+
+<br>
+<br>
+ 
+## Consideración inicial acerca de las cifras que se obtienen de la muestra.
+
+Antes de dar paso al análisis de los datos captados en el operativo de prueba, es necesario recordar que se debe tener presente que la muestra no fue construida en forma probabilística, de tal forma que no pueden obtenerse inferencias y ni siquiera pueden usarse las cifras obtenidas como indicadores de estimaciones o aproximaciones a los datos para el estado de Aguascalientes. Todas las cifras que a continuación se presentan, son indicadores construidos con carácter ilustrativo para este proyecto. 
+
+
+
+</div>

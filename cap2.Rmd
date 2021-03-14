@@ -1,0 +1,19 @@
+---
+title: "**Procesamiento**"
+--- 
+
+<div class=text-justify>
+
+<br>
+<br>
+ 
+# Descripción del tratamiento de la base de datos de captura, para obtener la base de datos de explotación
+
+<br>
+
+
+El objetivo de este apartado es describir el registro puntual de cada de una de las acciones realizadas para la preparación, validación e integración de la Base de Datos, desde la salida de captura, hasta la versión final, para su explotación y análisis.
+
+
+
+</div>

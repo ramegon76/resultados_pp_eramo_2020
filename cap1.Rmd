@@ -1,0 +1,12 @@
+---
+title: "**Metodología**"
+--- 
+
+<div class=text-justify>
+
+<br>
+ 
+
+Como puede observarse del apartado anterior, se ha dispuesto de un conjunto de tablas descargadas de la plataforma *Survey Solutions*, que se descargan en una carpeta denominada *bd_captura*. A esta versión de la base de datos de captura, que aún se encuentra sin depurar, se le aplicarán los tratamientos de validación y procesamiento que se describen más adelante y que dan origen a una nueva versión de la base de datos lista para su explotación, y que se aloja en una nueva carpeta denominada *bd_explot*.
+
+<div/>
