@@ -1,0 +1,98 @@
+plagas
+plagas
+muy riguroso de proceso_de_seleccion
+precio_bajo
+plagas
+diferenciacion de sembrado
+la variedad no fue la adecuada para la zona
+se pudrio por un mal_empaquetado
+humedad
+es de segunda se la compra el coyote mas barata a menos de mitad de precio
+porque estaba manchado y cuarteado, humedad
+el grande no pasa, el tamano
+tamano_pequeno de la semilla
+tamano_pequeno
+falta_de_lluvia
+falta_de_lluvia
+defecto de planta
+mala_calidad del producto
+dano por plagas
+producto_enfermo
+por plaga de gusano
+La sequia los maices no dieron el potencial esperado y las plagas aumentaron
+fue mala_calidad del garbanzo
+enfermedades y virosis
+enfermedades y mala_seleccion de la semilla
+poca_demanda
+sequia ,plagas
+mal_manejo
+mal_manejo
+plagas y mal_manejo
+problemas fitosanitarios y ambientales
+maduracion y hongos
+mal_manejo
+plagas, no habia mercado
+hongos y nematodos
+sequia extrema
+se caian los tomates, mal_corte, mal_manejo de producto
+al momento del almacenamiento de aplastaron los tomates y en el empaque se sacaron
+al llevarlo al mercado con el movimiento del vehiculo se aplastaron
+los productos no se vendian rapido y algunos ya estaban muy maduros, entonces se hecharnos a perder
+cosecha_tardia en algunas plantas
+cosecha tardia en algunas plantas
+enfermedades, inadecuado paquete tecnologico, mal_manejo de la cosecha
+heladas tardias
+dano de aves
+seleccion de calidad
+plagas
+falta_de_agua
+sequia
+corte_tardio
+falta_de_agua en el ciclo_agricola
+plagas
+plagas
+plagas
+plagas
+plagas
+Eventos meteorologicos y plagas
+plagas
+plagas
+falta_de_agua en el ciclo_agricola
+falta_de_agua y mal_manejo
+mal_manejo de la cosecha
+incidencia de animales
+cosecha_tardia en algunas plantas
+corte_tardio en algunas plantas
+corte_tardio en algunas plantas
+falta_de_agua en el ciclo_agricola
+cosecha_tardia en algunas plantas
+La cosecha no se dio por sequia
+La cosecha no se dio por sequia
+se dano en el momento del corte, sobremaduracion
+dano_mecanico, hongos
+hongos, bacterias
+no hay comprador, sobremaduracion
+mal_corte Fruta picada
+plaga
+clima, bajo el precio
+madurez no apta
+clima,  cansancio
+norte,  robo, sobremaduracion
+dano en el manejo
+problemas de manejo
+clima, manejo en la siembra
+mal_corte
+mal_manejo
+sobremaduracion
+mal_corte
+por el clima
+sobremaduracion
+mal_almacenamiento, falta de infraestructura, desconocimiento
+la planta no desarrollo y los implementos no se pueden cosechar
+poca_demanda
+poca_demanda
+Norte
+corte_tardio
+corte_tardio
+corte_tardio
+

@@ -1,18 +1,733 @@
 ---
-title: "**Procesamiento**"
+title: "**Resultados Agropecuario**"
 --- 
+<br>
+
+<br>
 
 <div class=text-justify>
 
+### Consideración inicial acerca de las cifras que se obtienen de la muestra.
+
+Antes de dar paso al análisis de los datos captados en el operativo de prueba, se debe tener presente que la muestra no fue construida en forma probabilística, de tal forma que no pueden obtenerse inferencias y ni siquiera pueden usarse las cifras obtenidas como indicadores de estimaciones o aproximaciones a los datos para propósitos de publicación de los mismos. Todas las cifras que a continuación se presentan, son indicadores construidos con fines de análisis para este proyecto.
+
+<br>
+
+<br>
+
+
+### Resumen de entrevistas captadas.
+
+<br>
+
+Se obtuvieron entrevistas completas en 75 unidades agropecuarias, de las cuales 58 corresponden a unidades de producción exclusivamente agrícola, 7 de producción exclusivamente pecuaria, y 10 donde se tiene tanto producción agrícola, como ganadera o pecuaria. 
+
+En consecuencia, se tiene información sobre la producción de 89 productos agrícolas y de 25 productos pecuarios. De ellos, se obtuvo un total de 98 registros de productos agrícolas con pérdidas, y 25 productos pecuarios en la misma situación.
+
+Estos son por lo tanto los casos sobre los cuales se puede analizar y mostrar a continuación la información resumida en forma de indicadores y gráficos.
+
+Por la diferencia que existe entre las variables captadas para las unidades agrícolas y las pecuarias, se manejan sus resultados en apartados distintos.  
+
+<br>
+
+## Unidades Agrícolas
+
 <br>
 <br>
- 
-# Descripción del tratamiento de la base de datos de captura, para obtener la base de datos de explotación
+
+### Registro del manejo o la pérdida de productos.
+
+De las 68 unidades de producción agrícola entrevistadas, sólo en 20 de ellas se lleva registro del manejo o pérdidas de los productos.
+
+Los procesos en que se llevan a cabo dichos registros se distribuyen del siguiente modo:
+
+
+```{r echo = FALSE, message = FALSE, fig.height= 6, fig.width= 8, warning = FALSE, cache=F}
+
+
+frec4 <- c(18,5,4,5,6)
+
+barplot(frec4, ylim=c(0,20),
+main = "Unidades de producción que llevan registros, por proceso",
+xlab = "",
+ylab = "Frec",
+names.arg = c("Cosecha", "Selec/Emp", "Almacenam", "Transp", "Venta"),
+border="red",
+col="blue",
+density=15)
+
+```
+
+Sólo en 3 unidades de producción se declaró llevar registro en todos los procesos.
+
+
+<br>
+
+### Número de productos declarados
+
+Se encontró que la mayoría de las unidades de producción declararon un sólo producto. La distribución de productos declarados por unidad agrícola fue la siguiente:
+
+
+
+| Total | 1 producto | 2 productos | 3 productos | 4 o más productos |
+|--:|--:|--:|--:|--:|
+| 68 | 52 | 12 | 3 | 1 |
+
+<br>
+<br>
+
+### Tipos de productos
+
+En este caso se capturaron en forma de texto los productos agrícolas. Se muestra a continuación una nube de palabras y una gráfica de frecuencias de los productos declarados.
+
+
+```{r wc1, echo = FALSE, message = FALSE, fig.height= 8, fig.width= 8, warning = FALSE, cache=F}
+
+### Paquetes necesarios:
+library("tm")
+library("SnowballC")
+library("wordcloud")
+library("RColorBrewer")
+
+# Se lee el archivo txt:
+filePath <- "archivos/prods_agric.txt"
+text <- readLines(filePath,encoding="UTF-8")     #Leemos el archivo
+text = iconv(text, to="ASCII//TRANSLIT") # Convert Character Vector between Encodings
+corpus <- Corpus(VectorSource(text)) # formato de texto
+# llevamos a minúsculas
+d  <- tm_map(corpus, tolower)
+# quitamos espacios en blanco
+d  <- tm_map(d, stripWhitespace)
+# quitamos la puntuación
+d <- tm_map(d, removePunctuation)
+# quitamos los números
+d <- tm_map(d, removeNumbers)
+
+#Un comando útil es quitar la palabras genéricas, la paquetería “tm” tiene un grupo de palabras. Para verlas:
+# stopwords("spanish")
+# Importante: “stopwords(”spanish“)” es un vector, se puede ampliar y actualizar de forma personalizada.
+
+# remueve palabras vacías genericas
+d <- tm_map(d, removeWords, stopwords("spanish"))
+
+
+##### Conteo: 
+
+# Una vez “limpio” el texto, tenemos que pasarlo a un formato de base de datos.
+tdm <- TermDocumentMatrix(d)
+
+# Encontramos sus asociaciones;
+frecuentes<-findFreqTerms(tdm, lowfreq=20) # el parámetro lowfreq fija el umbral de frecuencia deseado
+# findAssocs(tdm, frecuentes, 0.45)  # se determinan las asociaciones
+
+
+##### Sumarización:
+
+m <- as.matrix(tdm)                            # lo vuelve una matriz
+v <- sort(rowSums(m),decreasing=TRUE)          # lo ordena y suma
+df <- data.frame(word = names(v),freq=v)       # lo nombra y hace data.frame
+
+# Y se hace la nube de palabras: 
+
+wordcloud(words = df$word, freq = df$freq, min.freq = 2,
+          max.words=100, random.order=FALSE, rot.per=0.35, 
+          colors=brewer.pal(8, "Dark2"))
+
+```
+
+Cuyas frecuencias son:
+
+
+```{r echo = FALSE, message = FALSE, fig.height= 5, fig.width= 8, warning = FALSE, cache=F}
+
+filePath <- "archivos/prods_agric.txt"
+text2 <- readLines(filePath,encoding="UTF-8") 
+frec1 <- sort(table(text2), decreasing = T)
+
+barplot(frec1[1:6], ylim=c(0,16),
+main = "Principales cultivos declarados, PP-ERAMO 2021",
+xlab = "",
+ylab = "Frec",
+names.arg = c("Maiz", "Jitomate", "Mango", "Frijol", "Melón", "Papaya"),
+border="red",
+col="blue",
+density=15)
+
+```
+
+<br>
+
+Como dato complementario, en 74 registros (83%) se declaró que se trata de productos para consumo humano
+en forma exclusiva, en otros 3 para consumo animal y en 10 casos para ambos tipos de consumo. Un registro no especificó esta respuesta.
+
+<br>
+<br>
+
+### Cosecha anual de los productos más frecuentes
+
+En este caso, a efecto de simplificar, se toman los productos de la gráfica anterior para obtener la cantidad cosechada anual. Se excluye la papaya, ya que contiene datos declarados muy altos (un dato de 15000 toneladas y otro de 4000 toneladas anuales, que distorsionarían el gráfico).
 
 <br>
 
 
-El objetivo de este apartado es describir el registro puntual de cada de una de las acciones realizadas para la preparación, validación e integración de la Base de Datos, desde la salida de captura, hasta la versión final, para su explotación y análisis.
+```{r echo = FALSE, message = FALSE, fig.height= 5, fig.width= 8, warning = FALSE, cache=F}
+
+prod_agri <- read.csv("base_de_datos/agropecuario/productos_agricolas.csv")
+
+prods_princ_med <- which((prod_agri$tipo_prod == "Maíz" | prod_agri$tipo_prod == "Jitomate" |
+                            prod_agri$tipo_prod == "Mango manila" | 
+                            prod_agri$tipo_prod == "Frijol" |
+                            prod_agri$tipo_prod == "Melón") &
+                           prod_agri$u_cosecha_anual %in% c(1,2)) 
+
+Cultivos <- as.factor(prod_agri$tipo_prod[prods_princ_med])
+cose <- prod_agri$cosecha_anual[prods_princ_med]
+unidad <- prod_agri$u_cosecha_anual[prods_princ_med]
+Cosecha <- ifelse(unidad == 1, cose/1000, cose)
+
+datos1 <- data.frame(Cultivos,Cosecha)
+
+
+library(plotly)
+
+fig1 <- plot_ly(data = datos1, x = ~Cultivos, y = ~Cosecha, type = "box")
+fig1 %>% layout(title = "Toneladas cosechadas por tipo de cultivo")
+
+```
+
+
+
+<br>
+
+Otros datos que se captaron y que deberían servir para corroborar el dato anterior, es el de la cosecha estimada (la que se esperaba obtener, en color azul) y la cosecha final (la que se obtuvo efectivamente, en color naranja). 
+
+<br>
+
+```{r echo = FALSE, message = FALSE, fig.height= 5, fig.width= 8, warning = FALSE, cache=F}
+
+prods_princ_med <- which((prod_agri$tipo_prod == "Maíz" | prod_agri$tipo_prod == "Jitomate" |
+                            prod_agri$tipo_prod == "Mango manila" | 
+                            prod_agri$tipo_prod == "Frijol" |
+                            prod_agri$tipo_prod == "Melón") &
+                           prod_agri$u_cosecha_anual %in% c(1,2)) 
+
+Cultivos <- prod_agri$tipo_prod[prods_princ_med]
+cEstimada <- prod_agri$cosecha_estimada[prods_princ_med]
+cFinal <- prod_agri$cosecha_final[prods_princ_med]
+u_cEstimada <- prod_agri$u_cosecha_estimada[prods_princ_med]
+u_cFinal <- prod_agri$u_cosecha_final[prods_princ_med]
+Estimada <- ifelse(u_cEstimada == 1, cEstimada/1000, cEstimada)
+Final <- ifelse(u_cFinal == 1, cFinal/1000, cFinal)
+
+datos1a <- data.frame(Cultivos, Estimada)
+datos1b <- data.frame(Cultivos, Final)
+
+
+
+fig1a <- plot_ly(data = datos1a, x = ~Cultivos, y = ~Estimada,
+                 type = "box") 
+
+fig1b <- plot_ly(data = datos1b, x = ~Cultivos, y = ~Final,
+                 type = "box") 
+
+subplot(list(fig1a, fig1b), shareY = T, shareX = F, titleX = F, titleY = F) %>% 
+  layout(showlegend = F) %>% layout(title = "Toneladas por tipo de cultivo
+                   Azul = Estimadas, Naranja = Finales")
+
+```
+
+<br>
+<br>
+
+### Procesos en los que se declararon pérdidas
+
+Se resumen en la siguiente gráfica:
+
+<br>
+
+```{r echo = FALSE, message = FALSE, fig.height= 5, fig.width= 8, warning = FALSE, cache=F}
+
+
+frec4 <- c(66,14,1,4,8,6)
+
+barplot(frec4, ylim=c(0,70),
+main = "Número de pérdidas por proceso",
+xlab = "",
+ylab = "Frec",
+names.arg = c("Cosecha", "Selec/Emp", "Almacenam", "Transp", "Venta", "Otro"),
+border="red",
+col="blue",
+density=15)
+
+```
+
+
+
+<br>
+<br>
+
+### Pérdidas
+
+Se hace complicado mostrar este dato debido a la gran variabilidad de pérdidas declaradas para algunos cultivos. Para tratar de mostrar esta variabilidad, a continuación se presenta un boxplot para los cultivos con declaración más frecuente de pérdidas. 
+
+<br>
+
+```{r echo = FALSE, message = FALSE, fig.height= 5, fig.width= 8, warning = FALSE, cache=F}
+
+prod_perd <- read.csv("base_de_datos/agropecuario/consulta2.csv")
+
+prods_princ_perd <- which((prod_perd$tipo_prod == "Maiz" | prod_perd$tipo_prod == "Melon" |
+                             prod_perd$tipo_prod == "Jitomate" | 
+                             prod_perd$tipo_prod == "Mango manila" |
+                             prod_perd$tipo_prod == "Frijol" | 
+                             prod_perd$tipo_prod == "Papaya" |
+                             prod_perd$tipo_prod == "Tomate variedad maviri" | 
+                             prod_perd$tipo_prod == "Pepino" |
+                             prod_perd$tipo_prod == "Brocoli") &
+                            prod_perd$u_med_per %in% c(1,2))
+
+Cultivos <- as.factor(prod_perd$tipo_prod[prods_princ_perd])
+perd <- prod_perd$cant_per[prods_princ_perd]
+unidadp <- prod_perd$u_med_per[prods_princ_perd]
+Tons <- ifelse(unidadp == 1, perd/1000, perd)
+
+datos4 <- data.frame(Cultivos,Tons)
+
+fig3 <- plot_ly(data = datos4, x = ~Cultivos, y = ~Tons, type = "box")
+fig3 %>% layout(title = "Toneladas perdidas de los cultivos más declarados con pérdidas")
+
+
+```
+
+<br>
+
+Si excluimos a los cultivos de papaya y mango manila, así como **un sólo caso de pérdida de trigo de 300 toneladas**, podemos obtener una gráfica más homogénea:
+
+<br>
+
+```{r echo = FALSE, message = FALSE, fig.height= 5, fig.width= 8, warning = FALSE, cache=F}
+
+prods_princ_perd <- which(prod_perd$u_med_per %in% c(1:3) & 
+                            !(prod_perd$tipo_prod %in% c("Papaya","Mango manila",
+                                                         "Trigo")))
+
+Cultivos <- as.factor(prod_perd$tipo_prod[prods_princ_perd])
+perd <- prod_perd$cant_per[prods_princ_perd]
+perd2 <- prod_perd$cant_per[prods_princ_perd]*prod_perd$ha_proceso_perd[prods_princ_perd]
+unidadp <- prod_perd$u_med_per[prods_princ_perd]
+Tons <- ifelse(unidadp == 1, perd/1000, ifelse(unidadp == 2, perd, perd2))
+
+datos4 <- data.frame(Cultivos,Tons)
+
+fig4 <- plot_ly(data = datos4, x = ~Cultivos, y = ~Tons, type = "box")
+fig4 %>% layout(title = "Toneladas perdidas por tipo de cultivo")
+
+```
+
+<br>
+
+Dados estos resultados, calculamos ahora la pérdida en términos porcentuales respecto a la cosecha anual, para observar en términos relativos si se muestra alguna tendencia.
+
+<br>
+
+```{r echo = FALSE, message = FALSE, fig.height= 5, fig.width= 8, warning = FALSE, cache=F}
+
+prods_princ_perd <- which(prod_perd$u_med_per %in% c(1:3) & 
+                            prod_perd$u_cosecha_anual %in% c(1,2))
+
+Cultivos <- as.factor(prod_perd$tipo_prod[prods_princ_perd])
+
+perd <- prod_perd$cant_per[prods_princ_perd]
+perd2 <- prod_perd$cant_per[prods_princ_perd]*prod_perd$ha_proceso_perd[prods_princ_perd]
+unidadp <- prod_perd$u_med_per[prods_princ_perd]
+Perdida <- ifelse(unidadp == 1, perd/1000, ifelse(unidadp == 2, perd, perd2))
+
+cant_cos <- prod_perd$cosecha_anual[prods_princ_perd]
+unidadc <- prod_perd$u_cosecha_anual[prods_princ_perd]
+cos_anual <- ifelse(unidadc == 1, cant_cos/1000, cant_cos)
+
+Porcentaje <- round(Perdida/cos_anual*100,0)
+Porcentaje <- Porcentaje[-c(45,47,48,55,56)]
+Cultivos <- Cultivos[-c(45,47,48,55,56)]
+
+datos6 <- data.frame(Cultivos,Porcentaje)
+
+fig4 <- plot_ly(data = datos6, 
+                x = ~Cultivos, 
+                y = ~Porcentaje, type = "box")
+fig4 %>% layout(title = "Porcentaje de pérdidas por tipo de cultivo")
+
+```
+
+<br>
+
+En lo que respecta al dinero perdido, si bien sabemos que no es posible utilizarlo como una variable confiable dadas las diferencias por las variaciones temporales (inflación), así como por las limitaciones conceptuales alrededor de su captación, se puede hacer una estimación gruesa de las pérdidas económicas derivadas para este conjunto de datos, que pueden dar alguna idea del monto real involucrado en el fenómeno. Se muestra a continuación, la distribución por tipo de cultivo.
+
+<br>
+
+```{r echo = FALSE, message = FALSE, fig.height= 5, fig.width= 8, warning = FALSE, cache=F}
+
+Cultivos <- as.factor(prod_perd$tipo_prod)
+Pesos <- prod_perd$cant_mon_per
+datos5 <- data.frame(Cultivos,Pesos) 
+
+fig5 <- plot_ly(data = datos5, x = ~Cultivos, y = ~Pesos, type = "box")
+fig5 %>% layout(title = "Valor de las pérdidas por tipo de cultivo")
+
+```
+
+<br>
+
+**El monto global de las pérdidas de los 89 registros analizados asciende a \$12,818,007.**
+
+<br>
+
+### Causas de las pérdidas
+
+Dado que esta variable se dejó para la captura en pregunta abierta, se construye una nube de palabras para observar los conceptos obtenidos por el instrumento de captación.
+
+```{r wc2, echo = FALSE, message = FALSE, fig.height= 6, fig.width= 8, warning = FALSE, cache=F}
+
+# Se lee el archivo txt:
+filePath <- "archivos/causas_perd.txt"
+text <- readLines(filePath,encoding="UTF-8")     #Leemos el archivo
+text = iconv(text, to="ASCII//TRANSLIT") # Convert Character Vector between Encodings
+corpus <- Corpus(VectorSource(text)) # formato de texto
+# llevamos a minúsculas
+d  <- tm_map(corpus, tolower)
+# quitamos espacios en blanco
+d  <- tm_map(d, stripWhitespace)
+# quitamos la puntuación
+d <- tm_map(d, removePunctuation)
+# quitamos los números
+d <- tm_map(d, removeNumbers)
+
+#Un comando útil es quitar la palabras genéricas, la paquetería “tm” tiene un grupo de palabras. Para verlas:
+# stopwords("spanish")
+# Importante: “stopwords(”spanish“)” es un vector, se puede ampliar y actualizar de forma personalizada.
+
+# remueve palabras vacías genericas
+d <- tm_map(d, removeWords, stopwords("spanish"))
+
+
+##### Conteo: 
+
+# Una vez “limpio” el texto, tenemos que pasarlo a un formato de base de datos.
+tdm <- TermDocumentMatrix(d)
+
+# Encontramos sus asociaciones;
+frecuentes<-findFreqTerms(tdm, lowfreq=20) # el parámetro lowfreq fija el umbral de frecuencia deseado
+# findAssocs(tdm, frecuentes, 0.45)  # se determinan las asociaciones
+
+
+##### Sumarización:
+
+m <- as.matrix(tdm)                            # lo vuelve una matriz
+v <- sort(rowSums(m),decreasing=TRUE)          # lo ordena y suma
+df <- data.frame(word = names(v),freq=v)       # lo nombra y hace data.frame
+
+# Y se hace la nube de palabras: 
+
+wordcloud(words = df$word, freq = df$freq, min.freq = 2,
+          max.words=100, random.order=FALSE, rot.per=0.35, 
+          colors=brewer.pal(8, "Dark2"))
+
+```
+
+
+
+<br>
+
+
+### Destino de las pérdidas
+
+Para analizar los destinos, repetimos el análisis de textos basado en nubes de palabras, para la variable abierta referente al destino de las pérdidas.
+
+```{r wc3, echo = FALSE, message = FALSE, fig.height= 6, fig.width= 8, warning = FALSE, cache=F}
+
+# Se lee el archivo txt:
+filePath <- "archivos/destino.txt"
+text <- readLines(filePath,encoding="UTF-8")     #Leemos el archivo
+text = iconv(text, to="ASCII//TRANSLIT") # Convert Character Vector between Encodings
+corpus <- Corpus(VectorSource(text)) # formato de texto
+# llevamos a minúsculas
+d  <- tm_map(corpus, tolower)
+# quitamos espacios en blanco
+d  <- tm_map(d, stripWhitespace)
+# quitamos la puntuación
+d <- tm_map(d, removePunctuation)
+# quitamos los números
+d <- tm_map(d, removeNumbers)
+
+#Un comando útil es quitar la palabras genéricas, la paquetería “tm” tiene un grupo de palabras. Para verlas:
+# stopwords("spanish")
+# Importante: “stopwords(”spanish“)” es un vector, se puede ampliar y actualizar de forma personalizada.
+
+# remueve palabras vacías genericas
+d <- tm_map(d, removeWords, stopwords("spanish"))
+
+
+##### Conteo: 
+
+# Una vez “limpio” el texto, tenemos que pasarlo a un formato de base de datos.
+tdm <- TermDocumentMatrix(d)
+
+# Encontramos sus asociaciones;
+frecuentes<-findFreqTerms(tdm, lowfreq=20) # el parámetro lowfreq fija el umbral de frecuencia deseado
+# findAssocs(tdm, frecuentes, 0.45)  # se determinan las asociaciones
+
+
+##### Sumarización:
+
+m <- as.matrix(tdm)                            # lo vuelve una matriz
+v <- sort(rowSums(m),decreasing=TRUE)          # lo ordena y suma
+df <- data.frame(word = names(v),freq=v)       # lo nombra y hace data.frame
+
+# Y se hace la nube de palabras: 
+
+wordcloud(words = df$word, freq = df$freq, min.freq = 2,
+          max.words=100, random.order=FALSE, rot.per=0.35, 
+          colors=brewer.pal(8, "Dark2"))
+
+```
+
+<br>
+
+### Medidas para evitar o disminuir las pérdidas
+
+Finalmente, aplicamos la misma herramienta, pero ahora al texto referente a las medidas que se han tomado para evitar o disminuir la pérdida de los productos.
+
+```{r wc4, echo = FALSE, message = FALSE, fig.height= 6, fig.width= 8, warning = FALSE, cache=F}
+
+# Se lee el archivo txt:
+filePath <- "archivos/medidas.txt"
+text <- readLines(filePath,encoding="UTF-8")     #Leemos el archivo
+text = iconv(text, to="ASCII//TRANSLIT") # Convert Character Vector between Encodings
+corpus <- Corpus(VectorSource(text)) # formato de texto
+# llevamos a minúsculas
+d  <- tm_map(corpus, tolower)
+# quitamos espacios en blanco
+d  <- tm_map(d, stripWhitespace)
+# quitamos la puntuación
+d <- tm_map(d, removePunctuation)
+# quitamos los números
+d <- tm_map(d, removeNumbers)
+
+#Un comando útil es quitar la palabras genéricas, la paquetería “tm” tiene un grupo de palabras. Para verlas:
+# stopwords("spanish")
+# Importante: “stopwords(”spanish“)” es un vector, se puede ampliar y actualizar de forma personalizada.
+
+# remueve palabras vacías genericas
+d <- tm_map(d, removeWords, stopwords("spanish"))
+
+
+##### Conteo: 
+
+# Una vez “limpio” el texto, tenemos que pasarlo a un formato de base de datos.
+tdm <- TermDocumentMatrix(d)
+
+# Encontramos sus asociaciones;
+frecuentes<-findFreqTerms(tdm, lowfreq=20) # el parámetro lowfreq fija el umbral de frecuencia deseado
+# findAssocs(tdm, frecuentes, 0.45)  # se determinan las asociaciones
+
+
+##### Sumarización:
+
+m <- as.matrix(tdm)                            # lo vuelve una matriz
+v <- sort(rowSums(m),decreasing=TRUE)          # lo ordena y suma
+df <- data.frame(word = names(v),freq=v)       # lo nombra y hace data.frame
+
+# Y se hace la nube de palabras: 
+
+wordcloud(words = df$word, freq = df$freq, min.freq = 2,
+          max.words=100, random.order=FALSE, rot.per=0.35, 
+          colors=brewer.pal(8, "Dark2"))
+
+```
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+## Unidades Ganaderas o Pecuarias
+
+<br>
+
+
+### Registro del manejo o la pérdida de productos.
+
+En lo que respecta a las unidades ganaderas o pecuarias, de las 17 unidades de producción entrevistadas, se lleva registro del manejo o pérdida de los productos en 6 de ellas.
+
+Los procesos en que se llevan a cabo dichos registros son:
+
+| Proceso | Número de unidades ganaderas o pecuarias en las que hay registro |
+|:--|--:|
+| Nacimiento | 4 | 
+| Desarrollo/engorda | 3 |
+| Transporte | 1 |
+| Sacrificio/muerte | 3 |
+| Almacenamiento| 2 |
+||
+
+
+
+<br>
+
+
+### Número de productos declarados
+
+Igual que sucede con las unidades agrícolas, la mayoría sólo maneja un sólo producto:
+
+| Total | 1 producto | 2 productos | 3 productos | 
+|--:|--:|--:|--:|
+| 17 | 12 | 2 | 3 | 
+
+
+<br>
+
+### Tipos de productos
+
+Los productos declarados fueron, principalmente:
+
+<br>
+
+```{r echo = FALSE, message = FALSE, fig.height= 6, fig.width= 8, warning = FALSE, cache=F}
+
+filePath <- "archivos/prods_gan.txt"
+text3 <- readLines(filePath,encoding="UTF-8") 
+frec3 <- sort(table(text3), decreasing = T)
+
+barplot(frec3[1:3], ylim=c(0,8),
+main = "Principales productos ganaderos declarados, PP-ERAMO 2021",
+xlab = "",
+ylab = "Frec",
+names.arg = c("Ganado", "Borregos", "Tilapia"),
+border="red",
+col="blue",
+density=15)
+
+```
+
+
+<br>
+
+El resto, con frecuencia de 1 fueron: Becerros, Cerdos, Chivos, Chorizo, Conejos, Lácteos, Miel, Pavos, Queso, Vacas y Yogurt.
+
+<br>
+
+### Producción anual
+
+Destacan en este rubro una unidad de producción dedicada a la piscicultura, la cual declaró una producción anual de tilapia de 4,200,000 unidades.
+
+Respecto a la ganadería, en general se entrevistó a establecimientos pequeños. Una unidad de producción de ganado bovino reportó anualmente 150 cabezas. Las otras seis unidades productoras de este ganado que se entrevistaron, reportaron una producción anual promedio de 8 cabezas por unidad.
+
+De ganado ovino se reportaron 4 unidades con producciones de 100, 60, 50 y 19 cabezas anuales, lo que da una idea de la variabilidad del tamaño de las unidades visitadas.
+
+Sobre el destino de la producción, en 21 de los 25 productos declarados el destino es el mercado nacional minorista, y sólo en 4 el nacional mayorista. En una de estas 4 unidades un 30% de su producto se va al mercado extranjero.
+
+<br>
+
+### Procesos donde se reportan pérdidas
+
+Los procesos referentes a la crianza de animales donde se reportan pérdidas se distribuyen del siguiente modo:
+
+<br>
+
+```{r echo = FALSE, message = FALSE, fig.height= 6, fig.width= 8, warning = FALSE, cache=F}
+
+
+frec4 <- c(12,6,3,3,2,2)
+
+barplot(frec4, ylim=c(0,12),
+main = "Frecuencia de procesos con pérdida declarados",
+xlab = "",
+ylab = "Frec",
+names.arg = c("Nacimiento" ,"Desa/engorda" ,"Transporte" ,"Sacrif/muerte" ,"Almacenam" ,"Otro"),
+border="red",
+col="blue",
+density=15)
+
+```
+
+<br>
+
+### Pérdidas
+
+De forma específica destaca la pérdida declarada de 420,000 unidades de tilapia por parte de la unidad de producción que antes se mencionó, lo que equivale al 10% de su producción.
+
+En el caso de las unidades de producción de ganado bovino, se declararon pérdidas acumuladas de 19 cabezas, que representan un 39.5% de la producción anual de dichas unidades.
+
+Las unidades productoras de ovinos reportaron pérdidas acumuladas de 50 cabezas, el 22% de su producción anual.
+
+**El monto acumulado de las pérdidas declaradas en términos monetarios, de los 25 casos descritos, fue de \$568,900.** Por supuesto, se debe entender que esta estimación tiene deficiencias en lo conceptual, pero se presenta como un dato adicional, a efecto de dimensionar el problema económico que la pérdida representa.
+
+<br>
+
+### Causas de la pérdida
+
+Recurrimos nuevamente a la herramienta de nube de palabras para visualizar las respuestas obtenidas respecto a las causas de la pérdida durante la producción ganadera o pecuaria.
+
+```{r wc5, echo = FALSE, message = FALSE, fig.height= 6, fig.width= 8, warning = FALSE, cache=F}
+
+# Se lee el archivo txt:
+filePath <- "archivos/causas_perd_gan.txt"
+text <- readLines(filePath,encoding="UTF-8")     #Leemos el archivo
+text = iconv(text, to="ASCII//TRANSLIT") # Convert Character Vector between Encodings
+corpus <- Corpus(VectorSource(text)) # formato de texto
+# llevamos a minúsculas
+d  <- tm_map(corpus, tolower)
+# quitamos espacios en blanco
+d  <- tm_map(d, stripWhitespace)
+# quitamos la puntuación
+d <- tm_map(d, removePunctuation)
+# quitamos los números
+d <- tm_map(d, removeNumbers)
+
+#Un comando útil es quitar la palabras genéricas, la paquetería “tm” tiene un grupo de palabras. Para verlas:
+# stopwords("spanish")
+# Importante: “stopwords(”spanish“)” es un vector, se puede ampliar y actualizar de forma personalizada.
+
+# remueve palabras vacías genericas
+d <- tm_map(d, removeWords, stopwords("spanish"))
+
+
+##### Conteo: 
+
+# Una vez “limpio” el texto, tenemos que pasarlo a un formato de base de datos.
+tdm <- TermDocumentMatrix(d)
+
+# Encontramos sus asociaciones;
+frecuentes<-findFreqTerms(tdm, lowfreq=20) # el parámetro lowfreq fija el umbral de frecuencia deseado
+# findAssocs(tdm, frecuentes, 0.45)  # se determinan las asociaciones
+
+
+##### Sumarización:
+
+m <- as.matrix(tdm)                            # lo vuelve una matriz
+v <- sort(rowSums(m),decreasing=TRUE)          # lo ordena y suma
+df <- data.frame(word = names(v),freq=v)       # lo nombra y hace data.frame
+
+# Y se hace la nube de palabras: 
+
+wordcloud(words = df$word, freq = df$freq, min.freq = 2,
+          max.words=100, random.order=FALSE, rot.per=0.35, 
+          colors=brewer.pal(8, "Dark2"))
+
+```
+
+
+
+
+### Destino de las pérdidas y medidas para disminuirla
+
+No hay gran variedad de conceptos en lo declarado en esta pregunta. La mayoría hace referencia al hecho de que el animal muerto no puede recuperarse, por lo que se entierra, se deja para los animales carroñeros, o se deja al aire libre para que se descomponga.
+
+Respecto a las medidas para evitar las pérdidas, las pocas respuestas abiertas obtenidas mencionan en su mayoría a los procesos de vacunación y desparasitación, así como de balancear y vigilar la alimentación de los animales. 
 
 
 

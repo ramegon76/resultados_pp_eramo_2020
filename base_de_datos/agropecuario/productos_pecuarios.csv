@@ -1,0 +1,26 @@
+interview__key,num_prod,tipo_prod,prod_anual,u_prod_anual,c_humano,c_animal,c_mercad_nac_min,c_mercad_nac_may,c_mercad_extranjero,c_por_nac_min,c_por_nac_may,c_por_extranjero,prod_estimada,u_prod_estimada,prod_final,u_prod_final,pro_p_perdida1,pro_p_perdida2,pro_p_perdida3,pro_p_perdida4,pro_p_perdida5,pro_p_perdida6,otro_pro_p_perdida
+89-78-23-85,1,tilapia,1120,4,1,0,1,0,0,NA,NA,NA,1200,4,1120,4,0,1,0,0,0,0,
+44-13-89-72,1,tilapia gib,4.00E+06,4,1,0,1,0,0,NA,NA,NA,4.00E+06,4,4.00E+06,4,1,0,0,0,0,0,
+44-13-89-72,2,tilapia Rocky mountain,2.00E+05,4,1,0,1,0,0,NA,NA,NA,2.00E+05,4,2.00E+05,4,1,0,0,0,0,0,
+69-67-80-58,1,Becerros,7,5,1,0,1,0,0,NA,NA,NA,12,5,7,5,1,0,0,0,0,0,
+69-67-80-58,2,Vacas,8,5,1,0,1,0,0,NA,NA,NA,10,5,8,5,0,0,0,0,0,1,Alimentacion
+69-67-80-58,3,Chivas,7,5,1,0,1,0,0,NA,NA,NA,9,5,7,5,0,0,0,1,0,0,
+23-92-41-18,1,Ovino dorper,100,5,1,0,0,1,0,NA,NA,NA,100,5,130,5,0,1,0,0,0,0,
+06-17-29-37,1,Bovino,150,5,1,0,0,1,1,NA,70,30,150,5,150,5,0,1,0,0,0,0,
+06-17-29-37,3,Ovino,19,5,1,0,0,1,0,NA,NA,NA,20,5,19,5,0,1,0,0,0,0,
+80-41-28-44,1,Borregos,60,5,1,0,1,0,0,NA,NA,NA,60,5,60,5,1,0,1,0,0,0,
+30-09-45-07,1,Ganado,7,5,1,0,1,0,0,NA,NA,NA,7,5,4,5,1,0,0,0,0,0,
+91-07-49-75,1,Ganado,5,5,1,0,1,0,0,NA,NA,NA,10,5,5,5,1,0,0,0,0,0,
+85-74-26-32,1,Ganado,6,5,1,0,1,0,0,NA,NA,NA,12,5,10,5,1,0,0,0,0,0,
+37-88-95-07,1,Ganado,10,5,1,0,1,0,0,NA,NA,NA,12,5,10,5,1,0,0,0,0,0,
+27-78-39-26,1,cerdos,30,5,1,0,1,0,0,NA,NA,NA,40,5,30,5,1,1,0,1,0,0,
+09-04-20-10,1,Vacas,12,5,1,0,1,0,0,NA,NA,NA,30,5,12,5,1,1,0,1,0,0,
+42-91-11-67,1,ganado de cria,22,5,1,0,0,1,0,NA,NA,NA,70,5,60,5,0,0,0,0,1,0,
+15-86-84-38,1,queso,500,1,1,0,1,0,0,NA,NA,NA,500,1,500,1,0,0,0,0,0,1,elaboracion
+15-86-84-38,2,chorizo,400,1,1,0,1,0,0,NA,NA,NA,400,1,400,1,0,0,1,0,0,0,
+15-86-84-38,3,yogurt,960,3,1,0,1,0,0,NA,NA,NA,960,3,960,3,0,0,1,0,0,0,
+17-31-25-13,1,borregos Dorper y Charolais,50,5,1,0,1,0,0,NA,NA,NA,100,5,50,5,1,0,0,0,0,0,
+09-39-85-34,1,miel,720,1,1,0,1,0,0,NA,NA,NA,1080,1,720,1,0,0,0,0,0,1,no hay perdidas en la miel
+51-30-77-57,2,lacteos,5,2,1,0,1,0,0,NA,NA,NA,5,2,5,2,0,0,0,0,1,0,
+51-30-77-57,3,pavos,1000,4,1,0,1,0,0,NA,NA,NA,1000,4,1000,4,0,0,0,0,0,1,no hubo perdida
+51-30-77-57,5,conejos,960,4,1,0,1,0,0,NA,NA,NA,960,4,800,4,1,0,0,0,0,0,

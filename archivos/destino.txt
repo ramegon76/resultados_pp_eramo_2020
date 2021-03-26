@@ -1,0 +1,94 @@
+se_tira a la basura, consumo_animal
+coyotes
+reventa
+venta a coyotes
+reventa, animales, se_regala
+Consumo_Animal
+Se_regala para animales
+se_tira
+perdida total, chivas, animales
+consumo_humano
+chivas domesticas, animales
+reventa
+se_regala
+los vendio para alimento_animal
+fue perdida_economica
+perdida_economica
+se_tira a la basura
+se_tira a la basura
+se_tira a la basura
+se_tira a la basura
+se_tira a la basura
+Se_incorpora a la tierra mediante barbechada
+Se_regala a la persona que compro el producto final
+se_tira
+se_tira
+se_tira
+Alimento_animal
+se dona
+se dona
+se dona
+consumo_animal, composta y se dona
+se_tira
+composta
+No hubo produccion
+se lo comieron por animales
+se_regala
+autoconsumo
+comida para los animales
+se_regala
+se_regala a los trabajadores
+se_regala a los trabajadores
+No se puede recuperar
+se_tira a la basura
+se_tira a la basura
+Para alimento animal
+Se perdio
+Consumo_animal
+consumo animal
+consumo animal
+Para consumo_humano y consumo_animal
+Ninguna
+Ninguna
+Ninguna
+Ninguna
+Ninguna
+Ninguna
+Ninguna
+Perdida_total
+perdida_total
+se_regala a sus trabajadores
+Se se_tira
+se_regala a sus trabajadores
+se_regala a sus trabajadores
+se_regala a sus trabajadores
+perdida
+se_regala a sus trabajadores
+Ninguno
+Ninguno
+se_tira a la basura
+no se puede saber
+se_tira
+Se se_tira
+Se_regala Se_tira
+Se queda_tirado en campo
+vendedoras minoristas lo acopian
+Se queda_tirado
+se queda_tirado en el campo
+Se_tira,  banco de alimentos
+No puede saber
+Alimento para cerdos
+Se_tira
+Se_regala, y se_tira
+Se_tira
+Se_tira
+Se_tira alimento para animales
+Se_tira
+como residuo para composta
+se queda_tirado en la misma parcela, como alimento del ganado
+tirarlo al terreno y regalarlo a la familia
+tirarlo a la parcela, se_regala a las familias
+Se queda_tirado
+composta
+composta
+composta

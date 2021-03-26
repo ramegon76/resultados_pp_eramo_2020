@@ -11,10 +11,10 @@
 
 
 
-<title>Procesamiento</title>
+<title>Resultados Agropecuario</title>
 
 <script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/jquery-3.5.1/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -24,6 +24,13 @@
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
+<script src="site_libs/plotly-binding-4.9.3/plotly.js"></script>
+<script src="site_libs/typedarray-0.1/typedarray.min.js"></script>
+<link href="site_libs/crosstalk-1.1.1/css/crosstalk.css" rel="stylesheet" />
+<script src="site_libs/crosstalk-1.1.1/js/crosstalk.min.js"></script>
+<link href="site_libs/plotly-htmlwidgets-css-1.57.1/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="site_libs/plotly-main-1.57.1/plotly-latest.min.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
@@ -354,21 +361,21 @@ div.tocify {
   <a href="cap1.html">
     <span class="fas fa-tasks"></span>
      
-    Metodología
+    Validación y Procesamiento
   </a>
 </li>
 <li>
   <a href="cap2.html">
-    <span class="fas fa-building"></span>
+    <span class="fas fa-chart-bar"></span>
      
-    Procesamiento
+    Resultados Agropecuario
   </a>
 </li>
 <li>
   <a href="cap3.html">
-    <span class="fas fa-bar-chart"></span>
+    <span class="fas fa-chart-line"></span>
      
-    Resultados
+    Resultados Establecimientos
   </a>
 </li>
       </ul>
@@ -383,17 +390,247 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore"><strong>Procesamiento</strong></h1>
+<h1 class="title toc-ignore"><strong>Resultados Agropecuario</strong></h1>
 
 </div>
 
 
-<div class="text-justify">
-<p><br> <br></p>
-<div id="descripción-del-tratamiento-de-la-base-de-datos-de-captura-para-obtener-la-base-de-datos-de-explotación" class="section level1">
-<h1>Descripción del tratamiento de la base de datos de captura, para obtener la base de datos de explotación</h1>
 <p><br></p>
-<p>El objetivo de este apartado es describir el registro puntual de cada de una de las acciones realizadas para la preparación, validación e integración de la Base de Datos, desde la salida de captura, hasta la versión final, para su explotación y análisis.</p>
+<p><br></p>
+<div class="text-justify">
+<div id="consideración-inicial-acerca-de-las-cifras-que-se-obtienen-de-la-muestra." class="section level3">
+<h3>Consideración inicial acerca de las cifras que se obtienen de la muestra.</h3>
+<p>Antes de dar paso al análisis de los datos captados en el operativo de prueba, se debe tener presente que la muestra no fue construida en forma probabilística, de tal forma que no pueden obtenerse inferencias y ni siquiera pueden usarse las cifras obtenidas como indicadores de estimaciones o aproximaciones a los datos para propósitos de publicación de los mismos. Todas las cifras que a continuación se presentan, son indicadores construidos con fines de análisis para este proyecto.</p>
+<p><br></p>
+<p><br></p>
+</div>
+<div id="resumen-de-entrevistas-captadas." class="section level3">
+<h3>Resumen de entrevistas captadas.</h3>
+<p><br></p>
+<p>Se obtuvieron entrevistas completas en 75 unidades agropecuarias, de las cuales 58 corresponden a unidades de producción exclusivamente agrícola, 7 de producción exclusivamente pecuaria, y 10 donde se tiene tanto producción agrícola, como ganadera o pecuaria.</p>
+<p>En consecuencia, se tiene información sobre la producción de 89 productos agrícolas y de 25 productos pecuarios. De ellos, se obtuvo un total de 98 registros de productos agrícolas con pérdidas, y 25 productos pecuarios en la misma situación.</p>
+<p>Estos son por lo tanto los casos sobre los cuales se puede analizar y mostrar a continuación la información resumida en forma de indicadores y gráficos.</p>
+<p>Por la diferencia que existe entre las variables captadas para las unidades agrícolas y las pecuarias, se manejan sus resultados en apartados distintos.</p>
+<p><br></p>
+</div>
+<div id="unidades-agrícolas" class="section level2">
+<h2>Unidades Agrícolas</h2>
+<p><br> <br></p>
+<div id="registro-del-manejo-o-la-pérdida-de-productos." class="section level3">
+<h3>Registro del manejo o la pérdida de productos.</h3>
+<p>De las 68 unidades de producción agrícola entrevistadas, sólo en 20 de ellas se lleva registro del manejo o pérdidas de los productos.</p>
+<p>Los procesos en que se llevan a cabo dichos registros se distribuyen del siguiente modo:</p>
+<p><img src="cap2_files/figure-html/unnamed-chunk-1-1.png" width="768" /></p>
+<p>Sólo en 3 unidades de producción se declaró llevar registro en todos los procesos.</p>
+<p><br></p>
+</div>
+<div id="número-de-productos-declarados" class="section level3">
+<h3>Número de productos declarados</h3>
+<p>Se encontró que la mayoría de las unidades de producción declararon un sólo producto. La distribución de productos declarados por unidad agrícola fue la siguiente:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="right">Total</th>
+<th align="right">1 producto</th>
+<th align="right">2 productos</th>
+<th align="right">3 productos</th>
+<th align="right">4 o más productos</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">68</td>
+<td align="right">52</td>
+<td align="right">12</td>
+<td align="right">3</td>
+<td align="right">1</td>
+</tr>
+</tbody>
+</table>
+<p><br> <br></p>
+</div>
+<div id="tipos-de-productos" class="section level3">
+<h3>Tipos de productos</h3>
+<p>En este caso se capturaron en forma de texto los productos agrícolas. Se muestra a continuación una nube de palabras y una gráfica de frecuencias de los productos declarados.</p>
+<p><img src="cap2_files/figure-html/wc1-1.png" width="768" /></p>
+<p>Cuyas frecuencias son:</p>
+<p><img src="cap2_files/figure-html/unnamed-chunk-2-1.png" width="768" /></p>
+<p><br></p>
+<p>Como dato complementario, en 74 registros (83%) se declaró que se trata de productos para consumo humano en forma exclusiva, en otros 3 para consumo animal y en 10 casos para ambos tipos de consumo. Un registro no especificó esta respuesta.</p>
+<p><br> <br></p>
+</div>
+<div id="cosecha-anual-de-los-productos-más-frecuentes" class="section level3">
+<h3>Cosecha anual de los productos más frecuentes</h3>
+<p>En este caso, a efecto de simplificar, se toman los productos de la gráfica anterior para obtener la cantidad cosechada anual. Se excluye la papaya, ya que contiene datos declarados muy altos (un dato de 15000 toneladas y otro de 4000 toneladas anuales, que distorsionarían el gráfico).</p>
+<p><br></p>
+<div id="htmlwidget-6a410642c79dab17a599" style="width:768px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-6a410642c79dab17a599">{"x":{"visdat":{"6ecc390c13e5":["function () ","plotlyVisDat"]},"cur_data":"6ecc390c13e5","attrs":{"6ecc390c13e5":{"x":{},"y":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"box"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":"Toneladas cosechadas por tipo de cultivo","xaxis":{"domain":[0,1],"automargin":true,"title":"Cultivos","type":"category","categoryorder":"array","categoryarray":["Frijol","Jitomate","Maíz","Mango manila","Melón"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"Cosecha"},"hovermode":"closest","showlegend":false},"source":"A","config":{"showSendToCloud":false},"data":[{"fillcolor":"rgba(31,119,180,0.5)","x":["Melón","Melón","Melón","Melón","Melón","Melón","Melón","Frijol","Maíz","Maíz","Jitomate","Jitomate","Jitomate","Maíz","Frijol","Maíz","Maíz","Frijol","Maíz","Frijol","Maíz","Frijol","Maíz","Frijol","Maíz","Maíz","Jitomate","Jitomate","Jitomate","Jitomate","Maíz","Jitomate","Maíz","Frijol","Mango manila","Mango manila","Mango manila","Mango manila","Jitomate"],"y":[100,12,30,40,30,35,35,250,250,5,120.267,450,230,1,0.5,8,1,0.06,1.5,0.5,0.75,0.2,0.4,0.05,1,1,90,150,52,39.8,2,113.2,0.3,0.3,12,8,6,63,14],"type":"box","marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(31,119,180,1)"}},"line":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<p><br></p>
+<p>Otros datos que se captaron y que deberían servir para corroborar el dato anterior, es el de la cosecha estimada (la que se esperaba obtener, en color azul) y la cosecha final (la que se obtuvo efectivamente, en color naranja).</p>
+<p><br></p>
+<div id="htmlwidget-b0e07cc947f66f8df8ae" style="width:768px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-b0e07cc947f66f8df8ae">{"x":{"data":[{"fillcolor":"rgba(31,119,180,0.498)","x":["Melón","Melón","Melón","Melón","Melón","Melón","Melón","Frijol","Maíz","Maíz","Jitomate","Jitomate","Jitomate","Maíz","Frijol","Maíz","Maíz","Frijol","Maíz","Frijol","Maíz","Frijol","Maíz","Frijol","Maíz","Maíz","Jitomate","Jitomate","Jitomate","Jitomate","Maíz","Jitomate","Maíz","Frijol","Mango manila","Mango manila","Mango manila","Mango manila","Jitomate"],"y":[120,40,40,50,60,45,40,300,450,10,120,400,200,3,1,15,3,0.2,5,0.6,2,0.3,1.2,0.1,4,8,85,145,50,39,3,110,0.5,0.5,84,8,24,144,14],"type":"box","marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(31,119,180,1)"}},"line":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"fillcolor":"rgba(255,127,14,0.498)","x":["Melón","Melón","Melón","Melón","Melón","Melón","Melón","Frijol","Maíz","Maíz","Jitomate","Jitomate","Jitomate","Maíz","Frijol","Maíz","Maíz","Frijol","Maíz","Frijol","Maíz","Frijol","Maíz","Frijol","Maíz","Maíz","Jitomate","Jitomate","Jitomate","Jitomate","Maíz","Jitomate","Maíz","Frijol","Mango manila","Mango manila","Mango manila","Mango manila","Jitomate"],"y":[100,12,30,40,30,35,35,250,250,5,120.267,450,230,1.5,0.7,8,2,0.06,3,0.5,1.5,0.2,0.8,0.05,1,1,90,150,52,39.8,2,113.2,0.01,0.01,12,8,10,115,14],"type":"box","marker":{"color":"rgba(255,127,14,1)","line":{"color":"rgba(255,127,14,1)"}},"line":{"color":"rgba(255,127,14,1)"},"xaxis":"x2","yaxis":"y","frame":null}],"layout":{"xaxis":{"domain":[0,0.48],"automargin":true,"type":"category","categoryorder":"array","categoryarray":["Frijol","Jitomate","Maíz","Mango manila","Melón"],"anchor":"y"},"xaxis2":{"domain":[0.52,1],"automargin":true,"type":"category","categoryorder":"array","categoryarray":["Frijol","Jitomate","Maíz","Mango manila","Melón"],"anchor":"y"},"yaxis":{"domain":[0,1],"automargin":true,"anchor":"x"},"annotations":[],"shapes":[],"images":[],"margin":{"b":40,"l":60,"t":25,"r":10},"hovermode":"closest","showlegend":false,"title":"Toneladas por tipo de cultivo<br />                   Azul = Estimadas, Naranja = Finales"},"attrs":{"6ecc3a71a54":{"x":{},"y":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"box"},"6ecc2096e9c":{"x":{},"y":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"box"}},"source":"A","config":{"showSendToCloud":false},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"subplot":true,"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<p><br> <br></p>
+</div>
+<div id="procesos-en-los-que-se-declararon-pérdidas" class="section level3">
+<h3>Procesos en los que se declararon pérdidas</h3>
+<p>Se resumen en la siguiente gráfica:</p>
+<p><br></p>
+<p><img src="cap2_files/figure-html/unnamed-chunk-5-1.png" width="768" /></p>
+<p><br> <br></p>
+</div>
+<div id="pérdidas" class="section level3">
+<h3>Pérdidas</h3>
+<p>Se hace complicado mostrar este dato debido a la gran variabilidad de pérdidas declaradas para algunos cultivos. Para tratar de mostrar esta variabilidad, a continuación se presenta un boxplot para los cultivos con declaración más frecuente de pérdidas.</p>
+<p><br></p>
+<div id="htmlwidget-87e733b2de1481116186" style="width:768px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-87e733b2de1481116186">{"x":{"visdat":{"6ecc386033cd":["function () ","plotlyVisDat"]},"cur_data":"6ecc386033cd","attrs":{"6ecc386033cd":{"x":{},"y":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"box"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":"Toneladas perdidas de los cultivos más declarados con pérdidas","xaxis":{"domain":[0,1],"automargin":true,"title":"Cultivos","type":"category","categoryorder":"array","categoryarray":["Brocoli","Frijol","Jitomate","Maiz","Mango manila","Melon","Papaya","Pepino","Tomate variedad maviri"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"Tons"},"hovermode":"closest","showlegend":false},"source":"A","config":{"showSendToCloud":false},"data":[{"fillcolor":"rgba(31,119,180,0.5)","x":["Melon","Melon","Melon","Melon","Melon","Pepino","Pepino","Melon","Melon","Melon","Melon","Frijol","Maiz","Brocoli","Maiz","Papaya","Maiz","Papaya","Papaya","Papaya","Tomate variedad maviri","Tomate variedad maviri","Tomate variedad maviri","Tomate variedad maviri","Jitomate","Jitomate","Jitomate","Maiz","Frijol","Maiz","Maiz","Frijol","Maiz","Frijol","Maiz","Frijol","Maiz","Frijol","Maiz","Maiz","Jitomate","Jitomate","Jitomate","Jitomate","Maiz","Jitomate","Maiz","Frijol","Mango manila","Pepino","Mango manila","Jitomate","Brocoli"],"y":[15,10,2,30,20,4,2,6,4,15,10,0.1,13,35,150,75,0.03,1000,280,70,0.004,0.005,0.002,0.05,0.601,2.25,1.15,0.5,0.3,7,2,0.14,1.5,0.1,0.5,0.1,0.4,0.05,3,7,0.45,0.75,0.26,0.199,1,0.566,0.29,0.28,1050,0.8,0.25,0.48,0.48],"type":"box","marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(31,119,180,1)"}},"line":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<p><br></p>
+<p>Si excluimos a los cultivos de papaya y mango manila, así como <strong>un sólo caso de pérdida de trigo de 300 toneladas</strong>, podemos obtener una gráfica más homogénea:</p>
+<p><br></p>
+<div id="htmlwidget-40ed1f0d15f0e9e40264" style="width:768px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-40ed1f0d15f0e9e40264">{"x":{"visdat":{"6ecc25e47863":["function () ","plotlyVisDat"]},"cur_data":"6ecc25e47863","attrs":{"6ecc25e47863":{"x":{},"y":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"box"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":"Toneladas perdidas por tipo de cultivo","xaxis":{"domain":[0,1],"automargin":true,"title":"Cultivos","type":"category","categoryorder":"array","categoryarray":["Avena","Brocoli","Calabacita bola","Calabaza pipian","Caña de azúcar","Cebada","Chayote","Chile en conserva","Chile habanero","Ciruelo","Coliflor","Datil","Elote","Esparrago","Frijol","Garbanzo","Jitomate","Limon","Limon persa","Maiz","Mango de manila","Mango Tommy Atkins","Melon","Naranja malta","Nuez","Pepino","Platano","Rambutan","Sandia","Sorgo","Tomate","Tomate variedad maviri"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"Tons"},"hovermode":"closest","showlegend":false},"source":"A","config":{"showSendToCloud":false},"data":[{"fillcolor":"rgba(31,119,180,0.5)","x":["Melon","Melon","Melon","Melon","Melon","Melon","Pepino","Pepino","Melon","Melon","Melon","Melon","Frijol","Garbanzo","Maiz","Sorgo","Esparrago","Brocoli","Coliflor","Maiz","Garbanzo","Tomate","Elote","Maiz","Caña de azúcar","Caña de azúcar","Calabaza pipian","Chile habanero","Sandia","Nuez","Tomate variedad maviri","Tomate variedad maviri","Tomate variedad maviri","Tomate variedad maviri","Jitomate","Jitomate","Jitomate","Datil","Datil","Maiz","Frijol","Maiz","Cebada","Avena","Maiz","Frijol","Maiz","Frijol","Maiz","Frijol","Maiz","Frijol","Maiz","Maiz","Jitomate","Rambutan","Jitomate","Jitomate","Jitomate","Maiz","Jitomate","Maiz","Frijol","Platano","Mango Tommy Atkins","Naranja malta","Naranja malta","Mango de manila","Chayote","Limon","Limon","Limon persa","Ciruelo","Ciruelo","Chile en conserva","Pepino","Calabacita bola","Jitomate","Brocoli","Limon"],"y":[15,7,10,2,30,20,4,2,6,4,15,10,0.1,0.3,13,20,20,35,9,150,2,20,50,0.03,3,1,0.05,9,8,20,0.004,0.005,0.002,0.05,0.601,2.25,1.15,0.09,0.01,0.5,0.3,7,7,1,2,0.14,1.5,0.1,0.5,0.1,0.4,0.05,3,7,0.45,3,0.75,0.26,0.199,1,0.566,0.29,0.28,2,20,0.25,0.025,7.5,10,0.3,1.8,2,0.45,0.05,0.1,0.8,0.65,0.48,0.48,0.24],"type":"box","marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(31,119,180,1)"}},"line":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<p><br></p>
+<p>Dados estos resultados, calculamos ahora la pérdida en términos porcentuales respecto a la cosecha anual, para observar en términos relativos si se muestra alguna tendencia.</p>
+<p><br></p>
+<div id="htmlwidget-28da518ee3916bf807ec" style="width:768px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-28da518ee3916bf807ec">{"x":{"visdat":{"6ecc537c29e2":["function () ","plotlyVisDat"]},"cur_data":"6ecc537c29e2","attrs":{"6ecc537c29e2":{"x":{},"y":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"box"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":"Porcentaje de pérdidas por tipo de cultivo","xaxis":{"domain":[0,1],"automargin":true,"title":"Cultivos","type":"category","categoryorder":"array","categoryarray":["Avena","Brocoli","Calabacita bola","Calabaza pipian","Caña de azúcar","Cebada","Chayote","Chile en conserva","Chile habanero","Ciruelo","Coliflor","Datil","Elote","Esparrago","Frijol","Garbanzo","Jitomate","Limon","Limon persa","Maiz","Mango manila","Mango Tommy Atkins","Melon","Naranja malta","Nuez","Papaya","Pepino","Platano","Rambutan","Sandia","Sorgo","Tomate","Tomate variedad maviri","Trigo"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"Porcentaje"},"hovermode":"closest","showlegend":false},"source":"A","config":{"showSendToCloud":false},"data":[{"fillcolor":"rgba(31,119,180,0.5)","x":["Melon","Melon","Melon","Melon","Melon","Pepino","Pepino","Melon","Melon","Melon","Melon","Frijol","Garbanzo","Sorgo","Esparrago","Coliflor","Maiz","Garbanzo","Papaya","Tomate","Elote","Maiz","Caña de azúcar","Caña de azúcar","Calabaza pipian","Papaya","Papaya","Papaya","Chile habanero","Sandia","Nuez","Tomate variedad maviri","Tomate variedad maviri","Tomate variedad maviri","Tomate variedad maviri","Jitomate","Jitomate","Jitomate","Trigo","Datil","Datil","Maiz","Frijol","Maiz","Avena","Maiz","Frijol","Maiz","Frijol","Maiz","Frijol","Jitomate","Rambutan","Jitomate","Jitomate","Jitomate","Maiz","Jitomate","Maiz","Frijol","Platano","Mango Tommy Atkins","Naranja malta","Naranja malta","Chayote","Limon","Limon","Limon persa","Ciruelo","Ciruelo","Chile en conserva","Calabacita bola","Mango manila","Jitomate","Brocoli","Limon"],"y":[15,58,33,5,67,27,13,17,11,43,29,0,0,22,36,75,60,40,19,100,67,1,2,0,5,7,7,2,11,10,100,0,0,0,0,0,0,0,60,10,1,50,60,88,50,100,20,67,50,100,100,0,27,0,0,1,50,0,97,93,40,100,50,5,20,2,15,10,18,2,20,11,0,3,8,4],"type":"box","marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(31,119,180,1)"}},"line":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<p><br></p>
+<p>En lo que respecta al dinero perdido, si bien sabemos que no es posible utilizarlo como una variable confiable dadas las diferencias por las variaciones temporales (inflación), así como por las limitaciones conceptuales alrededor de su captación, se puede hacer una estimación gruesa de las pérdidas económicas derivadas para este conjunto de datos, que pueden dar alguna idea del monto real involucrado en el fenómeno. Se muestra a continuación, la distribución por tipo de cultivo.</p>
+<p><br></p>
+<div id="htmlwidget-465d207e333c5322fee3" style="width:768px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-465d207e333c5322fee3">{"x":{"visdat":{"6ecc30154917":["function () ","plotlyVisDat"]},"cur_data":"6ecc30154917","attrs":{"6ecc30154917":{"x":{},"y":{},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"box"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":"Valor de las pérdidas por tipo de cultivo","xaxis":{"domain":[0,1],"automargin":true,"title":"Cultivos","type":"category","categoryorder":"array","categoryarray":["Apio","Avena","Brocoli","Calabacita bola","Calabaza pipian","Caña de azúcar","Cebada","Chayote","Chile en conserva","Chile habanero","Chile serrano","Ciruelo","Coliflor","Datil","Elote","Esparrago","Frijol","Frijol negro","Garbanzo","Jitomate","Lechuga","Limon","Limon persa","Maiz","Mango de manila","Mango manila","Mango Tommy Atkins","Melon","Naranja malta","Nuez","Papaya","Pepino","Platano","Rambutan","Sandia","Sorgo","Tomate","Tomate variedad maviri","Trigo"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"Pesos"},"hovermode":"closest","showlegend":false},"source":"A","config":{"showSendToCloud":false},"data":[{"fillcolor":"rgba(31,119,180,0.5)","x":["Melon","Melon","Melon","Melon","Melon","Melon","Pepino","Pepino","Melon","Melon","Melon","Melon","Frijol","Garbanzo","Maiz","Sorgo","Esparrago","Lechuga","Brocoli","Apio","Coliflor","Maiz","Garbanzo","Papaya","Tomate","Elote","Maiz","Caña de azúcar","Caña de azúcar","Calabaza pipian","Papaya","Papaya","Papaya","Chile habanero","Sandia","Nuez","Tomate variedad maviri","Tomate variedad maviri","Tomate variedad maviri","Tomate variedad maviri","Jitomate","Jitomate","Jitomate","Trigo","Datil","Datil","Maiz","Frijol","Maiz","Cebada","Avena","Maiz","Frijol","Maiz","Frijol","Maiz","Frijol","Maiz","Frijol","Maiz","Maiz","Jitomate","Rambutan","Jitomate","Jitomate","Jitomate","Maiz","Jitomate","Maiz","Frijol","Platano","Papaya","Papaya","Mango Tommy Atkins","Naranja malta","Naranja malta","Mango manila","Mango manila","Mango de manila","Mango manila","Mango manila","Mango manila","Chayote","Limon","Limon","Limon persa","Ciruelo","Ciruelo","Mango manila","Chile serrano","Chile en conserva","Frijol negro","Pepino","Calabacita bola","Mango manila","Jitomate","Brocoli","Limon"],"y":[37500,7000,30000,8000,30000,20000,45000,20000,21000,4000,20000,5000,1800,5400,49400,66000,380000,40000,245000,75000,72000,250000,9000,300000,100000,40000,250,3000,1500,2000,3000000,2000000,500000,150000,10000,3000000,1600,2400,800,20000,4808,18000,9200,1600000,4500,500,2500,7500,35000,35000,7000,12000,4200,9000,3000,3000,3000,2400,1500,15000,35000,36000,30000,6000,2080,1592,5000,4528,1500,6000,8000,100003,1003,26667,1000,100,22050,5250,87500,9,9,9,10000,2800,16800,0,1080,250,14000,1200,7500,406,6400,4700,1333,9600,10000,2880],"type":"box","marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(31,119,180,1)"}},"line":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<p><br></p>
+<p><strong>El monto global de las pérdidas de los 89 registros analizados asciende a $12,818,007.</strong></p>
+<p><br></p>
+</div>
+<div id="causas-de-las-pérdidas" class="section level3">
+<h3>Causas de las pérdidas</h3>
+<p>Dado que esta variable se dejó para la captura en pregunta abierta, se construye una nube de palabras para observar los conceptos obtenidos por el instrumento de captación.</p>
+<p><img src="cap2_files/figure-html/wc2-1.png" width="768" /></p>
+<p><br></p>
+</div>
+<div id="destino-de-las-pérdidas" class="section level3">
+<h3>Destino de las pérdidas</h3>
+<p>Para analizar los destinos, repetimos el análisis de textos basado en nubes de palabras, para la variable abierta referente al destino de las pérdidas.</p>
+<p><img src="cap2_files/figure-html/wc3-1.png" width="768" /></p>
+<p><br></p>
+</div>
+<div id="medidas-para-evitar-o-disminuir-las-pérdidas" class="section level3">
+<h3>Medidas para evitar o disminuir las pérdidas</h3>
+<p>Finalmente, aplicamos la misma herramienta, pero ahora al texto referente a las medidas que se han tomado para evitar o disminuir la pérdida de los productos.</p>
+<p><img src="cap2_files/figure-html/wc4-1.png" width="768" /></p>
+<p><br> <br> <br> <br> <br> <br> <br></p>
+</div>
+</div>
+<div id="unidades-ganaderas-o-pecuarias" class="section level2">
+<h2>Unidades Ganaderas o Pecuarias</h2>
+<p><br></p>
+<div id="registro-del-manejo-o-la-pérdida-de-productos.-1" class="section level3">
+<h3>Registro del manejo o la pérdida de productos.</h3>
+<p>En lo que respecta a las unidades ganaderas o pecuarias, de las 17 unidades de producción entrevistadas, se lleva registro del manejo o pérdida de los productos en 6 de ellas.</p>
+<p>Los procesos en que se llevan a cabo dichos registros son:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Proceso</th>
+<th align="right">Número de unidades ganaderas o pecuarias en las que hay registro</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Nacimiento</td>
+<td align="right">4</td>
+</tr>
+<tr class="even">
+<td align="left">Desarrollo/engorda</td>
+<td align="right">3</td>
+</tr>
+<tr class="odd">
+<td align="left">Transporte</td>
+<td align="right">1</td>
+</tr>
+<tr class="even">
+<td align="left">Sacrificio/muerte</td>
+<td align="right">3</td>
+</tr>
+<tr class="odd">
+<td align="left">Almacenamiento</td>
+<td align="right">2</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="right"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</div>
+<div id="número-de-productos-declarados-1" class="section level3">
+<h3>Número de productos declarados</h3>
+<p>Igual que sucede con las unidades agrícolas, la mayoría sólo maneja un sólo producto:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="right">Total</th>
+<th align="right">1 producto</th>
+<th align="right">2 productos</th>
+<th align="right">3 productos</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">17</td>
+<td align="right">12</td>
+<td align="right">2</td>
+<td align="right">3</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</div>
+<div id="tipos-de-productos-1" class="section level3">
+<h3>Tipos de productos</h3>
+<p>Los productos declarados fueron, principalmente:</p>
+<p><br></p>
+<p><img src="cap2_files/figure-html/unnamed-chunk-10-1.png" width="768" /></p>
+<p><br></p>
+<p>El resto, con frecuencia de 1 fueron: Becerros, Cerdos, Chivos, Chorizo, Conejos, Lácteos, Miel, Pavos, Queso, Vacas y Yogurt.</p>
+<p><br></p>
+</div>
+<div id="producción-anual" class="section level3">
+<h3>Producción anual</h3>
+<p>Destacan en este rubro una unidad de producción dedicada a la piscicultura, la cual declaró una producción anual de tilapia de 4,200,000 unidades.</p>
+<p>Respecto a la ganadería, en general se entrevistó a establecimientos pequeños. Una unidad de producción de ganado bovino reportó anualmente 150 cabezas. Las otras seis unidades productoras de este ganado que se entrevistaron, reportaron una producción anual promedio de 8 cabezas por unidad.</p>
+<p>De ganado ovino se reportaron 4 unidades con producciones de 100, 60, 50 y 19 cabezas anuales, lo que da una idea de la variabilidad del tamaño de las unidades visitadas.</p>
+<p>Sobre el destino de la producción, en 21 de los 25 productos declarados el destino es el mercado nacional minorista, y sólo en 4 el nacional mayorista. En una de estas 4 unidades un 30% de su producto se va al mercado extranjero.</p>
+<p><br></p>
+</div>
+<div id="procesos-donde-se-reportan-pérdidas" class="section level3">
+<h3>Procesos donde se reportan pérdidas</h3>
+<p>Los procesos referentes a la crianza de animales donde se reportan pérdidas se distribuyen del siguiente modo:</p>
+<p><br></p>
+<p><img src="cap2_files/figure-html/unnamed-chunk-11-1.png" width="768" /></p>
+<p><br></p>
+</div>
+<div id="pérdidas-1" class="section level3">
+<h3>Pérdidas</h3>
+<p>De forma específica destaca la pérdida declarada de 420,000 unidades de tilapia por parte de la unidad de producción que antes se mencionó, lo que equivale al 10% de su producción.</p>
+<p>En el caso de las unidades de producción de ganado bovino, se declararon pérdidas acumuladas de 19 cabezas, que representan un 39.5% de la producción anual de dichas unidades.</p>
+<p>Las unidades productoras de ovinos reportaron pérdidas acumuladas de 50 cabezas, el 22% de su producción anual.</p>
+<p><strong>El monto acumulado de las pérdidas declaradas en términos monetarios, de los 25 casos descritos, fue de $568,900.</strong> Por supuesto, se debe entender que esta estimación tiene deficiencias en lo conceptual, pero se presenta como un dato adicional, a efecto de dimensionar el problema económico que la pérdida representa.</p>
+<p><br></p>
+</div>
+<div id="causas-de-la-pérdida" class="section level3">
+<h3>Causas de la pérdida</h3>
+<p>Recurrimos nuevamente a la herramienta de nube de palabras para visualizar las respuestas obtenidas respecto a las causas de la pérdida durante la producción ganadera o pecuaria.</p>
+<p><img src="cap2_files/figure-html/wc5-1.png" width="768" /></p>
+</div>
+<div id="destino-de-las-pérdidas-y-medidas-para-disminuirla" class="section level3">
+<h3>Destino de las pérdidas y medidas para disminuirla</h3>
+<p>No hay gran variedad de conceptos en lo declarado en esta pregunta. La mayoría hace referencia al hecho de que el animal muerto no puede recuperarse, por lo que se entierra, se deja para los animales carroñeros, o se deja al aire libre para que se descomponga.</p>
+<p>Respecto a las medidas para evitar las pérdidas, las pocas respuestas abiertas obtenidas mencionan en su mayoría a los procesos de vacunación y desparasitación, así como de balancear y vigilar la alimentación de los animales.</p>
+</div>
 </div>
 </div>
 

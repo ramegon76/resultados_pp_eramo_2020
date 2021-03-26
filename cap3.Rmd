@@ -1,5 +1,5 @@
 ---
-title: "**Resultados**"
+title: "**Resultados Establecimientos**"
 --- 
 
 <div class=text-justify>
@@ -7,10 +7,29 @@ title: "**Resultados**"
 <br>
 <br>
  
-## Consideración inicial acerca de las cifras que se obtienen de la muestra.
+<div class=text-justify>
 
-Antes de dar paso al análisis de los datos captados en el operativo de prueba, es necesario recordar que se debe tener presente que la muestra no fue construida en forma probabilística, de tal forma que no pueden obtenerse inferencias y ni siquiera pueden usarse las cifras obtenidas como indicadores de estimaciones o aproximaciones a los datos para el estado de Aguascalientes. Todas las cifras que a continuación se presentan, son indicadores construidos con carácter ilustrativo para este proyecto. 
+### Consideración inicial acerca de las cifras que se obtienen de la muestra.
 
+Antes de dar paso al análisis de los datos captados en el operativo de prueba, se debe tener presente que la muestra no fue construida en forma probabilística, de tal forma que no pueden obtenerse inferencias y ni siquiera pueden usarse las cifras obtenidas como indicadores de estimaciones o aproximaciones a los datos para propósitos de publicación de los mismos. Todas las cifras que a continuación se presentan, son indicadores construidos con fines de análisis para este proyecto.
+
+Con estos datos se construyen los siguientes indicadores y gráficos.
+
+<br>
+
+<br>
+
+
+## Resumen de entrevistas captadas.
+
+<br>
+
+
+En el caso de los establecimientos o unidades económicas relacionadas con el sector alimentario, se lograron 183 entrevistas completas, de los que se tiene un total de 517 productos declarados, con un total de 345 productos en los que se declaró alguna pérdida.
+
+
+
+<br>
 
 
 </div>

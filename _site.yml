@@ -10,15 +10,15 @@ navbar:
   - text: Presentación
     href: index.html
     icon: fa-home
-  - text: Metodología
+  - text: Validación y Procesamiento
     href: cap1.html
     icon: fa-tasks
-  - text: Procesamiento
+  - text: Resultados Agropecuario
     href: cap2.html
-    icon: fa-building
-  - text: Resultados
+    icon: fa-chart-bar
+  - text: Resultados Establecimientos
     href: cap3.html
-    icon: fa-bar-chart
+    icon: fa-chart-line
 output:
   html_document:
     toc: yes

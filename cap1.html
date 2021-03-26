@@ -11,7 +11,7 @@
 
 
 
-<title>Metodología</title>
+<title>Validación y Procesamiento</title>
 
 <script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
@@ -354,21 +354,21 @@ div.tocify {
   <a href="cap1.html">
     <span class="fas fa-tasks"></span>
      
-    Metodología
+    Validación y Procesamiento
   </a>
 </li>
 <li>
   <a href="cap2.html">
-    <span class="fas fa-building"></span>
+    <span class="fas fa-chart-bar"></span>
      
-    Procesamiento
+    Resultados Agropecuario
   </a>
 </li>
 <li>
   <a href="cap3.html">
-    <span class="fas fa-bar-chart"></span>
+    <span class="fas fa-chart-line"></span>
      
-    Resultados
+    Resultados Establecimientos
   </a>
 </li>
       </ul>
@@ -383,17 +383,122 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore"><strong>Metodología</strong></h1>
+<h1 class="title toc-ignore"><strong>Validación y Procesamiento</strong></h1>
 
 </div>
 
 
+<div class="text-justify">
+<p>El objetivo de este apartado es describir el registro puntual de cada de una de las acciones realizadas para la preparación, validación e integración de la Base de Datos, desde la salida de captura, hasta la versión final, para su explotación y análisis.</p>
+<p><br></p>
+<div id="descripción-del-sistema-de-captura" class="section level2">
+<h2>Descripción del Sistema de Captura</h2>
+<p><br></p>
+<p>Los sistemas electrónicos de captura, denominados sistemas CAPI (Computer Assisted Personal Interview), son herramientas de gran utilidad para el aseguramiento de la calidad de los datos. Se trata de la modalidad en la que se sustituye el formato de cuestionario en papel por su aplicación en dispositivos móviles como tabletas o teléfonos celulares, en cuya pantalla van apareciendo las preguntas del cuestionario. Una vez que el informante proporciona la respuesta, el entrevistador la registra en el dispositivo y se guarda automáticamente en la memoria de éste.</p>
+<p>Concluida la entrevista, puede realizarse el envío de la información captada a la sede local o central donde se realiza el procesamiento, a través de Internet u otros protocolos de comunicación o se puede conectar el dispositivo directamente a una computadora o servidor donde se esté integrando la base de datos de la encuesta.</p>
+<p>El uso de estos sistemas de captura presenta varias ventajas entre, ellas:</p>
+<ul>
+<li><p>Los sistemas pueden programarse incluyendo diferentes validaciones, de tal modo que aseguren una mayor limpieza de la información desde el momento mismo de la entrevista.</p></li>
+<li><p>Dichas validaciones incluyen verificaciones de secuencia, tales como pases, filtros y la posibilidad de direccionar la secuencia hacia secciones específicas del cuestionario a través de preguntas pivote o disparadoras; otro tipo de validaciones comunes comprenden la revisión de omisión en las respuestas o de rangos válidos de las mismas.</p></li>
+<li><p>Esto facilita el trabajo del entrevistador cuando la secuencia o los filtros en los cuestionarios son complejos o cuando la aplicación de ciertas preguntas depende de las respuestas que el informante ha dado con anterioridad.</p></li>
+<li><p>Con ello, se disminuyen los riesgos asociados a un manejo incorrecto del instrumento de captación, ya que el sistema verifica las respuestas registradas y asegura que el cuestionario fluya de manera natural.</p></li>
+<li><p>La administración del operativo de campo puede realizarse desde los módulos de control de cargas de trabajo y asignación de roles que los sistemas CAPI contienen como parte de su programación.</p></li>
+<li><p>Las aplicaciones más recientes de este tipo poseen la programación necesaria para dar seguimiento georreferenciado de cada una de las unidades de observación, de modo que para los supervisores o administradores del operativo resulta muy fácil la verificación de la ubicación de las unidades de la muestra, el control operativo en términos de avances de cobertura en las unidades levantadas y la posibilidad de generar mapas interactivos para ir dando cuenta de la distribución geográfica de las entrevistas.</p></li>
+<li><p>Además de las validaciones básicas, pueden programarse otras relacionadas con aspectos conceptuales entre variables, de tal manera que al concluir la entrevista el sistema verifique la consistencia o correspondencia que debe haber entre preguntas o grupos de preguntas. Si el sistema detecta alguna irregularidad, es capaz de emitir una alerta para que el entrevistador haga alguna verificación con el informante antes de abandonar la vivienda.</p></li>
+<li><p>Este tipo de herramientas electrónicas no requiere conocimientos de programación elaborada, pues tiene interfaces muy amigables. El usuario tampoco requiere la habilitación de plataformas de alojamiento en servidores para las bases de datos, ya que la mayoría de estas aplicaciones cuentan con la posibilidad de albergar los datos en servidores de Internet (nube).</p></li>
+<li><p>Esto hace muy asequible su uso, pues el usuario no requiere contar con una infraestructura de hardware especial para la encuesta. <strong>En particular, para el levantamiento de esta prueba piloto, se usó una plataforma desarrollada por el Banco Mundial denominada <a href="https://mysurvey.solutions/" target="_blank_"><strong><em>Survey Solutions</em></strong></a></strong>, la cual es gratuita, cumple con todas las características ya descritas, y tiene como objetivo brindar a los países con limitaciones en infraestructura informática una aplicación que permita realizar encuestas sociales o gubernamentales de forma sencilla y económica.</p></li>
+</ul>
+<p><br></p>
+<p>El funcionamiento a grandes rasgos de la aplicación es el siguiente:</p>
+<ol style="list-style-type: decimal">
+<li><p>Se crea una cuenta en la plataforma <em>Survey Solutions</em> (SS). Para hacerlo sólo se requiere una cuenta de correo electrónico y llenar un formato de registro con una breve descripción de la encuesta.</p></li>
+<li><p>Se solicita un servidor personal para alojar la encuesta. La aplicación reserva un espacio para el mismo y concede el control de la interfaz operativa para la encuesta, en la cual se pueden cargar supervisores y entrevistadores, asignar cargas de trabajo y dar seguimiento al avance del operativo, a través de diversas herramientas, en <a href="https://support.mysurvey.solutions/headquarters/" target="_blank_"><em>Survey Solutions Headquarters</em></a>. Este servidor tiene un periodo de servicio de un mes, y un límite máximo de alojamiento de 1000 entrevistas, lo cual resulta más que suficiente para los propósitos de la prueba piloto. En el caso nuestro solicitamos dos servidores independientes, para preveer cualquier número de entrevistas posibles provenientes de la prueba sin que se saturara su capacidad, incluidas las pruebas necesarias.</p></li>
+<li><p>Una vez creada la cuenta y servidor, se puede acceder a la <a href="https://designer.mysurvey.solutions/Identity/Account/Login?ReturnUrl=%2F" target="_blank_">página del diseñador de cuestionarios</a>, en la cual se realiza la programación del cuestionario mismo. Esta interfaz de programación está basada en bloques (preguntas tipo), por lo que es muy intuitiva y sencilla, y no requiere de conocimientos previos, ni de lenguajes de programación.</p></li>
+<li><p>Ya diseñado el cuestionario, éste se importa desde el administrador del servidor y se carga en el servidor de la encuesta.</p></li>
+<li><p>Cada entrevistador descarga e instala la aplicación en su teléfono o tableta (Android), desde el sitio de descarga: <a href="https://demo.mysurvey.solutions/Download" class="uri">https://demo.mysurvey.solutions/Download</a> .</p></li>
+<li><p>Cuando se abre la aplicación por primera vez en el dispositivo, debe escanearse un código QR que se genera desde el administrador para cada entrevistador. Con este acceso, se permite la sincronización por Internet entre el dispositivo y el servidor, y se puede proceder a la descarga de los cuestionarios en el dispositivo y su eventual ejecución.</p></li>
+<li><p>Una vez realizadas las entrevistas, con la periodicidad definida por el control operativo de la encuesta, los dispositivos se sincronizan con el servidor a través de Internet, para enviar las entrevistas captadas y recibir nuevas cargas de trabajo.</p></li>
+<li><p>Finalmente, los datos captados, se van alojando en el servidor, donde en la sede central pueden liberarse y al final del operativo descargarse como una carpeta de tablas en formatos <em>tab</em>, <em>sav</em> o <em>sas</em>.</p></li>
+</ol>
+<p><br></p>
+<p>A continuación se muestra un video de llenado del cuestionario electrónico para establecimientos a modo ilustrativo.</p>
+</div>
+</div>
+<p><br></p>
+<div class=text-center>
+
+<video width="250" height="500" controls muted>
+<source src="archivos/llenado.mp4?rel=0" type="video/mp4">
+</video>
+</div>
+<p><br> <br> <br></p>
 <div class=text-justify>
 
+
+<p><br> <br></p>
+<div id="procesamiento" class="section level2">
+<h2><strong>Procesamiento</strong></h2>
 <p><br></p>
-<p>Como puede observarse del apartado anterior, se ha dispuesto de un conjunto de tablas descargadas de la plataforma <em>Survey Solutions</em>, que se descargan en una carpeta denominada <em>bd_captura</em>. A esta versión de la base de datos de captura, que aún se encuentra sin depurar, se le aplicarán los tratamientos de validación y procesamiento que se describen más adelante y que dan origen a una nueva versión de la base de datos lista para su explotación, y que se aloja en una nueva carpeta denominada <em>bd_explot</em>.</p>
+<div id="preparación-y-validación-de-la-base-de-datos" class="section level3">
+<h3><strong>Preparación y Validación de la Base de Datos</strong></h3>
+<p><br></p>
+<p>Como se mencionó en el apartado anterior, se ha dispuesto de un conjunto de tablas descargadas de la plataforma <em>Survey Solutions</em>, que se descargan en una carpeta denominada <em>bd_captura</em>. A esta versión de la base de datos de captura, que aún se encuentra sin depurar, se le aplicarán los tratamientos de validación y procesamiento que se describen enseguida y que dan origen a una nueva versión de la base de datos lista para su explotación.</p>
+<p>Este proceso comprende todos los pasos necesarios que deben seguirse para tratar los datos captados en campo (Base de datos de salida), a fin de depurar y eliminar cualquier inconsistencia en los mismos, de tal modo que pueda generarse una versión de la base de datos que pueda ser explotada con confianza. Se está preparando una bitácora de procesamiento que se incluirá en este mismo documento para que cualquier usuario pueda conocer los procedimentos.</p>
+<p><br></p>
+</div>
+<div id="validación-en-línea-del-cuestionario" class="section level3">
+<h3><strong>Validación en línea del cuestionario</strong></h3>
+<p><br></p>
+<p>Una de las grandes ventajas que proporcionó el uso de la plataforma del cuestionario electrónico, fue la posibilidad de insertar dentro del instrumento de captación, validaciones básicas que aseguran la calidad de los datos desde la salida misma de captura. Específicamente, comprenden al menos 3 tipos de validaciones:</p>
+<ol style="list-style-type: decimal">
+<li><p>De secuencia lógica del cuestionario. Corresponden a las validaciones referentes al flujo de las preguntas, y comprenden los filtros y pases entre preguntas y secciones. La aplicación garantiza que al programarse dichos elementos, no pueda cerrarse la entrevista si existen errores de este tipo, por lo que el entrevistador puede corregir de inmediato cualquier situación indeseable al respecto.</p></li>
+<li><p>Rangos válidos. El cuestionario electrónico garantiza que una variable no podrá contener un rango distinto de valores para lo que se programa. Esto excluye también la posibilidad de captar caracteres o tipos de datos ajenos a lo que se espera.</p></li>
+</ol>
+<p><br> <br></p>
+</div>
+<div id="bitácora-de-procesamiento" class="section level3">
+<h3><strong>Bitácora de procesamiento</strong></h3>
+<p>El conjunto de procedimientos aplicados a la BD de salida para llegar hasta la construcción de la BD para explotación, puede encontrarse en el documento que se muestra a continuación, denominado <em>Bitácora de Procesamiento</em>.</p>
+<p><br></p>
+<iframe src="procesamiento/Bitacora_de_Procesamiento.pdf" style="width:100%; height:650px;" frameborder="0">
+</iframe>
+<p><br> <br></p>
+</div>
+<div id="captura-de-fotografías" class="section level3">
+<h3><strong>Captura de fotografías</strong></h3>
+<p><br></p>
+<p>Debido a que la plataforma y herramientas informáticas definidas, permiten tomar fotografías como evidencia del trabajo, se puso a prueba la capacidad tanto de los dispositivos móviles para la captura, almacenamiento y transferencia de archivos, como del repositorio en la nube para su resguardo. El resultado fue positivo pues una gran cantidad de fotos ahora es parte de nuestro acervo fotográfico.</p>
+<p><br></p>
+<p>Algunas fotografías tomadas son las siguientes:</p>
+<p><br></p>
+<p><img src="fotos/foto_pro_5.jpg" width="60%" style="display: block; margin: auto;" /></p>
+<p><br></p>
+<p><img src="fotos/foto_pro_120.jpg" width="60%" style="display: block; margin: auto;" /></p>
+<p><br></p>
+<p><img src="fotos/foto_pro_127.jpg" width="60%" style="display: block; margin: auto;" /></p>
+<p><br> <br></p>
+</div>
+<div id="base-de-datos-operativa" class="section level3">
+<h3><strong>Base de datos operativa</strong></h3>
+<p><br></p>
+<p>Las tablas creadas para propósitos de control operativo de la prueba piloto. Contienen los listados de las figuras operativas de la encuesta (entrevistadores, coordinadores), datos de contacto, horarios y grupos de capacitación, credenciales de acceso a los servidores y en general la información necesaria para conocer los pormenores de estas figuras. La tabla que contiene la muestra se incluye en este conjunto. Se trata de una muestra dirigida (no probabilística), por lo que no se cuenta con un diseño estadístico de la misma. Los resultados de este ejercicio nos brindarán algunos elementos para generar precisamente dicho diseño. <strong>La tabla muestra, como podrá verse en el diagrama entidad-relación más adelante, funciona como el enlace entre ambos conjuntos de tablas.</strong> Estas tablas, dado que se fueron armando conforme se crearon los grupos de trabajo, no requieren validación ni procesamiento previo.</p>
+<p><br></p>
+<p>Como resultado de los procedimientos anteriores, se conformó la base de datos denominada <a href="base_de_datos/pp_eramo2020_operativa.db"><strong>pp_eramo2020_operativa.db</strong></a>.</p>
+<p>Cuyo diagrama entidad-relación es el siguiente:</p>
+<p><br></p>
+<div class="figure" style="text-align: center">
+<img src="base_de_datos/diag_ent_rel.png" alt="**Diagrama Entidad-Relación de la Base de Datos**" width="100%" />
+<p class="caption">
+<strong>Diagrama Entidad-Relación de la Base de Datos</strong>
+</p>
+</div>
+<p><br></p>
+<p><strong><em>Está pendiente completar la elaboración del diagrama entidad-relación de la base de datos para explotación de la encuesta.</em></strong></p>
 <div/>
 
+
+</div>
+</div>
 
 
 

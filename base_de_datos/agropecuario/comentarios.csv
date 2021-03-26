@@ -1,0 +1,98 @@
+interview__key,seccion,variable,num,fecha,hora_ini,cve_entrevistador,comentario
+21-69-92-61,,@@Completed,1,10/11/2020,16:23:30,E050101,"hay alguna diferencia de la v3 y la v5, cual se debe elegir??"
+21-69-92-61,,@@Completed,2,10/11/2020,20:01:53,E050101,"hay alguna diferencia de la v3 y la v5, cual se debe elegir??"
+06-17-29-37,,@@Completed,1,11/11/2020,18:46:37,E050410,"24°24'42.0'' N, 100°39'57.1''W"
+23-92-41-18,,@@Completed,1,13/11/2020,03:39:05,E050410,"28°31'50.45' N, 100°54'24.6'' W"
+68-69-25-15,,@@Completed,1,18/11/2020,00:44:20,E130101,Entrevista exitosa
+87-91-86-67,,@@Completed,1,18/11/2020,13:59:13,E130101,Se volvio a capturar la entrevista
+33-13-84-98,,@@Completed,1,18/11/2020,14:09:39,E130101,Se volvio a cargar la informacion de la entrevista
+25-93-30-37,,@@Completed,1,18/11/2020,14:20:43,E130101,La informacion de la entrevista se volvio a cargar
+20-73-96-65,,@@Completed,1,18/11/2020,14:30:37,E130101,La informacion se volvio a cargar
+72-55-33-89,prod_agr,mercad,1,30/11/2020,20:15:57,E010109,"No hace la pregunta de origen,  la cual menciona que es nacional,  y la pregunta del mercado no la respondio el informante pero si no selecciono algo no sigue con las demas preguntas."
+72-55-33-89,prod_agr,cosecha_estimada,2,30/11/2020,20:17:42,E010109,Redondeo a 11 porque el informante menciona 10.8 t/ha
+72-55-33-89,prod_agr,cosecha_anual,3,30/11/2020,20:21:08,E010109,"""el informante menciona 10.8 ton/hec y el sistema no acepta decimales """
+72-55-33-89,prod_agr,cosecha_estimada,4,30/11/2020,20:23:27,E010109,Decido  mejor poner 10800 kilogramos por hectarea pero al seleccionar otra unidad de medida no permite mencionarla
+72-55-33-89,perdidas_agr,cant_per,5,30/11/2020,20:25:47,E010109,"""menciona que el 35% asi que no da una cantidad exacta """
+72-55-33-89,perdidas_agr,cant_per,6,30/11/2020,20:26:50,E010109,Se coloca un 1 para permitir el pase
+72-55-33-89,,permiso_foto_ag,7,30/11/2020,20:34:03,E010109,No hay respuesta señalada
+28-50-46-54,prod_agr,por_nac_min,1,30/11/2020,20:46:55,E010109,"""No sabe el porcentaje """
+28-50-46-54,,banco_ali,2,30/11/2020,20:53:04,E010109,"En banco de alimentos no esta seguro,  asi marca el cuestionario en papel"
+28-50-46-54,,permiso_foto_ag,3,30/11/2020,20:53:53,E010109,"""no responde la pregunta """
+28-50-46-54,,@@Completed,4,30/11/2020,20:57:57,E010109,"""En esta entrevista se desconocen datos de la unidad de produccion  """
+43-53-10-38,prod_agr,consum,1,30/11/2020,21:03:07,E010109,"""origen nacional """
+43-53-10-38,prod_agr,cosecha_estimada,2,30/11/2020,21:04:14,E010109,En esta pregunta menciona un rango de 18 a 20 t/ha
+43-53-10-38,prod_agr,ha_cosecha_estimada,3,30/11/2020,21:05:07,E010109,"""No se realiza esta pregunta por ser un cuestionario a papel """
+43-53-10-38,perdidas_agr,cant_per,4,30/11/2020,21:07:48,E010109,menciona que  el 2%
+43-53-10-38,perdidas_agr,cant_mon_per,5,30/11/2020,21:11:49,E010109,"""No especifica """
+43-53-10-38,perdidas_agr,cant_mon_per,6,30/11/2020,21:14:33,E010109,"""No especifica """
+43-53-10-38,perdidas_agr,cant_mon_per,7,30/11/2020,21:16:23,E010109,"""No especifica """
+43-53-10-38,,permiso_foto_ag,8,30/11/2020,21:18:59,E010109,Sin respuesta señalada
+41-41-56-65,,modalidad,1,30/11/2020,21:22:42,E010109,"""no especifica la modalidad """
+41-41-56-65,prod_agr,otra_unid_c_anual,2,30/11/2020,21:25:39,E010109,"""No menciona el numero de hectareas """
+41-41-56-65,prod_agr,pro_c_perdida,3,30/11/2020,21:27:09,E010109,"""No existieron perdidas """
+41-41-56-65,,permiso_foto_ag,4,30/11/2020,21:28:33,E010109,"""En el cuestionario no responde la pregunta """
+70-70-31-01,,modalidad,1,30/11/2020,21:31:36,E010109,En el cuestionario no lo menciona
+70-70-31-01,prod_agr,ha_cosecha_estimada,2,30/11/2020,21:35:24,E010109,"""No menciona las hectareas """
+70-70-31-01,prod_agr,ha_cosecha_final,3,30/11/2020,21:35:48,E010109,No menciona
+70-70-31-01,,permiso_foto_ag,4,30/11/2020,21:37:57,E010109,Pregunta sin respuesta señalada
+15-86-84-38,perdidas_gan,cant_mon_per_p,1,30/11/2020,21:50:35,E050106,pesos
+15-86-84-38,prod_gan,prod_estimada,2,30/11/2020,22:08:24,E050106,"no tenia una espectativa, solo una produciendo de acuerdo a como iba vendiendo"
+15-86-84-38,perdidas_gan,cant_p_per,3,30/11/2020,22:09:51,E050106,"no tiene el dato exacto, solo un calculo aproximado"
+15-86-84-38,perdidas_gan,otra_u_med_p,4,30/11/2020,22:10:06,E050106,usa esta medida porque no tiene el dato exacto
+15-86-84-38,perdidas_gan,destino_p,5,30/11/2020,22:11:20,E050106,menciona que el queso que no cumple con las caracteristicas de los clientes se lo comen o se lo dan los animales de traspatio
+15-86-84-38,prod_gan,prod_estimada,6,30/11/2020,22:11:56,E050106,no tenia espectativas de produccion
+15-86-84-38,prod_gan,prod_final,7,30/11/2020,22:12:30,E050106,"como no habia espectativas, solo tiene el dato aproximado de lo que produjo"
+15-86-84-38,perdidas_gan,otra_u_med_p,8,30/11/2020,22:13:46,E050106,utiliza esta unidad porque no tiene el dato exacto
+15-86-84-38,perdidas_gan,otra_u_med_p,9,30/11/2020,22:15:03,E050106,la unidad es en porcentaje
+15-86-84-38,perdidas_gan,cant_mon_per_p,10,30/11/2020,22:15:23,E050106,solo es un aproximado
+15-86-84-38,perdidas_gan,cant_p_per,11,30/11/2020,22:16:19,E050106,la unidad es en porcentaje
+15-86-84-38,perdidas_gan,cant_mon_per_p,12,30/11/2020,22:16:48,E050106,es un calculo aproximado
+15-86-84-38,prod_gan,prod_anual,13,30/11/2020,22:17:30,E050106,no tiene el dato exacto
+15-86-84-38,prod_gan,prod_estimada,14,30/11/2020,22:17:47,E050106,no tenia espectativas
+15-86-84-38,perdidas_gan,cant_p_per,15,30/11/2020,22:18:15,E050106,la unidad es en porcentaje
+15-86-84-38,perdidas_gan,otra_u_med_p,16,30/11/2020,22:18:55,E050106,es solo un aproximado
+55-66-52-68,,hora_inicial,1,30/11/2020,22:50:40,E010103,"Se elaboro el 16 de nov, 2020  hora de inicio 10:00 am"
+55-66-52-68,,razon_s,2,30/11/2020,22:54:37,E010103,No puso
+55-66-52-68,,@@Restarted,3,30/11/2020,22:55:20,E010103,Completar
+42-91-11-67,,coordenada,1,01/12/2020,17:24:33,E010108,"17.7417091, -91.7702486[48.900015258789]104000005722046"
+42-91-11-67,,municipio,2,01/12/2020,17:26:18,E010108,este dato no venia en la captura de pantalla
+42-91-11-67,,hora_inicial,3,01/12/2020,17:27:25,E010108,06/11/2020 10:38
+42-91-11-67,perdidas_gan,destino_p,4,01/12/2020,17:41:39,E010108,el dato no venia en la captura de pantalla
+42-91-11-67,visitas,termino_visita,5,01/12/2020,17:44:16,E010108,06/11/2020 10:49
+17-31-25-13,prod_agr,cosecha_estimada,1,01/12/2020,18:33:18,E050106,no tenian una expectativa
+05-35-79-42,,hora_inicial,1,01/12/2020,18:34:35,E010103,fue el 18/11/20 a las 17:40
+17-31-25-13,perdidas_agr,cant_per,2,01/12/2020,18:42:50,E050106,no hay calculo porque se queda en la parcela
+40-17-46-02,,hora_inicial,1,01/12/2020,18:49:18,E010103,fue el 17/11/20 a la 17:48
+40-17-46-02,perdidas_agr,cant_mon_per,2,01/12/2020,19:01:11,E010103,no especifico
+40-17-46-02,perdidas_agr,cant_mon_per,3,01/12/2020,19:05:38,E010103,no especifico
+29-63-55-12,,municipio,1,01/12/2020,19:13:15,E010103,capulapa
+29-63-55-12,,municipio,2,01/12/2020,19:16:24,E010103,"le puse acula, porque no me dejaba avanzar"
+29-63-55-12,,hora_inicial,3,01/12/2020,19:17:37,E010103,fue el 16/11/20 a las 19:20
+91-45-14-94,prod_agr,ha_cosecha_estimada,1,01/12/2020,19:23:01,E010120,no especifica cuantas hectareas sembro o cosecho
+91-45-14-94,prod_agr,cosecha_estimada,2,01/12/2020,19:23:52,E010120,indica 7.95 ton/ha pero no dice cuantas
+91-45-14-94,prod_agr,pro_c_perdida,3,01/12/2020,19:26:01,E010120,indica 0 perdidas en todos procesos
+31-59-95-66,,hora_inicial,1,02/12/2020,15:24:21,E010101,"2020-14-11.Inicio, 11:00, Termino 11:20"
+31-59-95-66,,razon_s,2,02/12/2020,15:28:17,E010101,No cuenta con nombre de propietario ni razon social
+08-76-82-82,,hora_inicial,1,02/12/2020,15:57:03,E010101,"2020-13-11. Inicio 18:00,Termino 18:15 hrs"
+08-76-82-82,,hora_inicial,2,02/12/2020,15:58:33,E010101,Entrevista completa
+79-67-32-20,,hora_inicial,1,02/12/2020,16:42:41,E010101,"2020-13-11, Inicio 15:00hrs, Termino 15:20hrs"
+79-67-32-20,,hora_inicial,2,02/12/2020,16:44:46,E010101,"Situacion 1, Completa"
+09-70-90-32,,hora_inicial,1,02/12/2020,17:12:33,E010101,2020-17-11.Inicio 17:20hrs.Termino 17:40hrs
+16-98-04-24,,hora_inicial,1,03/12/2020,18:54:41,E010101,"2020-16-11, Inicio 17:20, Termino 17:52hrs, Situacion 1- Completa"
+09-77-80-56,,hora_inicial,1,05/12/2020,02:21:42,E010101,"Tal cual viene en cuestionario 2020-16-11, Inicio 19:28. Termino 19:50. Situacion 1- completa"
+09-68-93-17,,hora_inicial,1,05/12/2020,02:56:31,E010101,"Fecha 2020-16-11, Inicio 19:00, Termino 19:15. Situacion 1- completa"
+09-68-93-17,prod_agr,pro_c_perdida,2,05/12/2020,03:09:08,E010101,En este apartado biene en blanco
+76-56-81-14,,avenida,1,05/12/2020,03:18:54,E010101,No trae nombre de localidad
+76-56-81-14,,hora_inicial,2,05/12/2020,03:22:57,E010101,"2020-17-11.Inicio 13:05, Termino 13:16, situacion 1 completa"
+76-56-81-14,prod_agr,pro_c_perdida,3,05/12/2020,03:28:45,E010101,no especifico
+76-56-81-14,perdidas_agr,cant_per,4,05/12/2020,03:29:36,E010101,no especifico
+76-56-81-14,,permiso_foto_ag,5,05/12/2020,03:33:29,E010101,no trae ninguna opcion
+73-58-37-78,,modalidad,1,05/12/2020,17:18:50,E010101,"Entrevista pospuesta, no selecciono ninguna modalidad"
+73-58-37-78,,hora_inicial,2,05/12/2020,17:23:10,E010101,"2020-18-11, Inicio 18:25, Termino 18:40hrs . Situacion 1, completa"
+73-58-37-78,,permiso_foto_ag,3,05/12/2020,17:41:01,E010101,No Marco ningun codigo
+51-69-57-33,,modalidad,1,05/12/2020,17:51:28,E010101,Nota: en este cuestionario no trae datos
+51-69-57-33,,hora_inicial,2,05/12/2020,17:56:29,E010101,2020-18-11 .Inicio 17:35 hrs. Termino 17:40 hrs
+51-69-57-33,,residuos,3,05/12/2020,18:00:13,E010101,"Nota: Apartir de esta pregunta no trae datos, y sin observaciones de entrevistador y supervisor"
+09-39-85-34,prod_gan,pro_p_perdida,1,08/12/2020,17:27:12,E050106,no hay perdidas
+09-39-85-34,,banco_ali_p,2,08/12/2020,17:28:39,E050106,es repetitivo cuando ya se hablo de lo mismos en el otro apartado
+09-39-85-34,,crias,3,08/12/2020,17:35:46,E050106,no aparece el apartado apicultura de manera explicita

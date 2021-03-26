@@ -1,0 +1,189 @@
+interview__key,seccion,variable,num,fecha,hora_ini,cve_entrevistador,comentario
+02-85-64-84,,@@Completed,1,16/11/2020,16:46:15,E110101,Primera entrevista con pocos datos sobre desperdicio de alimentos a gran escala.
+75-80-02-25,,@@Completed,1,16/11/2020,17:02:26,E110101,"""Entrevista completada """
+46-14-89-64,,@@Completed,1,18/11/2020,22:32:47,E140101,"""La persona no conocia sobre las normas  Ni sobre el banco de alimento """
+46-14-89-64,,@@Completed,2,18/11/2020,22:51:09,E140101,"""La persona no conocia sobre las normas  Ni sobre el banco de alimento """
+75-48-02-01,,@@Completed,1,18/11/2020,23:00:58,E140101,"""No habia cambios del 2020 al 2019 """
+32-81-38-30,,@@Completed,1,18/11/2020,23:06:21,E140101,"""no conocia sobre las normas  """
+62-26-83-91,,@@Completed,1,18/11/2020,23:20:07,E140101,"""no conocia de las normas  """
+18-99-05-74,,@@Completed,1,06/11/2020,22:57:46,E050410,Ubicacion 28°61'29.0''N 100°32'34.9''W
+76-26-19-30,,@@Completed,1,13/11/2020,03:08:41,E050410,"""28°42'24.9''N, 100°32'00.6''W """
+10-67-95-74,,@@Completed,1,18/11/2020,01:03:36,E130101,Se capturo nuevamente
+28-11-84-29,,@@Completed,1,18/11/2020,01:18:02,E130101,Entrevista nuevamente capturada
+18-58-26-99,,coordenada,1,30/11/2020,16:25:35,E010108,"17.7411921727831,"
+18-58-26-99,,coordenada,2,30/11/2020,16:26:11,E010108,-91.77187076
+18-58-26-99,,municipio,3,30/11/2020,16:30:32,E010108,este campo venia vacio
+18-58-26-99,,hora_inicial,4,30/11/2020,16:32:03,E010108,06/11/2020 09:18
+18-58-26-99,,consumo,5,30/11/2020,16:34:37,E010108,este campo no venia en la cap. pantalla
+18-58-26-99,,banco_ali,6,30/11/2020,16:36:02,E010108,estos campos no venian en las capturas
+18-58-26-99,lista_productos,perdida_prod,7,30/11/2020,16:39:12,E010108,no venia en la captura
+18-58-26-99,lista_productos,perdida_prod,8,30/11/2020,16:41:09,E010108,no venia en la captura
+18-58-26-99,lista_productos,cant_perdidas,9,30/11/2020,16:41:53,E010108,no venia en la captura
+18-58-26-99,lista_productos,no_comestible,10,30/11/2020,16:42:31,E010108,ni venia en la captura
+18-58-26-99,visitas,termino_visita,11,30/11/2020,16:45:10,E010108,06/11/2020 09:28
+18-58-26-99,,municipio,12,30/11/2020,16:47:12,E010108,ignorar el comentario anterior
+18-58-26-99,,consumo,13,30/11/2020,16:48:23,E010108,ignorar el comentario anterior
+18-58-26-99,lista_productos,perdida_prod,14,30/11/2020,16:50:31,E010108,ignorar el comentario anterior
+18-58-26-99,lista_productos,perdida_prod,15,30/11/2020,16:51:44,E010108,ignorar el comentario anterior
+20-35-84-30,,coordenada,1,30/11/2020,17:03:44,E010108,"17.7417234, -91.7706136(42.5)11.100000381469"
+20-35-84-30,,hora_inicial,2,30/11/2020,17:05:36,E010108,06/11/2020 09:40
+20-35-84-30,,banco_ali,3,30/11/2020,17:07:35,E010108,no venia la captura
+20-35-84-30,lista_productos,perdida_prod,4,30/11/2020,17:11:39,E010108,no venia en la captura
+20-35-84-30,lista_productos,prom_men,5,30/11/2020,17:14:24,E010108,no venia en la captura
+20-35-84-30,lista_productos,perdida_prod,6,30/11/2020,17:16:34,E010108,"""ni venia en la captura, pero se deduce por la respuesta de la siguiente pregunta """
+20-35-84-30,visitas,termino_visita,7,30/11/2020,17:39:21,E010108,06/11/2020 09:58
+77-13-19-44,,coordenada,1,01/12/2020,17:52:07,E010108,"17.741374, -91.771624[15.388999389648]12.3000001907349"
+77-13-19-44,,hora_inicial,2,01/12/2020,17:54:14,E010108,"""2920-11-06 """
+77-13-19-44,,hora_inicial,3,01/12/2020,17:54:37,E010108,08:42:56
+77-13-19-44,,banco_ali,4,01/12/2020,18:00:42,E010108,estos datos ni venian en la captura de pantalla
+77-13-19-44,,esp_medidas,5,01/12/2020,18:05:04,E010108,este dato no venia en la captura de pantalla
+77-13-19-44,,permiso_foto_pro,6,01/12/2020,18:05:35,E010108,este dato no venia en la captura de pantalla
+77-13-19-44,visitas,termino_visita,7,01/12/2020,18:06:08,E010108,06/11/2020 08:52
+15-12-58-41,,@@Completed,1,01/12/2020,23:58:11,E090406,"primer entrevista , verduleria local de mi domicilio."
+20-51-32-82,,coordenada,1,02/12/2020,16:39:10,E010108,"22.7746184, -102.5734749[13.3420000076294]2405.80004882813"
+20-51-32-82,,hora_inicial,2,02/12/2020,17:18:00,E010108,13/11/2020 13:29
+20-51-32-82,,banco_ali,3,02/12/2020,17:20:40,E010108,estos datos no venian en la captura de pantalla
+20-51-32-82,,programa,4,02/12/2020,17:23:27,E010108,estos datos no venian en la captura de pantalla
+26-55-87-94,,coordenada,1,02/12/2020,18:12:25,E010108,"22.7602031, -102.5475399[15.0190000534058]0"
+26-55-87-94,,hora_inicial,2,02/12/2020,18:14:35,E010108,18/11/2020 13:08
+26-55-87-94,,@@Completed,3,02/12/2020,18:22:56,E010108,el entrevistador ignoro el apartado de  productos a reportar
+06-46-97-81,,@@Completed,1,03/12/2020,22:46:27,E090305,"""ninguna """
+13-17-63-97,,@@Completed,1,04/12/2020,00:24:44,E090305,"""ninguno  """
+28-48-29-67,,@@Completed,1,04/12/2020,03:04:08,E090305,las preguntas fueron concretas y sin ninguna confusion
+28-48-29-67,,@@Completed,2,04/12/2020,04:03:38,E090305,las preguntas fueron concretas y sin ninguna confusion
+06-46-97-81,,@@Completed,2,04/12/2020,04:10:27,E090305,"""ninguna """
+06-46-97-81,,@@Completed,3,04/12/2020,04:11:09,E090305,"""ninguna """
+06-46-97-81,,@@Completed,4,04/12/2020,04:11:45,E090305,"""ninguna """
+13-17-63-97,,@@Completed,2,04/12/2020,04:21:18,E090305,"""ninguno  """
+13-17-63-97,,@@Completed,3,04/12/2020,21:25:06,E090305,"""ninguna  """
+28-48-29-67,,@@Completed,3,04/12/2020,21:28:34,E090305,ninguna
+06-46-97-81,,@@Completed,5,04/12/2020,21:30:44,E090305,"""ninguna """
+06-46-97-81,,@@Completed,6,04/12/2020,21:38:44,E090305,"""ninguna """
+13-17-63-97,,@@Completed,4,04/12/2020,21:40:08,E090305,"""ninguna  """
+28-48-29-67,,@@Completed,4,04/12/2020,21:46:21,E090305,ninguna
+06-46-97-81,,@@Completed,7,04/12/2020,21:51:32,E090305,"""ninguna """
+13-17-63-97,,@@Completed,5,04/12/2020,21:55:32,E090305,"""ninguna  """
+28-48-29-67,,@@Completed,5,04/12/2020,22:16:15,E090305,ninguna
+06-46-97-81,,@@Completed,8,04/12/2020,22:17:17,E090305,"""ninguna """
+13-17-63-97,,@@Completed,6,04/12/2020,22:18:07,E090305,"""ninguna  """
+32-54-12-19,,@@Completed,1,04/12/2020,23:09:10,E090405,"""Local de frutas """
+56-77-58-08,,@@Completed,1,05/12/2020,00:29:06,E020106,"""todo bien en la entrevista """
+38-07-51-46,,hora_inicial,1,08/12/2020,20:23:20,E090204,"Comence la entrevista, el dia 08 de Diciembre del 2020 a las 14:23 pm"
+38-07-51-46,,@@Completed,2,08/12/2020,20:34:26,E090204,"""Creo que se debe enfatizar el problema residual del mercado de Sonora en general. """
+40-31-16-96,,hora_inicial,1,08/12/2020,21:22:29,E090204,Inicie la entrevista el 08 de Diciembre del 2020 a las 15:21
+80-86-22-96,,hora_inicial,1,08/12/2020,21:35:36,E090204,Inicie la entrevista el 08 del 12 del 2020 a las 15:35 horas
+27-65-45-89,,hora_inicial,1,08/12/2020,21:49:09,E090204,Inicie la entrevista el 08-12-2020 a las 15:48
+90-77-74-61,,hora_inicial,1,10/12/2020,02:33:09,E090204,"Inicie la Entrevista el dia 09-12-20, a las 20:32 p. m"
+51-20-82-41,,hora_inicial,1,10/12/2020,03:17:49,E090204,Inicie la entrevista el 09-12-20
+51-20-82-41,,hora_inicial,2,10/12/2020,03:18:14,E090204,A las 21:17
+88-05-83-73,,@@Completed,1,10/12/2020,19:45:34,E090409,buena atencion .
+28-46-36-32,,@@Completed,1,10/12/2020,20:07:10,E090409,"""buena atencion """
+63-23-60-25,,@@Completed,1,10/12/2020,20:34:16,E090409,buena atencion .
+20-09-40-61,,@@Completed,1,11/12/2020,01:28:56,E090104,"""ninguna """
+30-93-43-10,,@@Completed,1,11/12/2020,03:09:15,E090405,"""Panaderia  """
+82-13-03-48,,@@Completed,1,11/12/2020,22:02:48,E090105,"Tienda de abarrotes no tiene registro de perdidas ,dado que la mayoria de sus productos con caducidad se los cambian los proveedores y otros alimentos se los da a sus perros."
+73-26-11-96,,@@Completed,1,11/12/2020,22:32:27,E090105,"""El abarrotero compra lo justo para la demanda de sus clientes  """
+72-14-01-21,,@@Completed,1,12/12/2020,09:03:58,E090107,"""SN """
+62-92-67-84,,@@Completed,1,13/12/2020,03:36:36,E020120,El establecimiento tiene un menu de platillos que ofrece cada dia de la semana. Hace diariamente las compras de los insumos que ocupa.
+81-30-37-04,,@@Completed,1,13/12/2020,03:43:59,E020120,El establecimiento produce y vende los tamales.
+94-39-20-08,,@@Completed,1,13/12/2020,03:48:49,E020120,"El establecimiento trabajaba las 24 horas,  cubriendo 3 turnos. Actualmente,  por la situacion de la pandemia trabajan 2 turnos, de 7 a.m. a 10 pm."
+64-89-09-35,,@@Completed,1,13/12/2020,03:52:26,E020120,"""No permitio la fotografia porque no separa la basura del desperdicio. """
+72-04-49-69,,@@Completed,1,14/12/2020,21:21:37,E090305,"""Ninguna """
+80-07-60-11,,@@Completed,1,14/12/2020,22:46:03,E090110,"""El dueño no queria informar mucho """
+20-05-46-45,,@@Completed,1,15/12/2020,02:12:36,E090105,La leche de las bolsas que vienen rotas ya no puede rescatarse porque se contamina .Se rompen por la manipulacion o el traslado .
+18-65-61-05,,@@Completed,1,15/12/2020,04:37:57,E020120,Aproximadamente  el 15% de los insumos son importados. no se pudo capturar la ubicacion ya que se realizo en papel. El link del Facebook es: https://www.facebook.com/310175606350877
+74-47-57-78,,hora_inicial,1,15/12/2020,08:03:36,E090204,"Comence la entrevista el 15 del 12 del 2020, a las 2:30am"
+12-33-17-05,,coordenada,1,15/12/2020,20:01:03,E010108,19 41 19.2 N 99 10 14.6 W
+12-33-17-05,,entidad,2,15/12/2020,20:03:23,E010108,Estado de Mexico
+12-33-17-05,,municipio,3,15/12/2020,20:03:51,E010108,Cuautitlan de Romero Rubio
+12-33-17-05,,hora_inicial,4,15/12/2020,20:05:53,E010108,21:53
+12-33-17-05,,foto_pro,5,15/12/2020,20:34:50,E010108,no aparece la foto
+12-33-17-05,visitas,termino_visita,6,15/12/2020,20:37:29,E010108,el documento no indica la hora de termino
+02-22-73-77,,coordenada,1,15/12/2020,20:42:26,E010108,"19 41 21.1 N, 99 41 11.9W"
+02-22-73-77,,entidad,2,15/12/2020,20:43:18,E010108,Estado de Mexico
+02-22-73-77,,municipio,3,15/12/2020,20:44:02,E010108,Cuautitlan Romero Rubio
+02-22-73-77,,hora_inicial,4,15/12/2020,20:45:55,E010108,10:53 a. m.
+02-22-73-77,lista_productos,perdida_prod,5,15/12/2020,20:50:26,E010108,0.1
+02-22-73-77,lista_productos,no_comestible,6,15/12/2020,20:53:42,E010108,ES_7j. Alimentacion animal. Comida para perro
+02-22-73-77,visitas,termino_visita,7,15/12/2020,20:54:54,E010108,el documento no indicaba la hora de termino
+02-22-73-77,,obs_ent_c,8,15/12/2020,20:56:38,E010108,Tienen un programa de recoleccion de desperdicios diario de 9:00am y 7:00pm
+73-06-08-66,,@@Completed,1,15/12/2020,20:57:12,E020120,"Aproximadamente, el 5% de los insumos son importados. No se grabo la localizacion con GPS debido a que aunque fue presencial, se levante en papel y posteriormente, se capture en el sistema. Se agrega la direccion: https://www.facebook.com/107183547608791"
+02-22-73-77,,obs_ent_c,9,15/12/2020,20:58:13,E010108,No tu e acceso para fotografiar los residuos ya que el establecimiento no contaba con ningun desperdicio
+09-55-11-13,,coordenada,1,15/12/2020,21:01:08,E010108,"19 41 21.0N, 99 09 58.9W"
+09-55-11-13,,entidad,2,15/12/2020,21:02:29,E010108,Estado de Mexico
+09-55-11-13,,municipio,3,15/12/2020,21:02:44,E010108,Cuautitlan de Romero Rubio
+09-55-11-13,,hora_inicial,4,15/12/2020,21:05:01,E010108,09:49am
+09-55-11-13,,foto_pro,5,15/12/2020,21:09:11,E010108,"""No aparece la foto """
+09-55-11-13,visitas,termino_visita,6,15/12/2020,21:10:32,E010108,ni indica la hora de termino
+20-27-37-35,,coordenada,1,15/12/2020,21:15:02,E010108,"19 41 20.3N, 99 09 56.7W"
+20-27-37-35,,entidad,2,15/12/2020,21:16:40,E010108,Estado de Mexico
+20-27-37-35,,municipio,3,15/12/2020,21:17:13,E010108,Cuautitlan de Romero Rubio
+20-27-37-35,,hora_inicial,4,15/12/2020,21:19:16,E010108,10:08am
+20-27-37-35,lista_productos,no_comestible,5,15/12/2020,21:23:28,E010108,ES_7j. Los regalo
+20-27-37-35,visitas,termino_visita,6,15/12/2020,21:24:49,E010108,el documento no indica la hora de termino
+97-73-87-30,,coordenada,1,15/12/2020,21:29:39,E010108,"19 41 25.5N, 99 09 57.4W"
+97-73-87-30,,entidad,2,15/12/2020,21:30:23,E010108,Estado de Mexico
+97-73-87-30,,municipio,3,15/12/2020,21:30:55,E010108,Cuautitlan Romero Rubio
+97-73-87-30,,hora_inicial,4,15/12/2020,21:32:53,E010108,10:29am
+97-73-87-30,visitas,termino_visita,5,15/12/2020,21:37:56,E010108,el documento no indica la hora de termino
+53-73-04-92,,coordenada,1,15/12/2020,21:42:17,E010108,"19 41 26.4N, 99 09 57.2W"
+53-73-04-92,,entidad,2,15/12/2020,21:42:54,E010108,Estado de Mexico
+53-73-04-92,,municipio,3,15/12/2020,21:43:37,E010108,Cuautitlan de Romero Rubio
+53-73-04-92,,hora_inicial,4,15/12/2020,21:45:26,E010108,19:39 am
+53-73-04-92,lista_productos,prom_men,5,15/12/2020,21:47:14,E010108,500-650
+53-73-04-92,lista_productos,perdida_prod,6,15/12/2020,21:47:34,E010108,50-52
+53-73-04-92,lista_productos,no_comestible,7,15/12/2020,21:48:41,E010108,campo vacio
+53-73-04-92,visitas,termino_visita,8,15/12/2020,21:50:02,E010108,el documento no indica la hora de termino
+47-84-82-42,,coordenada,1,15/12/2020,22:28:07,E010108,"19.4787908, -99.1497096"
+47-84-82-42,,hora_inicial,2,15/12/2020,22:31:50,E010108,05:58 p. m.
+47-84-82-42,lista_productos,perdida_prod,3,15/12/2020,22:37:54,E010108,aprox.
+47-84-82-42,lista_productos,perdida_prod,4,15/12/2020,22:39:31,E010108,"campo vacio, omitir comentario anterior"
+47-84-82-42,lista_productos,cant_perdidas,5,15/12/2020,22:41:24,E010108,aprox.
+47-84-82-42,lista_productos,no_comestible,6,15/12/2020,22:42:48,E010108,"ES_7j. Alimentacion animal, los regalo, lid vendio"
+47-84-82-42,,permiso_foto_pro,7,15/12/2020,22:44:28,E010108,En ese momento no habia desperdicios alimenticios y el propietario le parecia incomodo
+47-84-82-42,visitas,termino_visita,8,15/12/2020,22:45:09,E010108,el documento no indica la hora de termino
+31-28-80-45,,coordenada,1,15/12/2020,22:51:44,E010108,"19.4763635, -99.1538724"
+31-28-80-45,,hora_inicial,2,15/12/2020,22:55:43,E010108,04:27 p. m.
+31-28-80-45,,modalidad,3,15/12/2020,22:56:28,E010108,en papel
+31-28-80-45,lista_productos,perdida_prod,4,15/12/2020,23:01:43,E010108,aprox.
+31-28-80-45,lista_productos,cant_perdidas,5,15/12/2020,23:02:56,E010108,aprox.
+31-28-80-45,lista_productos,dest_res,6,15/12/2020,23:04:42,E010108,"Basurero, Los regalo"
+31-28-80-45,visitas,termino_visita,7,15/12/2020,23:06:54,E010108,5/12/20 termino 7:35
+44-35-84-50,,entidad,1,16/12/2020,16:58:18,E010108,Estado de Mexico
+44-35-84-50,,municipio,2,16/12/2020,16:59:15,E010108,Villa de las Flores
+44-35-84-50,,hora_inicial,3,16/12/2020,17:01:15,E010108,el documento no indica la hora de inicio
+44-35-84-50,,coordenada,4,16/12/2020,17:05:08,E010108,"19.65439, -99.09650, las coordenadas las obtuve de internet"
+44-35-84-50,,foto_pro,5,16/12/2020,17:10:29,E010108,no hay imagen
+74-16-93-20,,coordenada,1,16/12/2020,17:21:54,E010108,campo vacio
+74-16-93-20,,entidad,2,16/12/2020,17:23:18,E010108,Estado de Mexico
+74-16-93-20,,municipio,3,16/12/2020,17:23:38,E010108,San Francisco Coacalco
+74-16-93-20,,hora_inicial,4,16/12/2020,17:25:35,E010108,el documento no indica la hora ni fecha de inicio/termino
+74-16-93-20,,foto_pro,5,16/12/2020,17:28:43,E010108,no hay imagen
+91-51-53-80,,coordenada,1,16/12/2020,17:32:54,E010108,"19.64841, -99.09657, las obtuve de internet"
+91-51-53-80,,entidad,2,16/12/2020,17:33:54,E010108,Estado de Mexico
+91-51-53-80,,municipio,3,16/12/2020,17:34:19,E010108,Villa de las Flores
+91-51-53-80,,hora_inicial,4,16/12/2020,17:35:59,E010108,el documento no indica hora ni fecha de inicio/termino
+91-51-53-80,,foto_pro,5,16/12/2020,17:39:20,E010108,no hay imagen
+49-55-81-49,,coordenada,1,16/12/2020,17:43:02,E010108,"19.65283, -99.09360"
+49-55-81-49,,entidad,2,16/12/2020,17:43:48,E010108,Estado de Mexico
+49-55-81-49,,municipio,3,16/12/2020,17:44:23,E010108,Villa de las Flores
+49-55-81-49,,hora_inicial,4,16/12/2020,17:46:02,E010108,el documento no indica hora ni fecha dr inicio/termino
+49-55-81-49,,foto_pro,5,16/12/2020,17:49:13,E010108,no hay imagen
+83-07-51-12,,coordenada,1,16/12/2020,18:03:09,E010108,"19.65508, -99.11048"
+83-07-51-12,,entidad,2,16/12/2020,18:04:07,E010108,Estado de Mexico
+83-07-51-12,,municipio,3,16/12/2020,18:04:40,E010108,"""San Pablo CTM """
+83-07-51-12,,hora_inicial,4,16/12/2020,18:06:34,E010108,el documento no indica hora ni fecha de inicio/termino
+83-07-51-12,,foto_pro,5,16/12/2020,18:09:35,E010108,no hay imagen
+12-21-40-53,,coordenada,1,16/12/2020,18:18:28,E010108,"campo vacio, no pude obtenerlas por internet"
+12-21-40-53,,entidad,2,16/12/2020,18:19:12,E010108,Estado de Mexico
+12-21-40-53,,municipio,3,16/12/2020,18:19:24,E010108,San Francisco
+12-21-40-53,,hora_inicial,4,16/12/2020,18:21:31,E010108,el documento no indica hora ni fecha de inicio/termino
+12-21-40-53,lista_productos,prom_men,5,16/12/2020,18:23:59,E010108,"2.5 ton, 2400 pollos"
+12-21-40-53,lista_productos,dest_res,6,16/12/2020,18:25:17,E010108,para consumo animal
+12-21-40-53,,foto_pro,7,16/12/2020,18:25:41,E010108,no hay imagen
+25-40-36-43,,coordenada,1,16/12/2020,18:29:11,E010108,"19.66160, -99.09838"
+25-40-36-43,,entidad,2,16/12/2020,18:29:52,E010108,Estado de Mexico
+25-40-36-43,,municipio,3,16/12/2020,18:30:32,E010108,Coacalco
+25-40-36-43,,hora_inicial,4,16/12/2020,18:32:17,E010108,el documento no indica hora ni fecha de inicio/termino
+25-40-36-43,lista_productos,no_comestible,5,16/12/2020,18:35:26,E010108,ES_7j. Basurero/relleno sanitario
+25-40-36-43,,foto_pro,6,16/12/2020,18:36:00,E010108,no hay imagen
