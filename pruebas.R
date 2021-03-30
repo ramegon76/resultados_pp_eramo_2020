@@ -167,7 +167,7 @@ Pepino                Brocoli
 
 
 
-prod_perd <- read.csv("base_de_datos/agropecuario/consulta2.csv")
+prod_perd <- read.csv("base_de_datos/agropecuario/perdidas_prod_agricolas.csv")
 
 prods_princ_perd <- which((prod_perd$tipo_prod == "Maiz" | prod_perd$tipo_prod == "Melon" |
                              prod_perd$tipo_prod == "Jitomate" | prod_perd$tipo_prod == "Mango manila" |

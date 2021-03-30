@@ -1,99 +1,99 @@
-interview__key,num_prod,pro_c_perdida,cant_per,u_med_per,ha_proceso_perd,otra_u_med_per,cant_mon_per,causa,destino
-37-34-37-26,1,1,15,2,NA,,37500,plagas,"tiro a la basura, consumo animal"
-31-99-57-96,1,1,7,3,1,,7000,plaga,coyotaje
-48-86-17-85,1,2,10,2,NA,,30000,proceso muy riguroso de seleccion,reventa
-21-69-92-61,1,5,2,2,NA,,8000,precio bajo,venta a coyotes
-97-99-81-42,1,1,30,2,NA,,30000,plagas,"reventa, animales, regalado"
-25-86-07-95,1,2,20,2,NA,,20000,Diferenciacion de sembrado,Consumo Animal
-51-19-67-64,1,1,4,2,NA,,45000,la variedad no fue la edecuada para la zona,Se regalo para animales
-51-19-67-64,1,2,2,2,NA,,20000,Se pudrio por un mal empaquetado,se tiro
-47-45-29-99,1,1,6,2,NA,,21000,humedad,"perdida total, chivas, animales"
-47-45-29-99,1,2,4,2,NA,,4000,es de segunda se la compra el coyote mas barata a menos de mitad de precio,consumo humano
-42-53-88-38,1,1,15,2,NA,,20000,"porque estaba manchado y cuartiado, humedad","chivas domesticas, animales"
-42-53-88-38,1,2,10,2,NA,,5000,"el grande no pasa, el tamaño",revendedores
-59-44-86-05,1,2,100,1,NA,,1800,tamaño pequeño de la semilla,los regalo
-59-44-86-05,2,2,300,1,NA,,5400,tamaño pequeño,los vendio para alimento animal
-04-18-54-61,1,6,13,2,NA,,49400,falta de lluvia,fue perdida economica
-04-18-54-61,2,6,20,2,NA,,66000,falta de lluvia,perdida economica
-04-18-54-61,3,6,20,2,NA,,380000,defecto de planta,tiro a la basura
-04-18-54-61,4,1,500,5,NA,cajas/hectarea,40000,mala calidad del producto,tira a la basura
-04-18-54-61,5,1,35,2,NA,,245000,daño por plaga,tiro a la basura
-04-18-54-61,6,1,500,5,NA,cajas/hectarea,75000,producto enfermo,tiro a la basura
-04-18-54-61,7,1,9,2,NA,,72000,por plaga de gusano,tiro a la basura
-68-55-62-58,1,1,150,2,NA,,250000,La sequia los maices no dieron el potencial esperado y las plagas aumentaron,Se incorporo a la tierra mediante barbechada
-75-87-47-50,1,5,2,2,NA,,9000,la calidad del garbanzo fue mala,Se regalo a la persona que compro el producto final
-99-55-56-30,1,1,75,2,NA,,3.00E+05,enfermedades y virosis,se tiro
-99-55-56-30,2,1,20,2,NA,,1.00E+05,enfermedades y mala seleccion de la semilla,se tiro
-99-55-56-30,3,1,50,2,NA,,40000,poca demanda,se tiro
-50-50-62-56,1,1,30,1,NA,,250,"Ausencia de Agua,plagas",Alimento para animal
-74-77-62-54,1,1,3,2,NA,,3000,mal manejo,se dono
-74-77-62-54,1,4,1000,1,NA,,1500,mal manejo,se dono
-74-77-62-54,2,3,50,1,NA,,2000,plagas y mal manejo,se dono
-41-48-62-44,1,5,1000,2,NA,,3.00E+06,problemas fitosanitarios y ambientales,"consumo animal, composta y se dono"
-40-42-66-97,1,2,280,2,NA,,2.00E+06,maduracion y hongos,se tiro
-40-42-66-97,1,5,70,2,NA,,5.00E+05,mal manejo,composta
-27-89-11-29,1,1,6,3,1.5,,150000,"plagas, no habia mercado",##N/A##
-27-89-11-29,2,1,4,3,2,,10000,hongos y nematodos,##N/A##
-23-92-41-18,1,6,20,2,NA,,3.00E+06,Sequia extrema,No hubo produccion
-35-86-75-68,1,1,4,1,NA,,1600,"se caian los tomates, mal corte, mal manejo de producto",se lo comieron por animales
-35-86-75-68,1,2,5,1,NA,,2400,al momento del almacenamiento de aplastaron los tomates y en el empaque se sacaron,se regalo
-35-86-75-68,1,4,2,1,NA,,800,al llevarlo al mercado con el movimiento del vehiculo se fueron aplastando,autoconsumo
-35-86-75-68,1,5,50,1,NA,,20000,"los productos no se vendian rapido y algunos ya estaban muy maduros, entonces se hecharnos a perder",comida para los animales
-57-48-28-02,1,1,601,1,NA,,4808,Corte tardio en algunas plantas,Lo regalo
-53-72-32-99,1,1,2250,1,NA,,18000,Cosecha tardia en algunas plantas,Lo regalo a los trabajadores
-68-69-25-15,1,1,1150,1,NA,,9200,"Enfermedades, inadecuado paquete tecnologico, mal manejo de la cosecha",Regalo a los trabajadores
-06-17-29-37,1,1,300,2,NA,,1600000,Heladas tardias,No se puede recuperar
-45-17-13-36,1,1,90,1,NA,,4500,daño de aves,tiro a la basura
-45-17-13-36,1,2,10,1,NA,,500,seleccion de calidad,tiro a la basura
-13-89-27-16,1,1,500,1,NA,,2500,Plagas,Para alimento animal
-13-89-27-16,2,1,300,1,NA,,7500,sequia,Se perdio
-26-27-69-71,1,6,7,2,NA,,35000,falta de agua,Consumo animal
-26-27-69-71,2,6,7,2,NA,,35000,Corte tardio,consumo animal
-26-27-69-71,3,1,1,2,NA,,7000,Falta de agua en el ciclo agricola,consumo animal
-30-09-45-07,1,1,2,2,NA,,12000,Plagas,Para consumo humano y animal
-30-09-45-07,2,1,140,1,NA,,4200,Plagas,Ninguna
-91-07-49-75,1,1,1500,1,NA,,9000,Plagas,Ninguna
-91-07-49-75,2,1,100,1,NA,,3000,Plagas,Ninguna
-85-74-26-32,1,1,500,1,NA,,3000,Plagas,Ninguna
-85-74-26-32,2,1,100,1,NA,,3000,Eventos meteorologicos y plagas,Ninguna
-37-88-95-07,1,1,400,1,NA,,2400,Plagas,Ninguna
-37-88-95-07,2,1,50,1,NA,,1500,Plagas,Ninguna
-42-39-38-14,1,1,3,2,NA,,15000,Falta de agua en el ciclo agricola,Perdida total
-57-16-47-40,1,1,7,2,NA,,35000,Falta de agua y mal manejo,perdida total
-87-91-86-67,1,1,450,1,NA,,36000,Mal manejo de la cosecha,Lo regalo a sus trabajadores
-33-63-61-93,1,1,3,2,NA,,30000,Incidencia de animales,Se tiro
-33-13-84-98,1,1,750,1,NA,,6000,Cosecha tardia en algunas plantas,Lo regalo a sus trabajadores
-25-93-30-37,1,1,260,1,NA,,2080,Corte tardio en algunas plantas,Lo regalo a sus trabajadores
-20-73-96-65,1,1,199,1,NA,,1592,Corte tardio en algunas plantas,Lo regalo a sus trabajadores
-85-53-81-14,1,1,1,2,NA,,5000,Falta de agua en el ciclo agricola,perdida
-75-86-38-58,1,1,566,1,NA,,4528,Cosecha tardia en algunas plantas,Lo regalo a sus trabajadores
-09-04-20-10,1,1,290,1,NA,,1500,La cosecha no se dio por sequia,Ninguno
-09-04-20-10,2,1,280,1,NA,,6000,La cosecha no se dio por sequia,Ninguno
-29-63-55-12,1,1,2000,1,NA,,8000,"se daña en el momento del corte, sobremaduracion",se tira a la basura
-40-17-46-02,1,1,2,5,NA,porcentaje,100003,"daño mecanico, hongos",##N/A##
-40-17-46-02,1,4,1,5,NA,porcentaje,1003,"hongos, bacterias",no se puede saber
-05-35-79-42,1,1,20,2,NA,,26667,"no hay comprador, sobre maduracion",se queda tirado
-55-66-52-68,1,1,250,1,NA,,1000,Mal corteFruta picada,Se tiro
-55-66-52-68,1,2,25,1,NA,,100,Plaga,Se regala Se tira
-72-55-33-89,1,1,1,5,NA,ND,22050,"clima, bajo el precio",Se queda tirada en campo
-28-50-46-54,1,1,1050,2,NA,,5250,madurez no apta,vendedoras minoristas lo acopian
-70-70-31-01,1,1,7500,1,NA,,87500,"Clima,  cansancio",Se queda tirado
-43-53-10-38,1,1,300,5,NA,kilogramos por hectarea,9,"Norte,  robo, sobremaduracion",se queda tirado en el campo
-43-53-10-38,1,2,300,5,NA,kilogramos por hectarea,9,Daño en el manejo,"Se tira,  banco de alimentos"
-43-53-10-38,1,4,150,5,NA,kilogramos por hectarea,9,Problemas de manejo,No puede saber
-16-98-04-24,1,1,10,2,NA,,10000,"Clima,manejo en la siembra",Alimento para cerdos
-79-67-32-20,1,1,300,1,NA,,2800,Mal corte,Se tira
-79-67-32-20,1,2,1800,1,NA,,16800,Mal manejo,"Se regala, y se tira"
-09-70-90-32,1,1,2,2,NA,,0,,
-08-76-82-82,1,1,450,1,NA,,1080,Sobremaduracion,Se tira
-08-76-82-82,1,2,50,1,NA,,250,Mal corte,Se tira
-09-77-80-56,1,1,50,5,NA,40- 50%,14000,Por el clima,Se tira alimento para animales
-31-59-95-66,1,1,40,4,NA,,1200,Sobremaduracion,Se tira
-17-31-25-13,1,5,100,1,NA,,7500,"mal almacenamiento, falta de infraestructura, desconocimiento",como residuo para compostar
-17-31-25-13,2,1,5,5,NA,30 kg,406,la planta no desarrollo y los implementos no se pueden cosechar,"se quedo en la misma parcela, como alimento del ganado"
-09-39-85-34,1,5,800,1,NA,,6400,poco demanda,tirarlo al terreno y regalarlo a la familia
-09-39-85-34,2,5,650,1,NA,,4700,poca demanda,"tirarlo a la parcela, se regala a las familias"
-73-58-37-78,1,1,250,1,NA,,1333,Norte,Se queda tirado
-51-30-77-57,1,1,480,1,NA,,9600,corte tardio,composta
-51-30-77-57,2,1,480,1,NA,,10000,corte tardio,composta
-51-30-77-57,3,1,240,1,NA,,2880,corte tardio,composta
+interview__key,num_prod,pro_c_perdida,cant_per,u_med_per,ha_proceso_perd,otra_u_med_per,cant_mon_per,causa,destino,tipo_prod
+37-34-37-26,1,1,15,2,NA,,37500,plagas,"tiro a la basura, consumo animal",Melon
+31-99-57-96,1,1,7,3,1,,7000,plaga,coyotaje,Melon
+48-86-17-85,1,2,10,2,NA,,30000,proceso muy riguroso de seleccion,reventa,Melon
+21-69-92-61,1,5,2,2,NA,,8000,precio bajo,venta a coyotes,Melon
+97-99-81-42,1,1,30,2,NA,,30000,plagas,"reventa, animales, regalado",Melon
+25-86-07-95,1,2,20,2,NA,,20000,Diferenciacion de sembrado,Consumo Animal,Melon
+51-19-67-64,1,1,4,2,NA,,45000,la variedad no fue la edecuada para la zona,Se regalo para animales,Pepino
+51-19-67-64,1,2,2,2,NA,,20000,Se pudrio por un mal empaquetado,se tiro,Pepino
+47-45-29-99,1,1,6,2,NA,,21000,humedad,"perdida total, chivas, animales",Melon
+47-45-29-99,1,2,4,2,NA,,4000,es de segunda se la compra el coyote mas barata a menos de mitad de precio,consumo humano,Melon
+42-53-88-38,1,1,15,2,NA,,20000,"porque estaba manchado y cuartiado, humedad","chivas domesticas, animales",Melon
+42-53-88-38,1,2,10,2,NA,,5000,"el grande no pasa, el tamaño",revendedores,Melon
+59-44-86-05,1,2,100,1,NA,,1800,tamaño pequeño de la semilla,los regalo,Frijol
+59-44-86-05,2,2,300,1,NA,,5400,tamaño pequeño,los vendio para alimento animal,Garbanzo
+04-18-54-61,1,6,13,2,NA,,49400,falta de lluvia,fue perdida economica,Maiz
+04-18-54-61,2,6,20,2,NA,,66000,falta de lluvia,perdida economica,Sorgo
+04-18-54-61,3,6,20,2,NA,,380000,defecto de planta,tiro a la basura,Esparrago
+04-18-54-61,4,1,500,5,NA,cajas/hectarea,40000,mala calidad del producto,tira a la basura,Lechuga
+04-18-54-61,5,1,35,2,NA,,245000,daño por plaga,tiro a la basura,Brocoli
+04-18-54-61,6,1,500,5,NA,cajas/hectarea,75000,producto enfermo,tiro a la basura,Apio
+04-18-54-61,7,1,9,2,NA,,72000,por plaga de gusano,tiro a la basura,Coliflor
+68-55-62-58,1,1,150,2,NA,,250000,La sequia los maices no dieron el potencial esperado y las plagas aumentaron,Se incorporo a la tierra mediante barbechada,Maiz
+75-87-47-50,1,5,2,2,NA,,9000,la calidad del garbanzo fue mala,Se regalo a la persona que compro el producto final,Garbanzo
+99-55-56-30,1,1,75,2,NA,,3.00E+05,enfermedades y virosis,se tiro,Papaya
+99-55-56-30,2,1,20,2,NA,,1.00E+05,enfermedades y mala seleccion de la semilla,se tiro,Tomate
+99-55-56-30,3,1,50,2,NA,,40000,poca demanda,se tiro,Elote
+50-50-62-56,1,1,30,1,NA,,250,"Ausencia de Agua,plagas",Alimento para animal,Maiz
+74-77-62-54,1,1,3,2,NA,,3000,mal manejo,se dono,Caña de azúcar
+74-77-62-54,1,4,1000,1,NA,,1500,mal manejo,se dono,Caña de azúcar
+74-77-62-54,2,3,50,1,NA,,2000,plagas y mal manejo,se dono,Calabaza pipian
+41-48-62-44,1,5,1000,2,NA,,3.00E+06,problemas fitosanitarios y ambientales,"consumo animal, composta y se dono",Papaya
+40-42-66-97,1,2,280,2,NA,,2.00E+06,maduracion y hongos,se tiro,Papaya
+40-42-66-97,1,5,70,2,NA,,5.00E+05,mal manejo,composta,Papaya
+27-89-11-29,1,1,6,3,1.5,,150000,"plagas, no habia mercado",##N/A##,Chile habanero
+27-89-11-29,2,1,4,3,2,,10000,hongos y nematodos,##N/A##,Sandia
+23-92-41-18,1,6,20,2,NA,,3.00E+06,Sequia extrema,No hubo produccion,Nuez
+35-86-75-68,1,1,4,2,NA,,1600,"se caian los tomates, mal corte, mal manejo de producto",se lo comieron por animales,Tomate variedad maviri
+35-86-75-68,1,2,5,2,NA,,2400,al momento del almacenamiento de aplastaron los tomates y en el empaque se sacaron,se regalo,Tomate variedad maviri
+35-86-75-68,1,4,2,2,NA,,800,al llevarlo al mercado con el movimiento del vehiculo se fueron aplastando,autoconsumo,Tomate variedad maviri
+35-86-75-68,1,5,50,2,NA,,20000,"los productos no se vendian rapido y algunos ya estaban muy maduros, entonces se hecharnos a perder",comida para los animales,Tomate variedad maviri
+57-48-28-02,1,1,601,1,NA,,4808,Corte tardio en algunas plantas,Lo regalo,Jitomate
+53-72-32-99,1,1,2250,1,NA,,18000,Cosecha tardia en algunas plantas,Lo regalo a los trabajadores,Jitomate
+68-69-25-15,1,1,1150,1,NA,,9200,"Enfermedades, inadecuado paquete tecnologico, mal manejo de la cosecha",Regalo a los trabajadores,Jitomate
+06-17-29-37,1,1,300,2,NA,,1600000,Heladas tardias,No se puede recuperar,Trigo
+45-17-13-36,1,1,90,1,NA,,4500,daño de aves,tiro a la basura,Datil
+45-17-13-36,1,2,10,1,NA,,500,seleccion de calidad,tiro a la basura,Datil
+13-89-27-16,1,1,500,1,NA,,2500,Plagas,Para alimento animal,Maiz
+13-89-27-16,2,1,300,1,NA,,7500,sequia,Se perdio,Frijol
+26-27-69-71,1,6,7,2,NA,,35000,falta de agua,Consumo animal,Maiz
+26-27-69-71,2,6,7,2,NA,,35000,Corte tardio,consumo animal,Cebada
+26-27-69-71,3,1,1,2,NA,,7000,Falta de agua en el ciclo agricola,consumo animal,Avena
+30-09-45-07,1,1,2,2,NA,,12000,Plagas,Para consumo humano y animal,Maiz
+30-09-45-07,2,1,140,1,NA,,4200,Plagas,Ninguna,Frijol
+91-07-49-75,1,1,1500,1,NA,,9000,Plagas,Ninguna,Maiz
+91-07-49-75,2,1,100,1,NA,,3000,Plagas,Ninguna,Frijol
+85-74-26-32,1,1,500,1,NA,,3000,Plagas,Ninguna,Maiz
+85-74-26-32,2,1,100,1,NA,,3000,Eventos meteorologicos y plagas,Ninguna,Frijol
+37-88-95-07,1,1,400,1,NA,,2400,Plagas,Ninguna,Maiz
+37-88-95-07,2,1,50,1,NA,,1500,Plagas,Ninguna,Frijol
+42-39-38-14,1,1,3,2,NA,,15000,Falta de agua en el ciclo agricola,Perdida total,Maiz
+57-16-47-40,1,1,7,2,NA,,35000,Falta de agua y mal manejo,perdida total,Maiz
+87-91-86-67,1,1,450,1,NA,,36000,Mal manejo de la cosecha,Lo regalo a sus trabajadores,Jitomate
+33-63-61-93,1,1,3,2,NA,,30000,Incidencia de animales,Se tiro,Rambutan
+33-13-84-98,1,1,750,1,NA,,6000,Cosecha tardia en algunas plantas,Lo regalo a sus trabajadores,Jitomate
+25-93-30-37,1,1,260,1,NA,,2080,Corte tardio en algunas plantas,Lo regalo a sus trabajadores,Jitomate
+20-73-96-65,1,1,199,1,NA,,1592,Corte tardio en algunas plantas,Lo regalo a sus trabajadores,Jitomate
+85-53-81-14,1,1,1,2,NA,,5000,Falta de agua en el ciclo agricola,perdida,Maiz
+75-86-38-58,1,1,566,1,NA,,4528,Cosecha tardia en algunas plantas,Lo regalo a sus trabajadores,Jitomate
+09-04-20-10,1,1,290,1,NA,,1500,La cosecha no se dio por sequia,Ninguno,Maiz
+09-04-20-10,2,1,280,1,NA,,6000,La cosecha no se dio por sequia,Ninguno,Frijol
+29-63-55-12,1,1,2000,1,NA,,8000,"se daña en el momento del corte, sobremaduracion",se tira a la basura,Platano
+40-17-46-02,1,1,2,5,NA,porcentaje,100003,"daño mecanico, hongos",##N/A##,Papaya
+40-17-46-02,1,4,1,5,NA,porcentaje,1003,"hongos, bacterias",no se puede saber,Papaya
+05-35-79-42,1,1,20,2,NA,,26667,"no hay comprador, sobre maduracion",se queda tirado,Mango Tommy Atkins
+55-66-52-68,1,1,250,1,NA,,1000,Mal corteFruta picada,Se tiro,Naranja malta
+55-66-52-68,1,2,25,1,NA,,100,Plaga,Se regala Se tira,Naranja malta
+72-55-33-89,1,1,1,5,NA,ND,22050,"clima, bajo el precio",Se queda tirada en campo,Mango manila
+28-50-46-54,1,1,1050,1,NA,,5250,madurez no apta,vendedoras minoristas lo acopian,Mango manila
+70-70-31-01,1,1,7500,1,NA,,87500,"Clima,  cansancio",Se queda tirado,Mango de manila
+43-53-10-38,1,1,300,5,NA,kilogramos por hectarea,9,"Norte,  robo, sobremaduracion",se queda tirado en el campo,Mango manila
+43-53-10-38,1,2,300,5,NA,kilogramos por hectarea,9,Daño en el manejo,"Se tira,  banco de alimentos",Mango manila
+43-53-10-38,1,4,150,5,NA,kilogramos por hectarea,9,Problemas de manejo,No puede saber,Mango manila
+16-98-04-24,1,1,10,2,NA,,10000,"Clima,manejo en la siembra",Alimento para cerdos,Chayote
+79-67-32-20,1,1,300,1,NA,,2800,Mal corte,Se tira,Limon
+79-67-32-20,1,2,1800,1,NA,,16800,Mal manejo,"Se regala, y se tira",Limon
+09-70-90-32,1,1,2,2,NA,,0,,,Limon persa
+08-76-82-82,1,1,450,1,NA,,1080,Sobremaduracion,Se tira,Ciruelo
+08-76-82-82,1,2,50,1,NA,,250,Mal corte,Se tira,Ciruelo
+09-77-80-56,1,1,50,5,NA,40- 50%,14000,Por el clima,Se tira alimento para animales,Mango manila
+31-59-95-66,1,1,40,4,NA,,1200,Sobremaduracion,Se tira,Chile serrano
+17-31-25-13,1,5,100,1,NA,,7500,"mal almacenamiento, falta de infraestructura, desconocimiento",como residuo para compostar,Chile en conserva
+17-31-25-13,2,1,5,5,NA,30 kg,406,la planta no desarrollo y los implementos no se pueden cosechar,"se quedo en la misma parcela, como alimento del ganado",Frijol negro
+09-39-85-34,1,5,800,1,NA,,6400,poco demanda,tirarlo al terreno y regalarlo a la familia,Pepino
+09-39-85-34,2,5,650,1,NA,,4700,poca demanda,"tirarlo a la parcela, se regala a las familias",Calabacita bola
+73-58-37-78,1,1,250,1,NA,,1333,Norte,Se queda tirado,Mango manila
+51-30-77-57,1,1,480,1,NA,,9600,corte tardio,composta,Jitomate
+51-30-77-57,2,1,480,1,NA,,10000,corte tardio,composta,Brocoli
+51-30-77-57,3,1,240,1,NA,,2880,corte tardio,composta,Limon

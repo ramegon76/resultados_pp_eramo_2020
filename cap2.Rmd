@@ -37,7 +37,7 @@ Por la diferencia que existe entre las variables captadas para las unidades agr�
 
 ### Registro del manejo o la pérdida de productos.
 
-De las 68 unidades de producción agrícola entrevistadas, sólo en 20 de ellas se lleva registro del manejo o pérdidas de los productos.
+De las 68 unidades de producción agrícola entrevistadas, en 20 de ellas se lleva registro del manejo o pérdidas de los productos.
 
 Los procesos en que se llevan a cabo dichos registros se distribuyen del siguiente modo:
 
@@ -148,7 +148,7 @@ barplot(frec1[1:6], ylim=c(0,16),
 main = "Principales cultivos declarados, PP-ERAMO 2021",
 xlab = "",
 ylab = "Frec",
-names.arg = c("Maiz", "Jitomate", "Mango", "Frijol", "Melón", "Papaya"),
+names.arg = c("Maiz", "Jitomate", "Mango", "Frijol", "Melon", "Papaya"),
 border="red",
 col="blue",
 density=15)
@@ -157,8 +157,7 @@ density=15)
 
 <br>
 
-Como dato complementario, en 74 registros (83%) se declaró que se trata de productos para consumo humano
-en forma exclusiva, en otros 3 para consumo animal y en 10 casos para ambos tipos de consumo. Un registro no especificó esta respuesta.
+Como dato complementario, en 74 registros (83%) se declaró que se trata de productos para consumo humano en forma exclusiva, en otros 3 para consumo animal y en 10 casos para ambos tipos de consumo. Un registro no especificó esta respuesta.
 
 <br>
 <br>
@@ -174,10 +173,10 @@ En este caso, a efecto de simplificar, se toman los productos de la gráfica ant
 
 prod_agri <- read.csv("base_de_datos/agropecuario/productos_agricolas.csv")
 
-prods_princ_med <- which((prod_agri$tipo_prod == "Maíz" | prod_agri$tipo_prod == "Jitomate" |
+prods_princ_med <- which((prod_agri$tipo_prod == "Maiz" | prod_agri$tipo_prod == "Jitomate" |
                             prod_agri$tipo_prod == "Mango manila" | 
                             prod_agri$tipo_prod == "Frijol" |
-                            prod_agri$tipo_prod == "Melón") &
+                            prod_agri$tipo_prod == "Melon") &
                            prod_agri$u_cosecha_anual %in% c(1,2)) 
 
 Cultivos <- as.factor(prod_agri$tipo_prod[prods_princ_med])
@@ -199,16 +198,16 @@ fig1 %>% layout(title = "Toneladas cosechadas por tipo de cultivo")
 
 <br>
 
-Otros datos que se captaron y que deberían servir para corroborar el dato anterior, es el de la cosecha estimada (la que se esperaba obtener, en color azul) y la cosecha final (la que se obtuvo efectivamente, en color naranja). 
+Otros datos que se captaron son los de la cosecha estimada (la que se esperaba obtener, en color azul) y la cosecha final (la que se obtuvo efectivamente, en color naranja). 
 
 <br>
 
 ```{r echo = FALSE, message = FALSE, fig.height= 5, fig.width= 8, warning = FALSE, cache=F}
 
-prods_princ_med <- which((prod_agri$tipo_prod == "Maíz" | prod_agri$tipo_prod == "Jitomate" |
+prods_princ_med <- which((prod_agri$tipo_prod == "Maiz" | prod_agri$tipo_prod == "Jitomate" |
                             prod_agri$tipo_prod == "Mango manila" | 
                             prod_agri$tipo_prod == "Frijol" |
-                            prod_agri$tipo_prod == "Melón") &
+                            prod_agri$tipo_prod == "Melon") &
                            prod_agri$u_cosecha_anual %in% c(1,2)) 
 
 Cultivos <- prod_agri$tipo_prod[prods_princ_med]
@@ -232,7 +231,7 @@ fig1b <- plot_ly(data = datos1b, x = ~Cultivos, y = ~Final,
 
 subplot(list(fig1a, fig1b), shareY = T, shareX = F, titleX = F, titleY = F) %>% 
   layout(showlegend = F) %>% layout(title = "Toneladas por tipo de cultivo
-                   Azul = Estimadas, Naranja = Finales")
+             Azul = Estimadas, Naranja = Finales")
 
 ```
 
@@ -268,48 +267,42 @@ density=15)
 
 ### Pérdidas
 
-Se hace complicado mostrar este dato debido a la gran variabilidad de pérdidas declaradas para algunos cultivos. Para tratar de mostrar esta variabilidad, a continuación se presenta un boxplot para los cultivos con declaración más frecuente de pérdidas. 
+Existe una gran variabilidad de pérdidas declaradas por la naturaleza de los cultivos. Para tratar de mostrar esta variabilidad, a continuación se presenta un boxplot las pérdidas por tipo de cultivo. 
 
 <br>
 
 ```{r echo = FALSE, message = FALSE, fig.height= 5, fig.width= 8, warning = FALSE, cache=F}
 
-prod_perd <- read.csv("base_de_datos/agropecuario/consulta2.csv")
+prod_perd <- read.csv("base_de_datos/agropecuario/perdidas_prod_agricolas.csv")
 
-prods_princ_perd <- which((prod_perd$tipo_prod == "Maiz" | prod_perd$tipo_prod == "Melon" |
-                             prod_perd$tipo_prod == "Jitomate" | 
-                             prod_perd$tipo_prod == "Mango manila" |
-                             prod_perd$tipo_prod == "Frijol" | 
-                             prod_perd$tipo_prod == "Papaya" |
-                             prod_perd$tipo_prod == "Tomate variedad maviri" | 
-                             prod_perd$tipo_prod == "Pepino" |
-                             prod_perd$tipo_prod == "Brocoli") &
-                            prod_perd$u_med_per %in% c(1,2))
+prods_princ_perd <- which(prod_perd$u_med_per %in% c(1:3))
 
 Cultivos <- as.factor(prod_perd$tipo_prod[prods_princ_perd])
 perd <- prod_perd$cant_per[prods_princ_perd]
+perd2 <- prod_perd$cant_per[prods_princ_perd]*prod_perd$ha_proceso_perd[prods_princ_perd]
 unidadp <- prod_perd$u_med_per[prods_princ_perd]
-Tons <- ifelse(unidadp == 1, perd/1000, perd)
+Tons <- ifelse(unidadp == 1, perd/1000, ifelse(unidadp == 2, perd, perd2))
+
 
 datos4 <- data.frame(Cultivos,Tons)
 
 fig3 <- plot_ly(data = datos4, x = ~Cultivos, y = ~Tons, type = "box")
-fig3 %>% layout(title = "Toneladas perdidas de los cultivos más declarados con pérdidas")
+fig3 %>% layout(title = "Toneladas perdidas por tipo de cultivo")
 
 
 ```
 
 <br>
 
-Si excluimos a los cultivos de papaya y mango manila, así como **un sólo caso de pérdida de trigo de 300 toneladas**, podemos obtener una gráfica más homogénea:
+Si excluimos de la gráfica anterior los cultivos de papaya, trigo y maiz, podemos obtener una gráfica más homogénea para el resto de los productos:
 
 <br>
 
 ```{r echo = FALSE, message = FALSE, fig.height= 5, fig.width= 8, warning = FALSE, cache=F}
 
 prods_princ_perd <- which(prod_perd$u_med_per %in% c(1:3) & 
-                            !(prod_perd$tipo_prod %in% c("Papaya","Mango manila",
-                                                         "Trigo")))
+                            !(prod_perd$tipo_prod %in% c("Papaya",
+                                                         "Trigo", "Maiz")))
 
 Cultivos <- as.factor(prod_perd$tipo_prod[prods_princ_perd])
 perd <- prod_perd$cant_per[prods_princ_perd]
@@ -326,53 +319,30 @@ fig4 %>% layout(title = "Toneladas perdidas por tipo de cultivo")
 
 <br>
 
-Dados estos resultados, calculamos ahora la pérdida en términos porcentuales respecto a la cosecha anual, para observar en términos relativos si se muestra alguna tendencia.
+
+<br>
+
+En lo que respecta al dinero perdido, aún con las limitaciones conceptuales que contiene la variable, se puede hacer una estimación gruesa de las pérdidas económicas derivadas para este conjunto de datos por tipo y cantidad de cultivo, lo que puede dar alguna idea del monto  involucrado en el fenómeno. Se muestra a continuación, la distribución por tipo de cultivo. Se excluye la nuez con una pérdida de \$150,000/ton, a efecto de no distorsionar demasiado la gráfica.
 
 <br>
 
 ```{r echo = FALSE, message = FALSE, fig.height= 5, fig.width= 8, warning = FALSE, cache=F}
 
 prods_princ_perd <- which(prod_perd$u_med_per %in% c(1:3) & 
-                            prod_perd$u_cosecha_anual %in% c(1,2))
+                            prod_perd$tipo_prod != "Nuez")
 
 Cultivos <- as.factor(prod_perd$tipo_prod[prods_princ_perd])
 
 perd <- prod_perd$cant_per[prods_princ_perd]
 perd2 <- prod_perd$cant_per[prods_princ_perd]*prod_perd$ha_proceso_perd[prods_princ_perd]
 unidadp <- prod_perd$u_med_per[prods_princ_perd]
-Perdida <- ifelse(unidadp == 1, perd/1000, ifelse(unidadp == 2, perd, perd2))
+Tons <- ifelse(unidadp == 1, perd/1000, ifelse(unidadp == 2, perd, perd2))
+Pesos <- prod_perd$cant_mon_per[prods_princ_perd]/Tons
 
-cant_cos <- prod_perd$cosecha_anual[prods_princ_perd]
-unidadc <- prod_perd$u_cosecha_anual[prods_princ_perd]
-cos_anual <- ifelse(unidadc == 1, cant_cos/1000, cant_cos)
-
-Porcentaje <- round(Perdida/cos_anual*100,0)
-Porcentaje <- Porcentaje[-c(45,47,48,55,56)]
-Cultivos <- Cultivos[-c(45,47,48,55,56)]
-
-datos6 <- data.frame(Cultivos,Porcentaje)
-
-fig4 <- plot_ly(data = datos6, 
-                x = ~Cultivos, 
-                y = ~Porcentaje, type = "box")
-fig4 %>% layout(title = "Porcentaje de pérdidas por tipo de cultivo")
-
-```
-
-<br>
-
-En lo que respecta al dinero perdido, si bien sabemos que no es posible utilizarlo como una variable confiable dadas las diferencias por las variaciones temporales (inflación), así como por las limitaciones conceptuales alrededor de su captación, se puede hacer una estimación gruesa de las pérdidas económicas derivadas para este conjunto de datos, que pueden dar alguna idea del monto real involucrado en el fenómeno. Se muestra a continuación, la distribución por tipo de cultivo.
-
-<br>
-
-```{r echo = FALSE, message = FALSE, fig.height= 5, fig.width= 8, warning = FALSE, cache=F}
-
-Cultivos <- as.factor(prod_perd$tipo_prod)
-Pesos <- prod_perd$cant_mon_per
 datos5 <- data.frame(Cultivos,Pesos) 
 
 fig5 <- plot_ly(data = datos5, x = ~Cultivos, y = ~Pesos, type = "box")
-fig5 %>% layout(title = "Valor de las pérdidas por tipo de cultivo")
+fig5 %>% layout(title = "Valor de las pérdidas por tonelada y tipo de cultivo")
 
 ```
 
@@ -658,13 +628,13 @@ density=15)
 
 ### Pérdidas
 
-De forma específica destaca la pérdida declarada de 420,000 unidades de tilapia por parte de la unidad de producción que antes se mencionó, lo que equivale al 10% de su producción.
+De forma específica destaca la pérdida declarada de 420,000 unidades de tilapia por parte de la unidad de producción que antes se mencionó.
 
-En el caso de las unidades de producción de ganado bovino, se declararon pérdidas acumuladas de 19 cabezas, que representan un 39.5% de la producción anual de dichas unidades.
+En el caso de las unidades de producción de ganado bovino, se declararon pérdidas acumuladas de 19 cabezas.
 
-Las unidades productoras de ovinos reportaron pérdidas acumuladas de 50 cabezas, el 22% de su producción anual.
+Las unidades productoras de ovinos reportaron pérdidas acumuladas de 50 cabezas.
 
-**El monto acumulado de las pérdidas declaradas en términos monetarios, de los 25 casos descritos, fue de \$568,900.** Por supuesto, se debe entender que esta estimación tiene deficiencias en lo conceptual, pero se presenta como un dato adicional, a efecto de dimensionar el problema económico que la pérdida representa.
+**El monto acumulado de las pérdidas declaradas en términos monetarios, de los 25 casos descritos, fue de \$568,900.** Por supuesto, se debe entender que esta estimación está muy limitada por el número de unidades captadas, pero se presenta como un dato adicional, a efecto de dimensionar el problema económico que la pérdida representa.
 
 <br>
 
