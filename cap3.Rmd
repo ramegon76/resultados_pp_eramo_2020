@@ -25,11 +25,734 @@ Con estos datos se construyen los siguientes indicadores y gráficos.
 <br>
 
 
-En el caso de los establecimientos o unidades económicas relacionadas con el sector alimentario, se lograron 183 entrevistas completas, de los que se tiene un total de 517 productos declarados, con un total de 345 productos en los que se declaró alguna pérdida.
-
+En el caso de los establecimientos o unidades económicas relacionadas con el sector alimentario, se lograron 180 establecimientos con entrevistas completas, de los que se tiene un total de 515 productos declarados, con un total de 345 productos en los que se declaró alguna pérdida.
 
 
 <br>
+
+## Establecimientos
+
+<br>
+<br>
+
+### Tamaño de los establecimientos 
+
+La distribución de los establecimientos entrevistados por tamaño fue la siguiente:
+
+
+```{r echo = FALSE, message = FALSE, fig.height= 6, fig.width= 8, warning = FALSE, cache=F}
+
+
+frec5 <- c(143,19,13,5)
+
+barplot(frec5, ylim=c(0,160),
+main = "Tamaño de los establecimientos entrevistados",
+xlab = "",
+ylab = "Frec",
+names.arg = c("0 a 5 pers", "6 a 10 pers", "11 a 30 pers", "31 a 50 pers"),
+border="red",
+col="blue",
+density=15)
+
+```
+
+<br>
+
+Con mayoría de establecimientos pequeños.
+
+<br>
+<br>
+
+### Tipo de Consumo, Mercado y Origen de los productos
+
+En 153 de los 180 establecimientos entrevistados se declaró que sus productos son para consumo humano, 2 declararon que son para consumo animal, y 25 para ambos tipos de consumo.
+
+En lo que corresponde al mercado al que se orientan sus ventas o servicios, 169 declararon como destino exclusivo el mercado nacional minorista, 8 exclusivamente al mercado nacional mayorista, 2 con ventas o servicios a ambos tipos de mercado nacional, y 1 establecimiento que al mercado nacional, suma también el extranjero.
+
+En el caso del origen de los alimentos que se comercializan, la mayoría de los establecimientos vende o presta servicios de alimentos de origen nacional.
+
+
+```{r echo = FALSE, message = FALSE, fig.height= 6, fig.width= 8, warning = FALSE, cache=F}
+
+frec6 <- c(136,1,43)
+labels6 <- c("Nacional", "Extranjero", "Ambos")
+lbls <- paste(labels6,",", frec6)
+
+
+pie(frec6, labels = lbls, col=sample(rainbow(length(lbls))),
+    main="Origen de los alimentos en los establecimientos entrevistados", explode=0.1)
+
+```
+
+<br>
+<br>
+
+### Registros de pérdidas o desperdicios
+
+En cuanto a la pregunta relacionada con la costumbre de llevar registros de las pérdidas o desperdicios del establecimiento, las respuestas tuvieron las siguientes frecuencias:
+
+
+```{r echo = FALSE, message = FALSE, fig.height= 6, fig.width= 8, warning = FALSE, cache=F}
+
+frec7 <- c(38,133,9)
+labels7 <- c("Sí lleva registro", "No lleva registro", "No está seguro")
+lbls <- paste(labels7,",", frec7)
+
+
+pie(frec7, labels = lbls, col=sample(rainbow(length(lbls))),
+    main="Establecimientos entrevistados que llevan registros de pérdidas", 
+    explode=0.1)
+
+```
+
+Respecto a la forma de registro, 4 de ellos declararon llevar registro en Excel, mientras 27 de ellos declaran llevar una bitácora, libro o cuaderno de registro, y 5 más mediante reportes, notas o inventarios.
+
+<br>
+<br>
+
+
+### Bancos de alimentos y redes alimentarias alternativas
+
+Los resultados del sondeo en estas preguntas fueron los siguientes:
+
+```{r echo = FALSE, message = FALSE, fig.height= 6, fig.width= 8, warning = FALSE, cache=F}
+
+frec8 <- c(59,121)
+labels8 <- c("Sí Conoce", 
+             "No Conoce")
+lbls <- paste(labels8,",", frec8)
+
+
+pie(frec8, labels = lbls, col=sample(rainbow(length(lbls))),
+    main="Conocimiento sobre Bancos de Alimentos", 
+    explode=0.1)
+
+```
+
+<br>
+
+
+```{r echo = FALSE, message = FALSE, fig.height= 6, fig.width= 8, warning = FALSE, cache=F}
+
+frec9 <- c(30,150)
+labels9 <- c("Sí Conoce", 
+             "No Conoce")
+lbls <- paste(labels9,",", frec9)
+
+
+pie(frec9, labels = lbls, col=sample(rainbow(length(lbls))),
+    main="Conocimiento de Redes Alimentarias Alternativas", 
+    explode=0.1)
+
+```
+
+
+<br>
+<br>
+
+### Temas relacionados con la PDA en México
+
+Se le preguntó al informante, si ha escuchado o tiene conocimiento sobre campañas para reducir la pérdida o desperdicio de alimentos; sobre la NOM-251-SSA1-2009, que establece requisitos mínimos de buenas prácticas de higiene a observarse en el proceso de alimentos, bebidas, suplementos alimenticios y sus materias primas a fin de evitar su contaminación a lo largo de su proceso; y acerca del distintivo H, que es un reconocimiento que otorgan la Secretaría de Turismo y la Secretaría de Salud, a los establecimientos fijos de alimentos y bebidas por cumplir con los estándares de higiene que marca la Norma Mexicana NMXF605 NORMEX 2015.
+
+Los resultados de estas preguntas se resumen en el siguiente cuadro.
+
+
+| **Tema** | **Establecimientos donde conocen del tema** | **Establecimientos donde no conocen del tema** |
+|:----------|----:|-----:|
+|Campañas para reducir la pérdida o desperdicio de alimentos | 43 (24%) | 137 (76%) |
+|NOM-251-SSA1-2009 | 69  (38%) | 111 (62%) |
+| Distintivo H | 62 (34%) | 118 (66%) |
+
+<br>
+<br>
+
+
+
+### Tipo de productos declarados
+
+Dado que los productos se captaron en una variable abierta, conviene hacer un análisis de textos para conocer el comportamiento y frecuencia de las respuestas.
+
+```{r wc1, echo = FALSE, message = FALSE, fig.height= 8, fig.width= 8, warning = FALSE, cache=F}
+
+### Paquetes necesarios:
+library("tm")
+library("SnowballC")
+library("wordcloud")
+library("RColorBrewer")
+
+# Se lee el archivo txt:
+filePath <- "archivos/prods_estab.txt"
+text <- readLines(filePath,encoding="UTF-8")     #Leemos el archivo
+text = iconv(text, to="ASCII//TRANSLIT") # Convert Character Vector between Encodings
+corpus <- Corpus(VectorSource(text)) # formato de texto
+# llevamos a minúsculas
+d  <- tm_map(corpus, tolower)
+# quitamos espacios en blanco
+d  <- tm_map(d, stripWhitespace)
+# quitamos la puntuación
+d <- tm_map(d, removePunctuation)
+# quitamos los números
+d <- tm_map(d, removeNumbers)
+
+#Un comando útil es quitar la palabras genéricas, la paquetería “tm” tiene un grupo de palabras. Para verlas:
+# stopwords("spanish")
+# Importante: “stopwords(”spanish“)” es un vector, se puede ampliar y actualizar de forma personalizada.
+
+# remueve palabras vacías genericas
+d <- tm_map(d, removeWords, stopwords("spanish"))
+
+
+##### Conteo: 
+
+# Una vez “limpio” el texto, tenemos que pasarlo a un formato de base de datos.
+tdm <- TermDocumentMatrix(d)
+
+# Encontramos sus asociaciones;
+frecuentes<-findFreqTerms(tdm, lowfreq=20) # el parámetro lowfreq fija el umbral de frecuencia deseado
+# findAssocs(tdm, frecuentes, 0.45)  # se determinan las asociaciones
+
+
+##### Sumarización:
+
+m <- as.matrix(tdm)                            # lo vuelve una matriz
+v <- sort(rowSums(m),decreasing=TRUE)          # lo ordena y suma
+df <- data.frame(word = names(v),freq=v)       # lo nombra y hace data.frame
+
+# Y se hace la nube de palabras: 
+
+wordcloud(words = df$word, freq = df$freq, min.freq = 5,
+          max.words=100, random.order=FALSE, rot.per=0.35, 
+          colors=brewer.pal(8, "Dark2"))
+
+```
+
+Los productos con mayor frecuencia declarada se detallan en la siguiente gráfica.
+
+```{r echo = FALSE, message = FALSE, fig.height= 6, fig.width= 8, warning = FALSE, cache=F}
+
+
+frec05 <- df$freq[1:9]
+
+barplot(frec05, ylim=c(0,40),
+main = "Productos más declarados en establecimientos",
+xlab = "",
+ylab = "Frec",
+names.arg = df$word[1:9],
+border="red",
+col="blue",
+density=15)
+
+```
+
+
+<br>
+<br>
+
+
+
+## Pérdidas o desperdicios
+
+<br>
+<br>
+ 
+### Cantidad de los productos vendidos
+
+Para poder visualizar las cantidades vendidas fue necesario agrupar los productos declarados por tipo.
+
+De este modo, es posible esbozar la siguiente gráfica de los tipos de alimentos más frecuentes declarados en los establecimientos.
+
+```{r echo = FALSE, message = FALSE, fig.height= 6, fig.width= 8, warning = FALSE, cache=F}
+
+
+prod_estab <- read.csv("archivos/productos_estab.csv")
+
+prods_princ <- which((prod_estab$Productos_genericos == "Quesos" | 
+                        prod_estab$Productos_generico == "Pollo" |
+                        prod_estab$Productos_generico == "Comida preparada" | 
+                        prod_estab$Productos_generico == "Carnes frías y embutidos" |
+                        prod_estab$Productos_generico == "Carne de res" | 
+                        prod_estab$Productos_generico == "Jitomate" |
+                        prod_estab$Productos_generico == "Tomate" | 
+                        prod_estab$Productos_generico == "Cebolla" |
+                        prod_estab$Productos_generico == "Carne de cerdo" | 
+                        prod_estab$Productos_generico == "Papa" | 
+                        prod_estab$Productos_generico == "Tortillas" |
+                        prod_estab$Productos_generico == "Huevo" | 
+                        prod_estab$Productos_generico == "Limón" | 
+                        prod_estab$Productos_generico == "Lechuga" |
+                        prod_estab$Productos_generico == "Aguacate" | 
+                        prod_estab$Productos_generico == "Naranja" |
+                        prod_estab$Productos_generico == "Pescados y mariscos" |
+                        prod_estab$Productos_generico == "Zanahoria" |
+                        prod_estab$Productos_generico == "Plátano") &
+                       prod_estab$u_prom_men %in% c(1,2)) 
+
+Producto <- as.factor(prod_estab$Productos_genericos[prods_princ])
+cant <- prod_estab$prom_men[prods_princ]
+unidad <- prod_estab$u_prom_men[prods_princ]
+Tons <- ifelse(unidad == 1, cant/1000, cant)
+
+datos1 <- data.frame(Producto,Tons)
+
+
+library(plotly)
+
+fig1 <- plot_ly(data = datos1, x = ~Producto, y = ~Tons, type = "box")
+fig1 %>% layout(title = "Cantidad de producto vendido al mes (Toneladas)")
+
+```
+
+
+<br>
+
+<br>
+
+### Cantidades perdidas
+
+Del mismo modo, se puede dibujar la gráfica de **cantidades perdidas** por mes, para el mismo conjunto genérico de productos.
+
+<br>
+
+```{r echo = FALSE, message = FALSE, fig.height= 6, fig.width= 8, warning = FALSE, cache=F}
+
+
+prods_princ <- which((prod_estab$Productos_genericos == "Quesos" | 
+                        prod_estab$Productos_generico == "Pollo" |
+                        prod_estab$Productos_generico == "Comida preparada" | 
+                        prod_estab$Productos_generico == "Carnes frías y embutidos" |
+                        prod_estab$Productos_generico == "Carne de res" | 
+                        prod_estab$Productos_generico == "Jitomate" |
+                        prod_estab$Productos_generico == "Tomate" | 
+                        prod_estab$Productos_generico == "Cebolla" |
+                        prod_estab$Productos_generico == "Carne de cerdo" | 
+                        prod_estab$Productos_generico == "Papa" | 
+                        prod_estab$Productos_generico == "Tortillas" |
+                        prod_estab$Productos_generico == "Huevo" | 
+                        prod_estab$Productos_generico == "Limón" | 
+                        prod_estab$Productos_generico == "Lechuga" |
+                        prod_estab$Productos_generico == "Aguacate" | 
+                        prod_estab$Productos_generico == "Naranja" |
+                        prod_estab$Productos_generico == "Pescados y mariscos" |
+                        prod_estab$Productos_generico == "Zanahoria" |
+                        prod_estab$Productos_generico == "Plátano") &
+                       prod_estab$u_perdida_prod %in% c(1,2)) 
+
+Producto <- as.factor(prod_estab$Productos_genericos[prods_princ])
+cant <- prod_estab$perdida_prod[prods_princ]
+unidad <- prod_estab$u_perdida_prod[prods_princ]
+kg <- ifelse(unidad == 1, cant, cant*1000)
+
+datos1 <- data.frame(Producto,kg)
+
+
+library(plotly)
+
+fig1 <- plot_ly(data = datos1, x = ~Producto, y = ~kg, type = "box")
+fig1 %>% layout(title = "Cantidad de producto perdido al mes (kg)")
+
+```
+
+<br>
+
+
+Aunque existen muchas consideraciones para construir adecuadamente una estimación de porcentaje de pérdidas, se puede esbozar una gráfica del cociente de la cantidad perdida respecto a la cantidad vendida o manejada por el establecimiento durante un mes, por tipo de producto: 
+
+<br>
+
+```{r echo = FALSE, message = FALSE, fig.height= 6, fig.width= 8, warning = FALSE, cache=F}
+
+
+prods_princ <- which((prod_estab$Productos_genericos == "Quesos" | 
+                        prod_estab$Productos_generico == "Pollo" |
+                        prod_estab$Productos_generico == "Comida preparada" | 
+                        prod_estab$Productos_generico == "Carnes frías y embutidos" |
+                        prod_estab$Productos_generico == "Carne de res" | 
+                        prod_estab$Productos_generico == "Jitomate" |
+                        prod_estab$Productos_generico == "Tomate" | 
+                        prod_estab$Productos_generico == "Cebolla" |
+                        prod_estab$Productos_generico == "Carne de cerdo" | 
+                        prod_estab$Productos_generico == "Papa" | 
+                        prod_estab$Productos_generico == "Tortillas" |
+                        prod_estab$Productos_generico == "Huevo" | 
+                        prod_estab$Productos_generico == "Limón" | 
+                        prod_estab$Productos_generico == "Lechuga" |
+                        prod_estab$Productos_generico == "Aguacate" | 
+                        prod_estab$Productos_generico == "Naranja" |
+                        prod_estab$Productos_generico == "Pescados y mariscos" |
+                        prod_estab$Productos_generico == "Zanahoria" |
+                        prod_estab$Productos_generico == "Plátano") &
+                       prod_estab$u_perdida_prod %in% c(1,2) &
+                       prod_estab$u_prom_men %in% c(1,2)) 
+
+Producto <- as.factor(prod_estab$Productos_genericos[prods_princ])
+cant1 <- prod_estab$perdida_prod[prods_princ]
+cant2 <- prod_estab$prom_men[prods_princ]
+unidad1 <- prod_estab$u_perdida_prod[prods_princ]
+unidad2 <- prod_estab$u_prom_men[prods_princ]
+kg1 <- ifelse(unidad1 == 1, cant1, cant1*1000)
+kg2 <- ifelse(unidad2 == 1, cant2, cant2*1000)
+Porcentaje <- kg1/kg2*100
+
+datos1 <- data.frame(Producto,Porcentaje)
+
+
+library(plotly)
+
+fig1 <- plot_ly(data = datos1, x = ~Producto, y = ~Porcentaje, type = "box")
+fig1 %>% layout(title = "Porcentaje del producto perdido al mes respecto a la cantidad vendida")
+
+
+
+```
+
+
+<br>
+
+
+Respecto al monto estimado de dinero perdido (estimación hecha por el propio informante), se presenta el mismo tipo de desglose para los productos más frecuentes.
+
+<br>
+
+```{r echo = FALSE, message = FALSE, fig.height= 6, fig.width= 8, warning = FALSE, cache=F}
+
+prods_princ <- which((prod_estab$Productos_genericos == "Quesos" | 
+                        prod_estab$Productos_generico == "Pollo" |
+                        prod_estab$Productos_generico == "Comida preparada" | 
+                        prod_estab$Productos_generico == "Carnes frías y embutidos" |
+                        prod_estab$Productos_generico == "Carne de res" | 
+                        prod_estab$Productos_generico == "Jitomate" |
+                        prod_estab$Productos_generico == "Tomate" | 
+                        prod_estab$Productos_generico == "Cebolla" |
+                        prod_estab$Productos_generico == "Carne de cerdo" |
+                        prod_estab$Productos_generico == "Pan" | 
+                        prod_estab$Productos_generico == "Papa" | 
+                        prod_estab$Productos_generico == "Tortillas" |
+                        prod_estab$Productos_generico == "Huevo" | 
+                        prod_estab$Productos_generico == "Lácteos" | 
+                        prod_estab$Productos_generico == "Limón" | 
+                        prod_estab$Productos_generico == "Lechuga" |
+                        prod_estab$Productos_generico == "Aguacate" | 
+                        prod_estab$Productos_generico == "Naranja" |
+                        prod_estab$Productos_generico == "Pescados y mariscos" |
+                        prod_estab$Productos_generico == "Zanahoria" |
+                        prod_estab$Productos_generico == "Plátano" |
+                        prod_estab$Productos_generico == "Manzana" |
+                        prod_estab$Productos_generico == "Refrescos") &
+                       prod_estab$din_perd > 0) 
+
+Producto <- as.factor(prod_estab$Productos_genericos[prods_princ])
+Miles_de_Pesos <- as.numeric(prod_estab$din_perd[prods_princ])/1000
+
+
+datos1 <- data.frame(Producto,Miles_de_Pesos)
+
+
+library(plotly)
+
+fig1 <- plot_ly(data = datos1, x = ~Producto, y = ~Miles_de_Pesos, type = "box")
+fig1 %>% layout(title = "Pérdidas económicas estimadas por el informante, por tipo de producto")
+
+
+
+```
+
+<br>
+
+O bien, pueden estimarse las pérdidas económicas por kg de producto (se excluyen algunas categorías por discrepancias en las unidades declaradas, por ejemplo, litros, piezas, etc.):
+
+<br>
+
+```{r echo = FALSE, message = FALSE, fig.height= 6, fig.width= 8, warning = FALSE, cache=F}
+
+prods_princ <- which((  prod_estab$Productos_generico == "Pollo" |
+                        prod_estab$Productos_generico == "Comida preparada" | 
+                        prod_estab$Productos_generico == "Carnes frías y embutidos" |
+                        prod_estab$Productos_generico == "Carne de res" | 
+                        prod_estab$Productos_generico == "Jitomate" |
+                        prod_estab$Productos_generico == "Tomate" | 
+                        prod_estab$Productos_generico == "Cebolla" |
+                        prod_estab$Productos_generico == "Carne de cerdo" |
+                        prod_estab$Productos_generico == "Papa" | 
+                        prod_estab$Productos_generico == "Tortillas" |
+                        prod_estab$Productos_generico == "Huevo" | 
+                        prod_estab$Productos_generico == "Limón" | 
+                        prod_estab$Productos_generico == "Lechuga" |
+                        prod_estab$Productos_generico == "Aguacate" | 
+                        prod_estab$Productos_generico == "Naranja" |
+                        prod_estab$Productos_generico == "Pescados y mariscos" |
+                        prod_estab$Productos_generico == "Zanahoria" |
+                        prod_estab$Productos_generico == "Plátano" |
+                        prod_estab$Productos_generico == "Manzana") &
+                       prod_estab$din_perd > 0 &
+                       prod_estab$u_perdida_prod %in% c(1,2)) 
+
+Producto <- as.factor(prod_estab$Productos_genericos[prods_princ])
+
+perd <- prod_estab$perdida_prod[prods_princ]
+unidadp <- prod_estab$u_perdida_prod[prods_princ]
+kgs <- ifelse(unidadp == 1, perd, perd*1000)
+Pesos <- as.numeric(prod_estab$din_perd[prods_princ])/kgs
+
+datos1 <- data.frame(Producto,Pesos)
+
+
+library(plotly)
+
+fig1 <- plot_ly(data = datos1, x = ~Producto, y = ~Pesos, type = "box")
+fig1 %>% layout(title = "Pérdidas económicas por kilogramo y tipo de producto")
+
+
+
+```
+
+
+<br>
+
+El monto total de los 340 productos sobre los que se estimaron pérdidas económicas asciende a $1,025,505.
+
+<br>
+
+<br>
+
+### Pérdidas comestibles
+
+Por otra parte, se tiene la cantidad de producto perdido que aún era comestible. Su distribución es la siguiente:
+
+<br>
+
+
+```{r echo = FALSE, message = FALSE, fig.height= 6, fig.width= 8, warning = FALSE, cache=F}
+
+
+prods_princ <- which((prod_estab$Productos_genericos == "Quesos" | 
+                        prod_estab$Productos_generico == "Pollo" |
+                        prod_estab$Productos_generico == "Comida preparada" | 
+                        prod_estab$Productos_generico == "Carnes frías y embutidos" |
+                        prod_estab$Productos_generico == "Carne de res" | 
+                        prod_estab$Productos_generico == "Jitomate" |
+                        prod_estab$Productos_generico == "Tomate" | 
+                        prod_estab$Productos_generico == "Cebolla" |
+                        prod_estab$Productos_generico == "Carne de cerdo" | 
+                        prod_estab$Productos_generico == "Papa" | 
+                        prod_estab$Productos_generico == "Tortillas" |
+                        prod_estab$Productos_generico == "Huevo" | 
+                        prod_estab$Productos_generico == "Limón" | 
+                        prod_estab$Productos_generico == "Lechuga" |
+                        prod_estab$Productos_generico == "Aguacate" | 
+                        prod_estab$Productos_generico == "Naranja" |
+                        prod_estab$Productos_generico == "Pescados y mariscos" |
+                        prod_estab$Productos_generico == "Zanahoria" |
+                        prod_estab$Productos_generico == "Plátano") &
+                       prod_estab$u_comestible %in% c(1,2)) 
+
+Producto <- as.factor(prod_estab$Productos_genericos[prods_princ])
+cant <- as.numeric(prod_estab$comestible[prods_princ])
+unidad <- prod_estab$u_comestible[prods_princ]
+kg <- ifelse(unidad == 1, cant, cant*1000)
+
+datos1 <- data.frame(Producto,kg)
+
+
+library(plotly)
+
+fig1 <- plot_ly(data = datos1, x = ~Producto, y = ~kg, type = "box")
+fig1 %>% layout(title = "Cantidad de producto perdido que aún era comestible (kg)")
+
+```
+
+<br>
+
+Se puede tener también un dato relativo de lo comestible respecto a la cantidad perdida:
+
+<br>
+
+```{r echo = FALSE, message = FALSE, fig.height= 6, fig.width= 8, warning = FALSE, cache=F}
+
+
+prods_princ <- which((prod_estab$Productos_genericos == "Quesos" | 
+                        prod_estab$Productos_generico == "Pollo" |
+                        prod_estab$Productos_generico == "Comida preparada" | 
+                        prod_estab$Productos_generico == "Carnes frías y embutidos" |
+                        prod_estab$Productos_generico == "Carne de res" | 
+                        prod_estab$Productos_generico == "Jitomate" |
+                        prod_estab$Productos_generico == "Tomate" | 
+                        prod_estab$Productos_generico == "Cebolla" |
+                        prod_estab$Productos_generico == "Carne de cerdo" | 
+                        prod_estab$Productos_generico == "Papa" | 
+                        prod_estab$Productos_generico == "Tortillas" |
+                        prod_estab$Productos_generico == "Huevo" | 
+                        prod_estab$Productos_generico == "Limón" | 
+                        prod_estab$Productos_generico == "Lechuga" |
+                        prod_estab$Productos_generico == "Aguacate" | 
+                        prod_estab$Productos_generico == "Naranja" |
+                        prod_estab$Productos_generico == "Pescados y mariscos") &
+                       prod_estab$u_comestible %in% c(1,2) &
+                       prod_estab$u_perdida_prod %in% c(1,2)) 
+
+Producto <- as.factor(prod_estab$Productos_genericos[prods_princ])
+cant1 <- as.numeric(prod_estab$comestible[prods_princ])
+cant2 <- prod_estab$perdida_prod[prods_princ]
+unidad1 <- prod_estab$u_comestible[prods_princ]
+unidad2 <- prod_estab$u_perdida_prod[prods_princ]
+kg1 <- ifelse(unidad1 == 1, cant1, cant1*1000)
+kg2 <- ifelse(unidad2 == 1, cant2, cant2*1000)
+Porcentaje <- kg1/kg2*100
+
+datos1 <- data.frame(Producto,Porcentaje)
+
+library(plotly)
+
+fig1 <- plot_ly(data = datos1, x = ~Producto, y = ~Porcentaje, type = "box")
+fig1 %>% layout(title = "Porcentaje de producto perdido que aún era comestible")
+
+```
+
+<br>
+<br>
+
+### Causas y destino de las pérdidas
+
+Las causas se captaron de forma abierta, de modo que aplicamos la herramienta de análisis de textos para visualizar el panorama de las respuestas obtenidas.
+
+```{r wc21, echo = FALSE, message = FALSE, fig.height= 8, fig.width= 8, warning = FALSE, cache=F}
+
+### Paquetes necesarios:
+library("tm")
+library("SnowballC")
+library("wordcloud")
+library("RColorBrewer")
+
+# Se lee el archivo txt:
+filePath <- "archivos/causas_perd2.txt"
+text <- readLines(filePath,encoding="UTF-8")     #Leemos el archivo
+text = iconv(text, to="ASCII//TRANSLIT") # Convert Character Vector between Encodings
+corpus <- Corpus(VectorSource(text)) # formato de texto
+# llevamos a minúsculas
+d  <- tm_map(corpus, tolower)
+# quitamos espacios en blanco
+d  <- tm_map(d, stripWhitespace)
+# quitamos la puntuación
+d <- tm_map(d, removePunctuation)
+# quitamos los números
+d <- tm_map(d, removeNumbers)
+
+#Un comando útil es quitar la palabras genéricas, la paquetería “tm” tiene un grupo de palabras. Para verlas:
+# stopwords("spanish")
+# Importante: “stopwords(”spanish“)” es un vector, se puede ampliar y actualizar de forma personalizada.
+
+# remueve palabras vacías genericas
+d <- tm_map(d, removeWords, stopwords("spanish"))
+
+
+##### Conteo: 
+
+# Una vez “limpio” el texto, tenemos que pasarlo a un formato de base de datos.
+tdm <- TermDocumentMatrix(d)
+
+# Encontramos sus asociaciones;
+frecuentes<-findFreqTerms(tdm, lowfreq=20) # el parámetro lowfreq fija el umbral de frecuencia deseado
+# findAssocs(tdm, frecuentes, 0.45)  # se determinan las asociaciones
+
+
+##### Sumarización:
+
+m <- as.matrix(tdm)                            # lo vuelve una matriz
+v <- sort(rowSums(m),decreasing=TRUE)          # lo ordena y suma
+df <- data.frame(word = names(v),freq=v)       # lo nombra y hace data.frame
+
+# Y se hace la nube de palabras: 
+
+wordcloud(words = df$word, freq = df$freq, min.freq = 4,
+          max.words=100, random.order=FALSE, rot.per=0.35, 
+          colors=brewer.pal(8, "Dark2"))
+
+```
+
+
+
+Y respecto al destino de las pérdidas, se cuenta con una precodificación que permite obtener un gráfico de las respuestas.
+
+
+```{r echo = FALSE, message = FALSE, fig.height= 6, fig.width= 8, warning = FALSE, cache=F}
+
+library(plotrix)
+
+# Pie Chart with Percentages
+slices <- c(4,5,3,43,32,17,59,27,16)
+lbls <- c("Banco de alimentos", "Redes alim. alternat.",
+              "Alcantarillado","Alimentación animal","Basurero/Relleno Sanit",
+              "Composteo","Lo regaló","Lo vendió","Otro destino")
+pct <- round(slices/sum(slices)*100)
+lbls <- paste(lbls, pct) # add percents to labels
+lbls <- paste(lbls,"%",sep="") # ad % to labels
+pie(slices,labels = lbls, col=rainbow(length(lbls)),
+   main="Destino de las pérdidas")
+
+```
+
+<br>
+<br>
+
+### Medidas para disminuir la pérdida o desperdicio
+
+Finalmente, se obtuvo que 117 (65%) establecimientos declaran haber tomado medidas para disminuir la pérdida o desperdicio de sus productos, y el resto, afirmó no haberlo hecho.
+
+Se incluyó una pregunta abierta para que el informante describiera libremente las medidas que ha tomado. El análisis de nube de palabras arroja lo siguiente.
+
+```{r wc22, echo = FALSE, message = FALSE, fig.height= 8, fig.width= 8, warning = FALSE, cache=F}
+
+### Paquetes necesarios:
+library("tm")
+library("SnowballC")
+library("wordcloud")
+library("RColorBrewer")
+
+# Se lee el archivo txt:
+filePath <- "archivos/medidas2.txt"
+text <- readLines(filePath,encoding="UTF-8")     #Leemos el archivo
+text = iconv(text, to="ASCII//TRANSLIT") # Convert Character Vector between Encodings
+corpus <- Corpus(VectorSource(text)) # formato de texto
+# llevamos a minúsculas
+d  <- tm_map(corpus, tolower)
+# quitamos espacios en blanco
+d  <- tm_map(d, stripWhitespace)
+# quitamos la puntuación
+d <- tm_map(d, removePunctuation)
+# quitamos los números
+d <- tm_map(d, removeNumbers)
+
+#Un comando útil es quitar la palabras genéricas, la paquetería “tm” tiene un grupo de palabras. Para verlas:
+# stopwords("spanish")
+# Importante: “stopwords(”spanish“)” es un vector, se puede ampliar y actualizar de forma personalizada.
+
+# remueve palabras vacías genericas
+d <- tm_map(d, removeWords, stopwords("spanish"))
+
+
+##### Conteo: 
+
+# Una vez “limpio” el texto, tenemos que pasarlo a un formato de base de datos.
+tdm <- TermDocumentMatrix(d)
+
+# Encontramos sus asociaciones;
+frecuentes<-findFreqTerms(tdm, lowfreq=20) # el parámetro lowfreq fija el umbral de frecuencia deseado
+# findAssocs(tdm, frecuentes, 0.45)  # se determinan las asociaciones
+
+
+##### Sumarización:
+
+m <- as.matrix(tdm)                            # lo vuelve una matriz
+v <- sort(rowSums(m),decreasing=TRUE)          # lo ordena y suma
+df <- data.frame(word = names(v),freq=v)       # lo nombra y hace data.frame
+
+# Y se hace la nube de palabras: 
+
+wordcloud(words = df$word, freq = df$freq, min.freq = 3,
+          max.words=100, random.order=FALSE, rot.per=0.35, 
+          colors=brewer.pal(8, "Dark2"))
+
+```
+
 
 
 </div>

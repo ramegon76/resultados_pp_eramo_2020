@@ -1,0 +1,515 @@
+Carnes de pollo, res y puerco
+Galleta
+Crema para batir
+Mantequilla
+Chocolate
+Platano
+Manzana
+Jamaica
+Limon
+Frijol
+Huevo
+Almendra
+Nuez
+Garbanzo
+Alpiste
+Manzana, platano, chiles secos, pepinos, coyote, brocoli, sandia, melon, platano macho, peras, duraznos, limon, cilantro, cebollas, papas, calabazas, melon, papayas, aguacate, ajos, jitomate, tomate, chile gordo, chile, kiwi y alimento la posta para animales
+Combos de comida rapida
+Platillos armados para comedores de pequenas empresas, negocios y oficinas
+Queso Oaxaca
+Requeson
+Adobera de mesa
+Adobera de fundir
+Panela
+Queso panela
+Queso panela
+Requeson
+Queso adobera de mesa
+Queso Oaxaca
+Queso adobera de fundir
+Queso Cotija
+Queso Oaxaca
+Queso panela
+Queso adobera
+Queso Oaxaca
+Queso adobera de fundir
+Queso panela
+Queso de mesa
+Requeson
+Panela
+Pizza
+Boneless
+Boneless
+Hamburguesas
+Alitas
+Pizza
+Queso panela
+Queso de mesa
+Queso de fundir
+Requeson
+Pollo
+Huevo
+Ensalada verde
+Coctel de frutas
+Pozole
+Tostadas
+Enchiladas
+Platano
+Fresa
+Naranja
+Papaya
+Queso panela
+Pollo fresco
+Queso de mesa
+Queso adobera
+Enchiladas
+Alitas
+Hamburguesas
+Tacos
+Pechuga de pollo
+Carnes rojas
+Refrescos
+Tortillas
+Cebolla
+Cilantro
+Tomate
+Limon
+Queso
+Tocino
+Jamon
+Salchicha
+Chorizo
+Carne de res
+Carne de cerdo
+Brocoli
+Coliflor
+Papa
+Zanahoria
+Pollo
+Jamon a granel
+Salchicha a granel
+Jamon de paqueteria
+Salchicha de paqueteria
+Salchicha para asar
+Tocino
+Jamon de paqueteria
+Salchicha de paqueteria
+Yogurth
+Jamon a granel
+Salchicha a granel
+Tocino de paqueteria
+Salchicha para asar
+Crema
+Tacos de maiz (paqueteria)
+Huevo
+Leche
+Salchicha
+Jitomate
+Pechuga de pollo preparada
+Caldos
+Tortas
+Tomate
+Chile
+Papa
+Cebolla
+Lechuga
+Harina
+Huevo
+Mantequilla
+Leche
+Frutas enlatadas
+Fresas frescas
+Carnitas de cerdo
+Quesadillas
+Chilaquiles
+Tacos dorados
+Enchiladas
+Carne de cerdo
+Carne de res
+Carne de puerco
+Pan frances
+Tortillas de maiz
+Aguacate
+Tomate
+Cebolla
+Limon
+Harina
+Manteca vegetal
+Azucar
+Leche condensada
+Galletas Maria
+Queso crema
+Carne de puerco
+Carne de res
+Carne de pollo
+Carne de pescado
+Carne
+Pollo
+Higado
+Rinon
+Naranja
+Zanahoria
+Pina
+Betabel
+Apio
+Tortillas
+Carne de res
+Papa
+Repollo
+Aguacate
+Tomate
+Cebolla
+Chile serrano
+Papa
+Tomate
+Limon
+Papa
+Cebolla
+Lechuga
+Carnes
+Pollo
+Frutas y verduras
+Helados
+Frutas
+Carnes frias
+Res
+Pollo
+Cerdo
+Mariscos
+Hojaldra de pollo
+Hojaldra de queso
+Hojaldra de manzana
+Tomate
+Quesos
+Panetelas
+Mermelada
+Vinos
+Mantequillas
+Cafe
+Chocolates
+Jitomate
+Tomate
+Tomate
+Jitomate
+Cebolla
+Limon
+Papa
+Jitomate
+Cebolla
+Limon
+Queso Oaxaca
+Queso panela
+Queso manchego
+Pollo
+Cebolla
+Chile verde
+Jitomate
+Tomate
+Jitomate
+Cebolla
+Chiles
+Costilla de puerco
+Costillas de res
+Arrachera
+Chistorra
+Chorizo argentino
+Chorizo verde
+Res
+Puerco
+Carne de res, carne de puerco
+Puerco
+Res
+Bofe
+Higado
+Corazon
+Pantorrilla
+Pata de res
+Comida chatarra
+Abarrotes
+Lacteos
+Semillas
+Bolillo
+Biscocho
+Jitomate
+Chile
+Tomate
+Cacahuates
+Fresa
+Uvas
+Platano
+Naranja
+Jitomate
+Cebolla
+Chile
+Tomate
+Papa
+Limon
+Tortillas de maiz, chicharron, comidas
+Pan
+Huevo
+Azucar
+Lacteos
+Pechuga de pollo
+Lechuga
+Espinaca
+Leche
+Pollo
+Carne de res
+Carne de puerco
+Pollo
+Jitomate
+Cebolla
+Limon
+Pollo
+Lechuga
+Tomate
+Pina
+Aguacate
+Zanahoria
+Manzana
+Arroz
+Atun
+Zanahoria
+Cangrejos
+Camaron
+Salmon
+Aguacate
+Queso Philadelphia
+Pepino
+Alga
+Carne
+Verdura
+Tortillas
+Pan
+Huevo
+Cafe
+Desayuno (basico, huevo)
+Comidas (basicas, carnes)
+Pastelitos
+Crepas
+Helado empanizado
+Embutidos
+Refrescos
+Productos lacteos
+Verdura
+Fruta
+Semillas
+Carne
+Pollo
+Pan
+Verduras
+Pollo
+Jitomate
+Cebolla
+Papaya
+Tomate
+Naranja
+Frutas
+Legumbres
+Carne de cerdo
+Pollo
+Carne
+Verduras
+Papa
+Aguacate
+Twinky
+Guisados
+Sopas
+Agua
+Herbolaria
+Tomate
+Jitomate
+Tomate
+Pollo
+Tortilla
+Cebolla
+Leche
+Huevo
+Pan
+Carne arrachera
+Pollo
+Jamon
+Salchichas
+Naranja
+Zanahoria
+Queso
+Papaya
+Pollo
+Tomate
+Lechuga romana
+Papa
+Coca Cola
+Tortillas
+Cerveza
+Frituras
+Papas
+Lechuga
+Tomate
+Cebolla
+Carnes de res
+Tocino
+Salchichas
+Pan
+Agua embotellada
+Queso amarillo
+Pollo
+Jitomate
+Pollo, huevo, verduras
+Pierna c/ muslo
+Pollo entero
+Pan
+Carne de res
+Jitomate
+Uva
+Ala marinada
+Pollo entero
+Jitomate
+Carne de res
+Pollo
+Huevo
+Pollo procesado
+Pechuga de pollo
+Retazo o alas
+Aguacate
+Nopal
+Limon
+Jitomate
+Zanahoria
+Cebolla
+Calabaza
+Chayote
+Carnes frias, lacteos, croquetas
+Lacteos, y carnes frias
+Tortillas
+Totopos
+Jitomate
+Tomate
+Galletas
+Refrescos
+Tortilla 100%
+Carne de res
+Naranjas
+Mandarinas
+Pina
+Refrescos
+Cerveza
+Frituras
+Leche
+Mandarina
+Platano
+Durazno
+Fresas
+Legumbres
+Hiervas
+Frutas
+Jitomate
+Aguacate
+Cilantro
+Bistec res
+Bistec cerdo
+Bistec
+Longaniza
+Queso Oaxaca
+Gorditas (varios guisados)
+Desayunos (huevo)
+Comida corrida
+Aguas frescas
+Jugos (frutas de temporada)
+Cafe (de grano, molido)
+Birria
+Pozole
+Tacos
+Carne asada
+Sopes
+Tortillas
+Masa
+Pollos rostizados
+Tacos
+Queso
+Crema
+Harina
+Huevo
+Azucar
+Pollo fresco
+Tamales
+Venta de pollo
+Arrachera
+Carne molida
+Longaniza
+Comida del dia
+Venta de carne de res
+Espinaca
+Brocoli
+Lechuga romana
+Pollo
+Huevo
+Pollo
+Naranja
+Mandarina
+Guayaba
+Cafe en grano
+Pasteles
+Tisanas
+Pollo
+Pollo fresco
+Jitomate
+Oaxaca
+Queso rayado
+Panela
+Carne de cerdo
+Pollo
+Res
+Pollo
+Papa
+Fresa
+Manzana
+Platano
+Uva
+Salchicha
+Queso
+Arroz
+Pollo
+Carne de res
+Queso
+Pan
+Verdura
+Carne de res
+Chilaquiles
+Carne de pollo
+Carne de res
+Pan
+Jitomate
+Cebolla
+Papa
+Tomate
+Calabaza
+Tomate
+Lechuga romana
+Longaniza
+Tripa
+Tortilla de maiz
+Migas(caldo)
+Jitomate
+Ejote
+Cilantro
+Calabaza
+Guisados varios
+Tortillas
+Frijoles
+Mojarra
+Cazon
+Camaron
+Guayaba
+Verduras
+Huaraches
+Queso
+Paletas
+Aguas
+Helados
+Uvas
+Peras
+Manzana
+Kiwis
+Naranja
+Mandarina
+Jitomate

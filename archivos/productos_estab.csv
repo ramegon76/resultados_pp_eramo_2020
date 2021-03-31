@@ -1,0 +1,516 @@
+interview__key,num_prod,Productos,Productos_genericos,prom_men,u_prom_men,otra_u_prom_men,perdida_prod,u_perdida_prod,otra_u_perdida_prod,din_perd,causa_perd,comestible,u_comestible,otra_u_comestible,dest_res,otro_dest_res,bancos,u_med_bancos,otra_u_med_bancos,per_ocupado,per_ocupado2
+02-07-61-84,1,"Carnes de pollo, res y puerco","Carnes de pollo, res y puerco",2,2,,50,1,,5000,son mermas que la gente quiere que le retiremos de la misma carne como el cuero,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,2,6 a 10 personas
+10-05-05-59,1,Galleta,Galleta,2,1,,100,6,Gramos,18,galleta rota,100,6,gramos,9,,#NULL!,#NULL!,,1,0 a 5 personas
+10-05-05-59,2,Crema para batir,Crema para batir,5,3,,200,6,mililitros,25,Sobrante de decoración,200,6,mililitros,7,,#NULL!,#NULL!,,1,0 a 5 personas
+10-05-05-59,3,Mantequilla,Mantequilla,2,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+10-05-05-59,4,Chocolate,Chocolate,2,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+59-38-14-72,1,Plátano,Plátano,200,1,,10,1,,70,Maduración de la fruta,8,1,,9,,#NULL!,#NULL!,,1,0 a 5 personas
+59-38-14-72,2,Manzana,Manzana,100,1,,2,1,,30,maduración de la fruta,2,1,,9,,#NULL!,#NULL!,,1,0 a 5 personas
+59-38-14-72,3,Jamaica,Jamaica,25,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+59-38-14-72,4,Limón,Limón,50,1,,2,1,,35,maduración de la fruta,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+45-98-88-68,1,Frijol,Frijol,500,1,,8,1,,120,Tamaño pequeño del grano,8,1,,9,,#NULL!,#NULL!,,1,0 a 5 personas
+45-98-88-68,2,Huevo,Huevo,80,1,,4,1,,120,producto en mal estado/roto,4,1,,10,,#NULL!,#NULL!,,1,0 a 5 personas
+45-98-88-68,3,Almendra,Almendra,50,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+45-98-88-68,4,Nuez,Nuez,50,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+45-98-88-68,5,Garbanzo,Garbanzo,150,1,,5,1,,150,tamaño insuficiente del grano,5,1,,9,,#NULL!,#NULL!,,1,0 a 5 personas
+45-98-88-68,6,Alpiste,Alpiste,50,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+00-52-44-33,1,"Manzana, plátano, chiles secos, pepinos, coyote, brócoli, sandia, melón, plátano macho, peras, duraznos, limón, cilantro, cebollas, papas, calabazas, melón, papayas, aguacate, ajos, jitomate, tomate, chile gordo, chile, kiwi y alimento la posta para animales","Manzana, plátano, chiles secos, pepinos, coyote, brócoli, sandia, melón, plátano macho, peras, duraznos, limón, cilantro, cebollas, papas, calabazas, melón, papayas, aguacate, ajos, jitomate, tomate, chile gordo, chile, kiwi y alimento la posta para animales",20000,1,,250,1,,0,Por maduración en frutas y verduras,50,1,,6,,#NULL!,#NULL!,,1,0 a 5 personas
+75-80-02-25,1,Combos de comida rápida,Comida preparada,120,6,Combos,8,6,Combos,120,por mal transporte o porque no es el combo que se solicitó,5,6,combos,7,,#NULL!,#NULL!,,3,11 a 30 personas
+75-80-02-25,2,"Platillos armados para comedores de pequeñas empresas, negocios y oficinas",Comida preparada,100,6,Platillos,10,6,platillos,200,"A veces se solicitan más platillos de los requeridos, y no se pueden regresar",6,6,platillos,7,,#NULL!,#NULL!,,3,11 a 30 personas
+46-20-50-93,1,Queso Oaxaca,Quesos,6000,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,4,31 a 50 personas
+46-20-50-93,2,Requesón,Quesos,20000,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,4,31 a 50 personas
+46-20-50-93,3,Adobera de mesa,Adobera de mesa,40000,1,,30,1,,2000,regresan el producto,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,4,31 a 50 personas
+46-20-50-93,4,Adobera de fundir,Adobera de fundir,10000,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,4,31 a 50 personas
+46-20-50-93,5,Panela,Quesos,45000,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,4,31 a 50 personas
+75-48-02-01,1,Queso panela,Quesos,178,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+12-36-13-35,1,Queso panela,Quesos,1400,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+12-36-13-35,2,Requesón,Quesos,850,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+12-36-13-35,3,Queso adobera de mesa,Quesos,3000,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+12-36-13-35,4,Queso Oaxaca,Quesos,1000,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+12-36-13-35,5,Queso adobera de fundir,Quesos,800,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+46-14-89-64,1,Queso Cotija,Quesos,480,1,,15,1,,104000,devolución,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+46-14-89-64,2,Queso Oaxaca,Quesos,1120,1,,10,1,,10300,devoluciones,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+46-14-89-64,3,Queso panela,Quesos,2080,1,,15,1,,10400,devoluciones,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+46-14-89-64,4,Queso adobera,Quesos,3456,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+54-84-41-90,1,Queso Oaxaca,Quesos,500,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+54-84-41-90,2,Queso adobera de fundir,Quesos,3000,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+54-84-41-90,3,Queso panela,Quesos,2000,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+54-84-41-90,4,Queso de mesa,Quesos,1000,1,,400,1,,4800,cambiarlo por frescos,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+54-84-41-90,5,Requesón,Quesos,1000,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+32-81-38-30,1,Panela,Quesos,6000,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+75-61-09-61,1,Pizza,Pizza,10,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,3,11 a 30 personas
+75-61-09-61,2,Boneless,Comida preparada,12,1,,800,6,gramos,70,pellejo y nervio que no se puede dejar,800,6,gramos,7,,#NULL!,#NULL!,,3,11 a 30 personas
+20-71-86-36,2,Boneless,Comida preparada,15,1,,1,1,,200,no sé vendían,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,3,11 a 30 personas
+20-71-86-36,3,Hamburguesas,Comida preparada,5,1,,1,1,,300,no sé vendieron,1,1,,7,,#NULL!,#NULL!,,3,11 a 30 personas
+20-71-86-36,4,Alitas,Comida preparada,25,1,,1,1,,150,no se vendió,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,3,11 a 30 personas
+20-71-86-36,6,Pizza,Comida preparada,5,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,3,11 a 30 personas
+62-26-83-91,1,Queso panela,Quesos,6900,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+62-26-83-91,2,Queso de mesa,Quesos,900,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+62-26-83-91,3,Queso de fundir,Quesos,600,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+62-26-83-91,4,Requesón,Quesos,4200,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+33-09-39-82,1,Pollo,Pollo,80,1,,3,1,,250,No se vendió,3,1,,6,,#NULL!,#NULL!,,1,0 a 5 personas
+33-09-39-82,2,Huevo,Huevo,80,1,,2,1,,70,Mal manejo,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+33-09-39-82,3,Ensalada verde,Comida preparada,80,6,Piezas,8,6,Piezas,280,No se vendió,8,6,Piezas,6,,#NULL!,#NULL!,,1,0 a 5 personas
+33-09-39-82,4,Cóctel de frutas,Cóctel de frutas,60,6,Piezas,8,6,Piezas,200,Vida útil de la fruta,2,6,Piezas,6,,#NULL!,#NULL!,,1,0 a 5 personas
+80-78-89-92,1,Pozole,Pozole,50,3,,10,3,,1000,no se vendió,10,3,,9,,#NULL!,#NULL!,,3,11 a 30 personas
+80-78-89-92,2,Tostadas,Comida preparada,9,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,3,11 a 30 personas
+80-78-89-92,3,Enchiladas,Comida preparada,5,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,3,11 a 30 personas
+94-01-32-67,1,Plátano,Plátano,600,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+94-01-32-67,2,Fresa,Fresa,600,1,,80,1,,5000,Depende de la venta,40,1,,10,,#NULL!,#NULL!,,1,0 a 5 personas
+94-01-32-67,3,Naranja,Naranja,500,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+94-01-32-67,4,Papaya,Papaya,600,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+15-02-62-54,1,Queso panela,Quesos,1000,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+97-61-82-54,1,Pollo fresco,Pollo,600,6,pollos,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+78-42-05-65,1,Queso de mesa,Quesos,1000,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+47-45-50-81,1,Queso adobera,Quesos,1000,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+50-46-70-99,1,Enchiladas,Comida preparada,10,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,3,11 a 30 personas
+50-46-70-99,2,Alitas,Alitas,20,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,3,11 a 30 personas
+50-46-70-99,3,Hamburguesas,Comida preparada,5,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,3,11 a 30 personas
+50-46-70-99,4,Tacos,Comida preparada,15,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,3,11 a 30 personas
+76-26-19-30,1,Pechuga de pollo,Pollo,6,6,cajas,1,6,unidad,100,Material que no se puede utilizar,1,6,unidad,9,,#NULL!,#NULL!,,1,0 a 5 personas
+06-08-47-90,1,Carnes rojas,Carnes rojas,150,1,,4,1,,425,No ventas,4,1,,10,,#NULL!,#NULL!,,1,0 a 5 personas
+06-08-47-90,2,Refrescos,Refrescos,350,3,,15,3,,480,Caducidad,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+06-08-47-90,4,Tortillas,Tortillas,25,1,,4,1,,60,No Sé Vendieron,4,1,,3,,3,1,,1,0 a 5 personas
+06-08-47-90,5,Cebolla,Cebolla,55,1,,5,1,,65,No Sé Vendió,5,1,,10,,#NULL!,#NULL!,,1,0 a 5 personas
+06-08-47-90,6,Cilantro,Cilantro,20,6,Manojo,4,6,Manojo,60,Por qué se óxido,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+06-08-47-90,7,Tomate,Tomate,45,1,,2,1,,34,Por qué se pudrió,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+06-08-47-90,8,Limón,Limón,35,1,,4,1,,68,Por qué se seco,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+51-75-59-85,1,Queso,Quesos,200,1,,23,1,,3000,Falla de calidad,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+51-75-59-85,2,Tocino,Carnes frías y embutidos,160,1,,1,1,,185,Falla de calidad,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+51-75-59-85,3,Jamón,Carnes frías y embutidos,300,1,,21,1,,1840,Por caducidad,12,1,,1,,9,1,,1,0 a 5 personas
+51-75-59-85,4,Salchicha,Carnes frías y embutidos,210,1,,9,1,,360,Falla de calidad,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+51-75-59-85,5,Chorizo,Chorizo,50,1,,5,1,,400,Por caducidad,2,1,,1,,2,1,,1,0 a 5 personas
+78-71-63-16,1,Carne de res,Carne de res,20,1,,4,1,,2500,No se consumió,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,2,6 a 10 personas
+78-71-63-16,2,Carne de cerdo,Carne de cerdo,5,1,,2,1,,1620,No se consumió,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,2,6 a 10 personas
+78-71-63-16,3,Brócoli,Brócoli,6,1,,2,1,,600,No se consumió,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,2,6 a 10 personas
+78-71-63-16,4,Coliflor,Coliflor,8,1,,1,1,,230,No se consumió,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,2,6 a 10 personas
+78-71-63-16,5,Papa,Papa,15,1,,4,1,,520,No se consumió,1,1,,9,,#NULL!,#NULL!,,2,6 a 10 personas
+78-71-63-16,6,Zanahoria,Zanahoria,8,1,,3,1,,120,Se hecho a perder,3,1,,9,,#NULL!,#NULL!,,2,6 a 10 personas
+78-71-63-16,7,Pollo,Pollo,30,1,,4,1,,1340,No se consumió,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,2,6 a 10 personas
+26-51-66-98,1,Jamón a granel,Carnes frías y embutidos,650,1,,30,1,,2000,Caducidad,20,1,,10,,#NULL!,#NULL!,,1,0 a 5 personas
+26-51-66-98,2,Salchicha a granel,Carnes frías y embutidos,600,1,,6,1,,180,Falla de calidad,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+26-51-66-98,3,Jamón de paquetería,Carnes frías y embutidos,250,1,,40,1,,1200,Caducidad,20,1,,10,,#NULL!,#NULL!,,1,0 a 5 personas
+26-51-66-98,4,Salchicha de paquetería,Carnes frías y embutidos,350,1,,50,1,,1000,Caducidad,20,1,,10,,#NULL!,#NULL!,,1,0 a 5 personas
+26-51-66-98,5,Salchicha para asar,Carnes frías y embutidos,400,1,,50,1,,2500,Caducidad,20,1,,10,,#NULL!,#NULL!,,1,0 a 5 personas
+26-51-66-98,6,Tocino,Carnes frías y embutidos,120,1,,10,1,,600,Caducidad,2,1,,10,,#NULL!,#NULL!,,1,0 a 5 personas
+19-20-87-84,1,Jamón de paquetería,Carnes frías y embutidos,950,1,,80,1,,3400,Caducidad,20,1,,9,,#NULL!,#NULL!,,1,0 a 5 personas
+19-20-87-84,2,Salchicha de paquetería,Carnes frías y embutidos,287,1,,30,1,,4500,Caducidad,10,1,,9,,#NULL!,#NULL!,,1,0 a 5 personas
+19-20-87-84,3,Yogurth,Yogurth,1500,1,,200,1,,8000,Caducidad,60,1,,9,,#NULL!,#NULL!,,1,0 a 5 personas
+19-20-87-84,4,Jamón a granel,Carnes frías y embutidos,600,1,,40,1,,3600,Caducidad,15,1,,9,,#NULL!,#NULL!,,1,0 a 5 personas
+19-20-87-84,5,Salchicha a granel,Carnes frías y embutidos,150,1,,6,1,,540,Falla de calidad,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+19-20-87-84,6,Tocino de paquetería,Carnes frías y embutidos,14,1,,1,1,,690,Caducidad,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+19-20-87-84,7,Salchicha para asar,Carnes frías y embutidos,144,1,,20,1,,1000,Falla de calidad,6,1,,9,,#NULL!,#NULL!,,1,0 a 5 personas
+19-20-87-84,8,Crema,Crema,90,1,,15,1,,450,Caducidad,8,1,,9,,#NULL!,#NULL!,,1,0 a 5 personas
+19-20-87-84,9,Tacos de maíz (paquetería),Tacos de maíz (paquetería),72,1,,6,1,,480,Caducidad,2,1,,9,,#NULL!,#NULL!,,1,0 a 5 personas
+10-67-95-74,1,Huevo,Huevo,200,1,,1,1,,36,Huevos rotos,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+10-67-95-74,2,Leche,Lácteos,100,3,,2,3,,40,Caducidad,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+10-67-95-74,3,Salchicha,Carnes frías y embutidos,50,1,,1,1,,50,Caducida,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+10-67-95-74,4,Jitomate,Jitomate,100,1,,1,1,,25,Pudricion,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+18-99-05-74,1,Pechuga de pollo preparada,Pollo,1,2,,50,1,,4000,Mal manejo de PEPS,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,2,6 a 10 personas
+18-99-05-74,2,Caldos,Caldos,500,3,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,2,6 a 10 personas
+18-99-05-74,3,Tortas,Tortas,350,6,unidades,7,6,unidades,500,Descuido del personal,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,2,6 a 10 personas
+96-31-44-15,1,Tomate,Tomate,40,2,,3,2,,14970,Mal almacenamiento,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,3,11 a 30 personas
+96-31-44-15,2,Chile,Chile,10,2,,500,1,,8000,Mal almacenamiento,20,1,,6,,#NULL!,#NULL!,,3,11 a 30 personas
+96-31-44-15,3,Papa,Papa,40,2,,1,2,,16000,Mal transporte y manejo al almacenarla,1,2,,10,,#NULL!,#NULL!,,3,11 a 30 personas
+96-31-44-15,4,Cebolla,Cebolla,30,2,,10,2,,75000,Mal transporte y mucho movimiento,5,2,,6,,#NULL!,#NULL!,,3,11 a 30 personas
+96-31-44-15,5,Lechuga,Lechuga,4,2,,330,1,,3300,Maltrato del cliente,330,1,,6,,#NULL!,#NULL!,,3,11 a 30 personas
+42-81-25-93,1,Harina,Harina,60,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+42-81-25-93,2,Huevo,Huevo,25,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+42-81-25-93,3,Mantequilla,Mantequilla,7,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+42-81-25-93,4,Leche,Lácteos,36,3,,4,3,,70,se tira cuando tiene más de 2 días abierta,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+42-81-25-93,5,Frutas enlatadas,Frutas enlatadas,20,6,latas de 890gramos,1,6,lata de 890 gramos,60,"porque se echa a perder, tiene espuma",0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+42-81-25-93,6,Fresas frescas,Fresas frescas,4,1,,1,1,,70,"se pudre, se le hace hongo",0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+28-11-84-29,1,Carnitas de cerdo,Comida preparada,180,1,,3,1,,540,No se vendio,3,1,,6,,#NULL!,#NULL!,,1,0 a 5 personas
+28-11-84-29,2,Quesadillas,Comida preparada,90,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+28-11-84-29,3,Chilaquiles,Comida preparada,90,1,,1,1,,150,No se vendio,1,1,,6,,#NULL!,#NULL!,,1,0 a 5 personas
+28-11-84-29,4,Tacos dorados,Comida preparada,60,1,,2,1,,200,No se vendio,2,1,,6,,#NULL!,#NULL!,,1,0 a 5 personas
+28-11-84-29,5,Enchiladas,Comida preparada,4,1,,1,1,,150,No se vendio,1,1,,6,,#NULL!,#NULL!,,1,0 a 5 personas
+65-90-50-74,1,Carne de cerdo,Carne de cerdo,200,1,,2,1,,200,se cayó al piso,2,1,,6,,#NULL!,#NULL!,,1,0 a 5 personas
+65-90-50-74,2,Carne de res,Carne de res,300,1,,30,1,,1500,mal manejo del producto,5,1,,7,,#NULL!,#NULL!,,1,0 a 5 personas
+18-07-11-74,1,Carne de puerco,Carne de cerdo,180,1,,4,1,,400,"Por el cebo, nervios que trae, todo eso se lo quita al producto",0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+18-07-11-74,2,Pan francés,Pan,340,6,piezas de pan francés,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+18-07-11-74,3,Tortillas de maíz,Tortillas,40,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+18-07-11-74,4,Aguacate,Aguacate,4,6,Rejas pesan aproximadamente 8 a 9 kilos,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+18-07-11-74,5,Tomate,Tomate,20,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+18-07-11-74,6,Cebolla,Cebolla,8,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+18-07-11-74,7,Limón,Limón,20,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+77-01-74-26,1,Harina,Harina,24,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+77-01-74-26,2,Manteca vegetal,Manteca vegetal,8,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+77-01-74-26,3,Azúcar,Azúcar,8,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+77-01-74-26,4,Leche condensada,Lácteos,20,6,Latas de 380 gramos,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+77-01-74-26,5,Galletas María,Galletas María,24,6,Paquetes de 170 gr,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+77-01-74-26,6,Queso crema,Quesos,8,6,Barras de aproximadamente 150 gramos,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+78-65-72-32,1,Carne de puerco,Carne de cerdo,90,1,,15,1,,900,Falta de clientes,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+78-65-72-32,2,Carne de res,Carne de res,120,1,,20,1,,2000,Falta de clientes,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+78-65-72-32,3,Carne de pollo,Pollo,40,1,,10,1,,300,Falta de clientes,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+78-65-72-32,4,Carne de pescado,Pescados y mariscos,15,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+98-75-00-04,1,Carne,Carne de res,200,1,,30,1,,5000,mucha grasa y asi no se vende,10,1,,9,,#NULL!,#NULL!,,1,0 a 5 personas
+98-75-00-04,2,Pollo,Pollo,300,1,,30,1,,1050,se desbarataba y asi no se puede vender,30,1,,9,,#NULL!,#NULL!,,1,0 a 5 personas
+98-75-00-04,3,Hígado,Hígado,50,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+98-75-00-04,4,Riñón,Riñón,50,1,,5,1,,300,se hecho a perder porque no se vendio y caducó,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+61-71-58-17,1,Naranja,Naranja,425,1,,15,1,,450,No Sé Vendió,10,1,,6,,#NULL!,#NULL!,,1,0 a 5 personas
+61-71-58-17,2,Zanahoria,Zanahoria,480,1,,20,1,,250,Se Pudrió,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+61-71-58-17,3,Piña,Piña,15,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+61-71-58-17,4,Betabel,Betabel,16,1,,3,1,,70,No Sé Vendió,3,1,,9,,#NULL!,#NULL!,,1,0 a 5 personas
+61-71-58-17,5,Apio,Apio,5,6,Manojos,1,6,Manojo,23,No Sé Vendió,1,1,,9,,#NULL!,#NULL!,,1,0 a 5 personas
+64-93-28-33,1,Tortillas,Tortillas,65,1,,6,1,,90,No Sé Vendió,6,1,,10,,#NULL!,#NULL!,,1,0 a 5 personas
+64-93-28-33,2,Carne de res,Carne de res,13,1,,1,1,,60,No Sé Vendió,1,1,,6,,#NULL!,#NULL!,,1,0 a 5 personas
+64-93-28-33,3,Papa,Papa,25,1,,1,1,,25,No Sé Vendió,1,1,,6,,#NULL!,#NULL!,,1,0 a 5 personas
+64-93-28-33,4,Repollo,Repollo,2,6,Arpillas,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+64-93-28-33,5,Aguacate,Aguacate,20,1,,2,1,,50,No Sé Vendió,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+04-58-51-38,1,Tomate,Tomate,100,1,,10,1,,150,se pudrió y echó a perder,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+04-58-51-38,2,Cebolla,Cebolla,80,1,,5,1,,100,no se vendia,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+04-58-51-38,3,Chile serrano,Chile serrano,20,1,,2,1,,40,no se vendia,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+04-58-51-38,4,Papa,Papa,120,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+74-51-28-39,1,Tomate,Tomate,35,2,,2,2,,9980,Por mal manejo en el almacenaje,2,2,,7,,#NULL!,#NULL!,,4,31 a 50 personas
+74-51-28-39,2,Limón,Limón,10,2,,700,1,,15400,Mal transporte,700,1,,8,,#NULL!,#NULL!,,4,31 a 50 personas
+74-51-28-39,3,Papa,Papa,40,2,,800,1,,12800,Por mal transporte,800,1,,10,,#NULL!,#NULL!,,4,31 a 50 personas
+74-51-28-39,4,Cebolla,Cebolla,40,2,,8,2,,60000,Por mal transporte y almacenaje,8,2,,7,,#NULL!,#NULL!,,4,31 a 50 personas
+74-51-28-39,5,Lechuga,Lechuga,10,2,,600,1,,6000,Mal manejo en el almacenaje,600,1,,7,,#NULL!,#NULL!,,4,31 a 50 personas
+20-49-43-50,1,Carnes,Carnes,500,1,,35,1,,4000,se apestaba y caducaba en ocasiones,15,1,,6,,#NULL!,#NULL!,,1,0 a 5 personas
+20-49-43-50,2,Pollo,Pollo,700,1,,5,1,,125,se desbarataba y asi no se podia vender,5,1,,9,,#NULL!,#NULL!,,1,0 a 5 personas
+76-57-00-58,1,Frutas y verduras,Frutas y verduras,500,1,,10,1,,500,por que la fruta entraba en estado putrefacto,3,1,,7,,#NULL!,#NULL!,,1,0 a 5 personas
+60-23-28-91,1,Helados,Helados,900,6,Unitario,130,6,unidades,3000,No se venden en el día,130,6,unitario,4,,#NULL!,#NULL!,,1,0 a 5 personas
+69-71-33-89,1,Frutas,Frutas,12,1,,2,1,,500,No se vende,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+14-60-31-52,1,Carnes frías,Carnes frías,25,1,,5,1,,700,No cuenta con las máquinas para refrigeración necesarias,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+77-13-19-44,1,Res,Carne de res,30,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+77-13-19-44,2,Pollo,Pollo,60,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+77-13-19-44,3,Cerdo,Carne de cerdo,20,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+77-13-19-44,4,Mariscos,Mariscos,10,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+76-81-14-35,1,Hojaldra de pollo,Comida preparada,288,6,por pieza,48,6,por pieza,960,No se dio su venta en el día,48,6,por pieza,9,,#NULL!,#NULL!,,1,0 a 5 personas
+76-81-14-35,2,Hojaldra de queso,Comida preparada,216,6,por pieza,24,6,por pieza,480,no se vendió,24,6,"por pieza, de 15cm por 5cm de ancho",9,,#NULL!,#NULL!,,1,0 a 5 personas
+76-81-14-35,3,Hojaldra de manzana,Comida preparada,312,6,"por pieza, 15cm de largo, 5cm de ancho",24,6,"por pieza, 15cm de largo, 5cm de ancho",480,por no venderla,20,6,por pieza,9,,#NULL!,#NULL!,,1,0 a 5 personas
+95-91-76-42,1,Tomate,Tomate,1300,1,,300,1,,2000,El producto llega maltratado,90,1,NA,8,,#NULL!,#NULL!,,1,0 a 5 personas
+20-35-84-30,1,Quesos,Quesos,1260,1,,1,1,,120,mal manejo,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,2,6 a 10 personas
+20-35-84-30,2,Panetelas,Panetelas,200,6,piezas,99,6,pieza,50,vienen mal sellado,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,2,6 a 10 personas
+20-35-84-30,3,Mermelada,Mermelada,99,6,piezas,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,2,6 a 10 personas
+20-35-84-30,4,Vinos,Vinos,75,3,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,2,6 a 10 personas
+20-35-84-30,5,Mantequillas,Mantequillas,1000,6,piezas,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,2,6 a 10 personas
+20-35-84-30,6,Café,Café,200,1,,1,1,,110,mal manejo del producto,1,1,,9,,#NULL!,#NULL!,,2,6 a 10 personas
+20-35-84-30,7,Chocolates,Chocolates,25,6,piezas,1,6,pieza,50,se rompen los productos,1,6,pieza,9,,#NULL!,#NULL!,,2,6 a 10 personas
+93-51-89-66,1,Jitomate,Jitomate,200,1,,10,1,,250,se desconpuso,5,1,,7,,#NULL!,#NULL!,,1,0 a 5 personas
+93-51-89-66,2,Tomate,Tomate,250,1,,70,1,,250,No se vendió,5,1,,7,,#NULL!,#NULL!,,1,0 a 5 personas
+51-95-98-16,1,Tomate,Tomate,200,1,,5,1,,200,Que no se venda,5,1,,6,,#NULL!,#NULL!,,1,0 a 5 personas
+51-95-98-16,2,Jitomate,Jitomate,200,1,,7,1,,150,Maltratado,7,1,,6,,#NULL!,#NULL!,,1,0 a 5 personas
+51-95-98-16,3,Cebolla,Cebolla,150,1,,12,1,,90,Maltratado,12,1,,6,,#NULL!,#NULL!,,1,0 a 5 personas
+51-95-98-16,4,Limón,Limón,300,1,,10,1,,100,Maltratado,5,1,,6,,#NULL!,#NULL!,,1,0 a 5 personas
+51-95-98-16,5,Papá,Papá,200,1,,12,1,,140,Maltratado,7,1,,6,,#NULL!,#NULL!,,1,0 a 5 personas
+57-05-10-30,1,Jitomate,Jitomate,80,1,,5,1,,100,Producto maltratado,5,1,,8,,#NULL!,#NULL!,,1,0 a 5 personas
+57-05-10-30,2,Cebolla,Cebolla,80,1,,3,1,,70,Maltratado,3,1,,8,,#NULL!,#NULL!,,1,0 a 5 personas
+57-05-10-30,3,Limón,Limón,100,1,,5,1,,65,Maltratado,5,1,,8,,#NULL!,#NULL!,,1,0 a 5 personas
+48-55-38-68,1,Queso Oaxaca,Quesos,400,1,,5,1,,400,"""la gente ya no lo compra """"merma""""""",5,1,,9,,#NULL!,#NULL!,,1,0 a 5 personas
+48-55-38-68,2,Queso panela,Quesos,120,1,,5,1,,400,"""la gente no lo compra """"merma""""""",5,1,,9,,#NULL!,#NULL!,,1,0 a 5 personas
+48-55-38-68,3,Queso manchego,Quesos,100,1,,2,1,,100,"""la gente no lo compra """"merma""""""",2,1,,9,,#NULL!,#NULL!,,1,0 a 5 personas
+30-21-76-92,1,Pollo,Pollo,1500,1,,50,1,,1500,por el mismo manejo del producto,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+15-12-58-41,1,Cebolla,Cebolla,500,1,,150,1,,3000,selección de mercancía,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+15-12-58-41,2,Chile verde,Chile verde,250,1,,50,1,,3000,selección de mercancía,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+15-12-58-41,3,Jitomate,Jitomate,400,1,,100,1,,3000,selección de mercancía,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+76-64-81-53,1,Tomate,Tomate,400,1,NA,100,1,,1000,Merma del producto,5,1,,6,,#NULL!,#NULL!,,1,0 a 5 personas
+76-64-81-53,2,Jitomate,Jitomate,400,1,NA,10,1,,100,merma,10,1,,6,,#NULL!,#NULL!,,1,0 a 5 personas
+76-64-81-53,3,Cebolla,Cebolla,1,2,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+76-64-81-53,4,Chiles,Chiles,500,1,,50,1,,500,"Temporada de lluvias, la mercancía está húmeda y rinde menos",20,1,,6,,#NULL!,#NULL!,,1,0 a 5 personas
+82-25-72-89,1,Costilla de puerco,Carne de cerdo,40,1,,2,1,,200,No se vendió,2,1,,9,,#NULL!,#NULL!,,2,6 a 10 personas
+82-25-72-89,2,Costillas de res,Carne de res,16,1,,1,1,,100,No sé vendió,1,1,,9,,#NULL!,#NULL!,,2,6 a 10 personas
+82-25-72-89,3,Arrachera,Carne de res,16,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,2,6 a 10 personas
+82-25-72-89,4,Chistorra,Carnes frías y embutidos,8,1,,1,1,,90,no sé vendió,1,1,,9,,#NULL!,#NULL!,,2,6 a 10 personas
+82-25-72-89,5,Chorizo argentino,Carnes frías y embutidos,8,1,,1,1,,90,No sé vendió,1,1,,9,,#NULL!,#NULL!,,2,6 a 10 personas
+82-25-72-89,6,Chorizo verde,Carnes frías y embutidos,8,1,,2,1,,160,No sé vendió,2,1,,9,,#NULL!,#NULL!,,2,6 a 10 personas
+75-12-04-15,1,Res,Carne de res,300,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+75-12-04-15,2,Puerco,Carne de cerdo,250,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+80-86-22-96,1,"Carne de res, carne de puerco","Carne de res, carne de puerco",6000,1,,432,1,,100000,Merma de la carne,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+76-24-26-14,1,Puerco,Carne de cerdo,1200,1,,30,1,,10000,No lo compran,30,1,,6,,#NULL!,#NULL!,,1,0 a 5 personas
+76-24-26-14,2,Res,Carne de res,3,2,,500,1,,10000,Competencia,500,1,,6,,#NULL!,#NULL!,,1,0 a 5 personas
+91-74-34-96,1,Bofe,Bofe,40,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+91-74-34-96,2,Hígado,Hígado,48,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+91-74-34-96,3,Corazón,Corazón,40,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+91-74-34-96,4,Pantorrilla,Pantorrilla,40,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+91-74-34-96,5,Pata de res,Carne de res,40,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+80-23-29-84,1,Comida chatarra,Comida chatarra,1000,6,Piezas,100,6,Piezas,0,Fecha de caducidad,100,6,Piezas,11,Desconocido,#NULL!,#NULL!,,1,0 a 5 personas
+80-23-29-84,2,Abarrotes,Abarrotes,1000,6,Piezas,10,6,Piezas,100,Fecha de caducidad,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+80-23-29-84,4,Lácteos,Lácteos,500,1,,3,1,,300,Mal almacenamiento,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+80-23-29-84,5,Semillas,Semillas,20,1,,500,6,Gramos,50,Mal almacenamiento,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+30-93-43-10,1,Bolillo,Pan,90000,6,pieza,2100,6,pieza,3600,exceso de producción,2100,6,pieza,11,reutilizar en pan molido,#NULL!,#NULL!,,3,11 a 30 personas
+30-93-43-10,2,Biscocho,Pan,15000,6,piezas,1000,6,piezas,6000,exceso de producción,600,6,pieza,11,reutilizar,#NULL!,#NULL!,,3,11 a 30 personas
+06-46-97-81,1,Jitomate,Jitomate,900,1,,30,1,,550,porque la verdura está muy madura,10,1,,8,,#NULL!,#NULL!,,1,0 a 5 personas
+06-46-97-81,2,Chile,Chile,60,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+06-46-97-81,3,Tomate,Tomate,600,1,,40,1,,800,viene mal la verdura o muy ahogado,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+32-54-12-19,1,Cacahuates,Cacahuates,5,1,,1,1,,60,no lo compran,1,1,,11,basura,#NULL!,#NULL!,,1,0 a 5 personas
+32-54-12-19,2,Fresa,Fresa,36,1,,8,1,,100,no se vende,4,1,,9,,#NULL!,#NULL!,,1,0 a 5 personas
+32-54-12-19,3,Uvas,Uvas,38,1,,2,1,,0,no hay,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+32-54-12-19,4,Plátano,Plátano,36,1,,8,1,,100,no se vende,8,1,,9,,#NULL!,#NULL!,,1,0 a 5 personas
+32-54-12-19,5,Naranja,Naranja,70,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+13-17-63-97,1,Jitomate,Jitomate,1200,1,,20,1,,400,La verdura está muy madura y no se vende rápido,10,1,,9,,#NULL!,#NULL!,,1,0 a 5 personas
+13-17-63-97,2,Cebolla,Cebolla,700,1,,80,1,,1050,porque se moja y se hecha a perder por dentro,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+13-17-63-97,3,Chile,Chile,180,1,,10,1,,200,por el tiempo y no se vende y se pudre,5,1,,9,,#NULL!,#NULL!,,1,0 a 5 personas
+13-17-63-97,4,Tomate,Tomate,1400,1,,350,1,,2100,Rápido se hecha a perder y se pudre,100,1,,9,,#NULL!,#NULL!,,1,0 a 5 personas
+13-17-63-97,5,Papa,Papa,750,1,,75,1,,675,por la madurez y mala calidad,38,1,,9,,#NULL!,#NULL!,,1,0 a 5 personas
+13-17-63-97,6,Limón,Limón,600,1,,60,1,,1200,Porque se golpea,20,1,,9,,#NULL!,#NULL!,,1,0 a 5 personas
+27-65-45-89,1,"Tortillas de maíz, chicharrón, comidas","Tortillas de maíz, chicharrón, comidas",3000,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+81-79-23-03,1,Pan,Pan,5000,6,piezas,10,6,piezas,30,se maltrato ni variedad,10,6,piezas,6,,#NULL!,#NULL!,,1,0 a 5 personas
+81-79-23-03,2,Huevo,Huevo,90,1,,1,1,,28,quebrado o pegado al cono,0.5,1,,11,abono para la agricultura,#NULL!,#NULL!,,1,0 a 5 personas
+81-79-23-03,3,Azúcar,Azúcar,100,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+81-79-23-03,4,Lácteos,Lácteos,100,1,,1,1,,80,caducidad,0.8,1,,6,,#NULL!,#NULL!,,1,0 a 5 personas
+95-13-22-02,1,Pechuga de pollo,Pollo,260,1,,18,1,,950,agua y grasa,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+95-13-22-02,2,Lechuga,Lechuga,27,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+95-13-22-02,3,Espinaca,Espinaca,16,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+95-13-22-02,4,Leche,Lácteos,60,3,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+65-34-10-09,1,Pollo,Pollo,300,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+28-53-41-62,1,Carne de res,Carne de res,100,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+28-53-41-62,2,Carne de puerco,Carne de cerdo,100,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+28-53-41-62,3,Pollo,Pollo,100,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+90-38-57-12,1,Jitomate,Jitomate,200,1,,30,1,,600,Vienen aplastados,20,1,,11,lo consumen entre ellos,#NULL!,#NULL!,,1,0 a 5 personas
+90-38-57-12,2,Cebolla,Cebolla,80,1,,5,1,,100,Viene maltratado,3,1,,11,lo consumen entre ellos,#NULL!,#NULL!,,1,0 a 5 personas
+90-38-57-12,3,Limón,Limón,100,1,,15,1,,300,No se vendió a tiempo,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+90-38-57-12,4,Pollo,Pollo,600,1,,6,1,,350,Venía maltratado,3,1,,9,,#NULL!,#NULL!,,1,0 a 5 personas
+90-38-57-12,5,Lechuga,Lechuga,120,1,,20,1,,300,No se vendió rápido,6,1,,11,Lo consumen entre ellos,#NULL!,#NULL!,,1,0 a 5 personas
+90-38-57-12,6,Tomate,Tomate,160,1,,20,1,,400,Se maltratan rápido,10,1,,11,Lo comsumen entre ellos,#NULL!,#NULL!,,1,0 a 5 personas
+90-38-57-12,7,Piña,Piña,120,1,,20,1,,500,Se maltrata rápido,5,1,,11,Lo consumen entre ellos,#NULL!,#NULL!,,1,0 a 5 personas
+90-38-57-12,8,Aguacate,Aguacate,40,1,,4,1,,200,Se madura muy rápido,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+90-38-57-12,9,Zanahoria,Zanahoria,100,1,,10,1,,200,Se maltrata rápido,8,1,,11,Lo consumen entre ellos,#NULL!,#NULL!,,1,0 a 5 personas
+90-38-57-12,10,Manzana,Manzana,80,1,,10,1,,500,Se maltrata rápido,7,1,,6,,#NULL!,#NULL!,,1,0 a 5 personas
+39-37-47-76,1,Arroz,Arroz,90,1,,3,1,,2,mal uso,3,1,,1,,3,1,,3,11 a 30 personas
+39-37-47-76,2,Atún,Atún,50,5,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,3,11 a 30 personas
+39-37-47-76,3,Zanahoria,Zanahoria,20,1,,2,1,,3,se echa a perder,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,3,11 a 30 personas
+39-37-47-76,5,Cangrejos,Pescados y mariscos,60,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,3,11 a 30 personas
+39-37-47-76,6,Camarón,Pescados y mariscos,95,1,,4,1,,4,la caducidad,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,3,11 a 30 personas
+39-37-47-76,7,Salmon,Pescados y mariscos,45,1,,1,1,,1,mal uso,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,3,11 a 30 personas
+39-37-47-76,8,Aguacate,Aguacate,40,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,3,11 a 30 personas
+39-37-47-76,9,Queso Philadelphia,Quesos,20,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,3,11 a 30 personas
+39-37-47-76,10,Pepino,Pepino,40,1,,4,1,,4,mal uso,3,1,,1,,3,1,,3,11 a 30 personas
+39-37-47-76,12,Alga,Alga,5,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,3,11 a 30 personas
+57-77-12-52,1,Carne,Carne,42,1,,1,1,,100,No sé vendía,1,1,,9,,#NULL!,#NULL!,,1,0 a 5 personas
+57-77-12-52,2,Verdura,Verduras,100,1,,2,1,,80,Salía fea la verdura o no la ocupaba toda el mismo día,2,1,,8,,#NULL!,#NULL!,,1,0 a 5 personas
+57-77-12-52,3,Tortillas,Tortillas,90,1,,11,1,,150,Ya no servían para la cocina al siguiente día,11,1,,6,,#NULL!,#NULL!,,1,0 a 5 personas
+57-77-12-52,4,Pan,Pan,50,6,Piezas,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+57-77-12-52,5,Huevo,Huevo,45,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+18-65-61-05,1,Café,Café,1290,6,Taza (240 ml),0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+18-65-61-05,2,"Desayuno (básico, huevo)",Comida preparada,774,6,Platillos,500,6,,0,"Compras exageradas para un establecimiento chico,  se descomponga en el refrigerador.",25,1,,11,Al reciclaje que hace la CESPT que es quien quita la trampa de grasa,#NULL!,#NULL!,,1,0 a 5 personas
+18-65-61-05,3,"Comidas (básicas, carnes)",Comida preparada,400,6,Platillos,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+18-65-61-05,4,Pastelitos,Pastelitos,300,6,Pieza,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+18-65-61-05,5,Crepas,Crepas,50,6,Pieza,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+18-65-61-05,6,Helado empanizado,Helado empanizado,120,6,Pieza,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+12-44-10-01,1,Embutidos,Carnes frías y embutidos,200,1,,10,1,,200,depreciación de producto,10,1,,10,,#NULL!,#NULL!,,1,0 a 5 personas
+12-44-10-01,2,Refrescos,Refrescos,60,6,cajas,1,6,caja,200,producto maltratado,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+12-44-10-01,3,Productos lácteos,Lácteos,300,3,,20,3,,400,no se vende,20,3,,11,devolucion,#NULL!,#NULL!,,1,0 a 5 personas
+67-30-78-63,1,Verdura,Verduras,500,1,,6,1,,150,Maduración del producto,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+67-30-78-63,2,Fruta,Frutas,800,1,,3,1,,60,No sé consumen,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+67-30-78-63,3,Semillas,Semillas,20,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+75-34-53-64,1,Carne,Carne,50,1,,5,1,,500,No sé vendía a tiempo,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+75-34-53-64,2,Pollo,Pollo,20,1,,2,1,,150,No sé vendía a tiempo,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+75-34-53-64,3,Pan,Pan,100,6,Cajas (80 panes),50,6,piezas,100,Se hacía duro y ya no servía,50,6,piezas,6,,#NULL!,#NULL!,,1,0 a 5 personas
+75-34-53-64,4,Verduras,Verduras,1000,1,,25,1,,600,Se hacían feas o en algunos casos se echaban a perder,10,1,,8,,#NULL!,#NULL!,,1,0 a 5 personas
+25-82-54-91,1,Pollo,Pollo,50,1,,3,1,,200,no se me logro vender,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+25-82-54-91,2,Jitomate,Jitomate,10,1,,2,1,,50,se echo a perder por que no se logro vender,250,6,gramos,6,,#NULL!,#NULL!,,1,0 a 5 personas
+25-82-54-91,3,Cebolla,Cebolla,20,1,,1,1,,20,se echo a perder,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+25-82-54-91,4,Papaya,Papaya,30,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+25-82-54-91,5,Tomate,Tomate,10,1,,1,1,,20,se echo a perder,1,1,,6,,#NULL!,#NULL!,,1,0 a 5 personas
+25-82-54-91,6,Naranja,Naranja,50,1,,5,1,,70,se echo a perder por que no se vemdio,3,1,,6,,#NULL!,#NULL!,,1,0 a 5 personas
+28-48-29-67,1,Frutas,Frutas,1,2,,200,1,,10000,el covid,50,1,,3,,50,1,,1,0 a 5 personas
+28-48-29-67,2,Legumbres,Legumbres,100,1,,30,1,,2000,bajas ventas por covid,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+95-11-63-53,1,Carne de cerdo,Carne de cerdo,1100,1,,200,1,,20000,no se vendio,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+02-71-90-62,1,Pollo,Pollo,25,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+02-71-90-62,2,Carne,Carne,4,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+02-71-90-62,3,Verduras,Verduras,10,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+02-71-90-62,4,Papa,Papa,30,1,,1,1,,20,Se echa a perder porque no la ocupo y no se vende,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+48-02-88-02,2,Aguacate,Aguacate,1,6,caja,4,1,,160,no sé vende,3,1,,7,,#NULL!,#NULL!,,1,0 a 5 personas
+82-13-03-48,1,Twinky,Twinky,6,6,paquetes,1,6,paquetes,11,no se vendió,1,6,paquete,11,se lo cambio el proveedor,#NULL!,#NULL!,,1,0 a 5 personas
+94-57-53-84,2,Guisados,Guisados,550,6,porciones (platos),5,6,porciones,225,no se vendió,5,6,porciones,7,,#NULL!,#NULL!,,1,0 a 5 personas
+94-57-53-84,3,Sopas,Sopas,5670,3,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+94-57-53-84,4,Agua,Agua,1800,3,,30,3,,300,no se vendió,30,3,,4,,#NULL!,#NULL!,,1,0 a 5 personas
+38-07-51-46,1,Herbolaria,Herbolaria,1000,1,,100,1,,5000,Caducidad de las hiervas,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+33-51-68-65,1,Tomate,Tomate,15,6,cajas,1,6,caja,200,Sale mala,1,6,caja,7,,#NULL!,#NULL!,,1,0 a 5 personas
+33-51-68-65,2,Jitomate,Jitomate,20,6,caja,1,6,caja,2000,no sale bueno,1,6,caja,7,,#NULL!,#NULL!,,1,0 a 5 personas
+56-77-58-08,1,Tomate,Tomate,240,1,,2,1,,35,"mermas que no se necesitan, por ejemplo la cáscara",0,#NULL!,,#NULL!,,#NULL!,#NULL!,,4,31 a 50 personas
+56-77-58-08,2,Pollo,Pollo,120,1,,5,1,,390,es merma del pollo (grasa),0,#NULL!,,#NULL!,,#NULL!,#NULL!,,4,31 a 50 personas
+56-77-58-08,3,Tortilla,Tortillas,180,1,,3,1,,39,por manejo de producto,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,4,31 a 50 personas
+56-77-58-08,4,Cebolla,Cebolla,100,1,,5,1,,70,la cáscara y rabo de la cebolla no se utiliza,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,4,31 a 50 personas
+84-19-37-50,1,Leche,Lácteos,200,3,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,4,31 a 50 personas
+84-19-37-50,2,Huevo,Huevo,2600,6,piezas,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,4,31 a 50 personas
+84-19-37-50,3,Pan,Pan,6600,6,piezas,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,4,31 a 50 personas
+84-19-37-50,4,Carne arrachera,Carne de res,40,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,4,31 a 50 personas
+84-19-37-50,5,Pollo,Pollo,240,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,4,31 a 50 personas
+84-19-37-50,6,Jamón,Carnes frías y embutidos,40,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,4,31 a 50 personas
+84-19-37-50,7,Salchichas,Carnes frías y embutidos,60,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,4,31 a 50 personas
+84-19-37-50,8,Naranja,Naranja,560,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,4,31 a 50 personas
+84-19-37-50,9,Zanahoria,Zanahoria,480,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,4,31 a 50 personas
+84-19-37-50,10,Queso,Quesos,700,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,4,31 a 50 personas
+84-19-37-50,11,Papaya,Papaya,350,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,4,31 a 50 personas
+07-37-94-62,1,Pollo,Pollo,360,1,,20,1,,1580,merma del pollo (grasa) y sobrantes de eventos,15,1,,3,,15,1,,2,6 a 10 personas
+07-37-94-62,2,Tomate,Tomate,60,1,,2,1,,28,merma de cáscara,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,2,6 a 10 personas
+07-37-94-62,3,Lechuga romana,Lechuga,30,6,pza,5,6,pza,75,merma (producto quemado por la conservación adeudada),0,#NULL!,,#NULL!,,#NULL!,#NULL!,,2,6 a 10 personas
+07-37-94-62,4,Papa,Papa,120,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,2,6 a 10 personas
+26-33-58-27,1,Coca Cola,Coca Cola,10,6,Rejilla,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+26-33-58-27,2,Tortillas,Tortillas,50,1,,5,1,,120,No se vende,5,1,,9,,#NULL!,#NULL!,,1,0 a 5 personas
+26-33-58-27,3,Cerveza,Cerveza,20,6,cartones,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+26-33-58-27,4,Frituras,Frituras,150,6,paquete,5,6,bolsita,60,no se vende,5,6,bolsitas,9,,#NULL!,#NULL!,,1,0 a 5 personas
+26-95-82-33,1,Papas,Papa,20,6,cajas,1,6,caja,500,mal manejo,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,3,11 a 30 personas
+26-95-82-33,2,Lechuga,Lechuga,6,6,cajas,10,1,,100,mal manejo,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,3,11 a 30 personas
+26-95-82-33,3,Tomate,Tomate,4,6,caja,30,6,pieza,100,mal manejo,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,3,11 a 30 personas
+26-95-82-33,4,Cebolla,Cebolla,3,6,cajas,1,1,,60,mal uso,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,3,11 a 30 personas
+26-95-82-33,5,Carnes de res,Carnes de res,23,6,cajas,200,6,piezas,700,mal uso,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,3,11 a 30 personas
+26-95-82-33,6,Tocino,Carnes frías y embutidos,3,6,cajas,100,6,piezas,150,mal uso,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,3,11 a 30 personas
+26-95-82-33,7,Salchichas,Carnes frías y embutidos,1,6,caja,40,6,piezas,250,mal uso,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,3,11 a 30 personas
+26-95-82-33,8,Pan,Pan,65,6,caja,60,6,piezas,200,mal uso,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,3,11 a 30 personas
+26-95-82-33,9,Agua embotellada,Agua embotellada,4,6,cajas,10,6,piezas,60,desperdicio,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,3,11 a 30 personas
+26-95-82-33,10,Queso amarillo,Quesos,2,6,cajas,80,6,piezas,120,mal uso,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,3,11 a 30 personas
+20-09-40-61,1,Pollo,Pollo,540,1,,3,1,,162,No hay ventas,2.5,1,,9,,#NULL!,#NULL!,,1,0 a 5 personas
+20-09-40-61,2,Jitomate,Jitomate,180,1,,10,1,,120,Por falta de venta y putrefacción del producto,8,1,,11,El jitomate que aún sirve lo hace puré para refrigerar y una parte es para uso personal y otra para regalar,#NULL!,#NULL!,,1,0 a 5 personas
+40-31-16-96,1,"Pollo, huevo, verduras","Pollo, huevo, verduras",10000,6,Unidades,600,1,,10000,Producto perecedero,300,1,,6,,#NULL!,#NULL!,,1,0 a 5 personas
+91-51-53-80,1,Pierna c/ muslo,Pollo,800,1,,120,1,,1200,merma,10,1,,9,,#NULL!,#NULL!,,2,6 a 10 personas
+12-21-40-53,1,Pollo entero,Pollo,2,2,,100,1,,5000,la merma del producto,50,1,,10,,#NULL!,#NULL!,,1,0 a 5 personas
+44-34-82-46,1,Pan,Pan,1200,6,piezas,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+44-34-82-46,2,Carne de res,Carne de res,96,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+44-34-82-46,3,Jitomate,Jitomate,48,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+31-42-14-83,1,Uva,Uva,10,6,cajas,5,6,cajas,500,ventas bajas,5,6,cajas,9,,#NULL!,#NULL!,,1,0 a 5 personas
+74-16-93-20,1,Ala marinada,Pollo,200,1,,15,1,,600,producto no consumible,6,1,,7,,#NULL!,#NULL!,,1,0 a 5 personas
+83-07-51-12,1,Pollo entero,Pollo,1000,1,,40,1,,2000,merma,20,1,,8,,#NULL!,#NULL!,,1,0 a 5 personas
+36-24-20-40,1,Jitomate,Jitomate,72,1,,3,1,,34,por que estaba maltratado el producto,1,1,,7,,#NULL!,#NULL!,,1,0 a 5 personas
+36-24-20-40,2,Carne de res,Carne de res,96,1,,4,1,,400,se desbarata a la hora de cocinar y servir,1,1,,7,,#NULL!,#NULL!,,1,0 a 5 personas
+36-24-20-40,3,Pollo,Pollo,576,6,piezas,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+36-24-20-40,4,Huevo,Huevo,432,6,piezas,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+25-40-36-43,1,Pollo procesado,Pollo procesado,10,2,,60,1,,1000,merma,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,2,6 a 10 personas
+49-55-81-49,1,Pechuga de pollo,Pollo,1000,1,,100,1,,10000,merma,80,1,,6,,#NULL!,#NULL!,,2,6 a 10 personas
+44-35-84-50,1,Retazo o alas,Pollo,430,1,,300,1,,6000,merma mensual,20,1,,6,,#NULL!,#NULL!,,2,6 a 10 personas
+73-70-08-38,1,Aguacate,Aguacate,24,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+73-70-08-38,2,Nopal,Nopal,200,6,piezas,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+73-70-08-38,3,Limón,Limón,66,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+65-87-03-22,1,Jitomate,Jitomate,300,1,,6,1,,350,"producto maltratado, caducidad",2,1,,8,,#NULL!,#NULL!,,1,0 a 5 personas
+65-87-03-22,2,Zanahoria,Zanahoria,240,1,,8,1,,200,"no se vendió, caducidad",3,1,,8,,#NULL!,#NULL!,,1,0 a 5 personas
+65-87-03-22,3,Cebolla,Cebolla,200,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+65-87-03-22,4,Calabaza,Calabaza,130,1,,9,1,,250,producto maltratado,2,1,,8,,#NULL!,#NULL!,,1,0 a 5 personas
+65-87-03-22,5,Chayote,Chayote,180,1,,6,1,,150,caducidad,2,1,,8,,#NULL!,#NULL!,,1,0 a 5 personas
+74-47-57-78,1,"Carnes frías, lácteos, croquetas","Carnes frías, lácteos, croquetas",4000,1,,300,1,,100000,Perecederos,120,1,NA,9,,#NULL!,#NULL!,,1,0 a 5 personas
+51-20-82-41,1,"Lácteos, y carnes frías","Lácteos, y carnes frías",100,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+30-10-52-13,1,Tortillas,Tortillas,2400,1,,100,1,,1500,"ventas bajas, poca demanda",10,1,,6,,#NULL!,#NULL!,,1,0 a 5 personas
+30-10-52-13,2,Totopos,Totopos,45,1,,5,1,,60,"pocas ventas, baja demanda",0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+11-37-90-44,2,Jitomate,Jitomate,3750,1,,105,1,,1050,merma,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+11-37-90-44,3,Tomate,Tomate,150,1,,105,1,,840,merma,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+42-75-91-86,1,Galletas,Galletas,15,6,cajas,1,6,caja,200,caducan,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+42-75-91-86,2,Refrescos,Refrescos,10,6,cajones,1,6,cajon,150,mal estado,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+89-85-78-54,1,Tortilla 100%,Tortillas,8000,1,,500,1,,7000,Porque no se vendió,-999999999,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+04-34-19-99,1,Carne de res,Carne de res,33800,1,,4680,1,,18720,No venta,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+73-63-62-43,1,Naranjas,Naranjas,1150,1,,360,1,,2880,merma,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+73-63-62-43,2,Mandarinas,Mandarinas,12000,1,,1260,1,,12600,merma,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+73-63-62-43,3,Piña,Piña,168,6,Pieza,30,6,pieza,5040,merma,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+09-34-53-08,1,Refrescos,Refrescos,50,6,caja,1,6,caja,100,malas condiciones,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+09-34-53-08,2,Cerveza,Cerveza,65,6,cartón,1,6,cartón,450,malas condiciones,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+09-34-53-08,3,Frituras,Frituras,150,6,bolsitas,5,6,bolsitas,50,no se vende,5,6,bolsitas,9,,#NULL!,#NULL!,,1,0 a 5 personas
+20-05-46-45,1,Leche,Lácteos,12800,3,,35,3,,385,bolsas de leche rotas,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+08-65-81-31,1,Mandarina,Mandarina,15,2,,750,1,,260,venta,750,1,,10,,#NULL!,#NULL!,,1,0 a 5 personas
+08-65-81-31,2,Plátano,Plátano,260,1,,30,1,,1560,Venta y Descomposición del producto,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+08-65-81-31,3,Durazno,Durazno,720,1,,2,1,,480,Descomposición del producto,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+72-14-01-21,1,Fresas,Fresas,50,2,,5,2,,4500,se hechan a perder,2,2,,9,,#NULL!,#NULL!,,1,0 a 5 personas
+72-04-49-69,1,Legumbres,Legumbres,500,1,,30,1,,700,Se hecha a perder rápido y ya no se puede vender,10,1,,7,,#NULL!,#NULL!,,1,0 a 5 personas
+72-04-49-69,2,Hiervas,Hiervas,200,1,,10,1,,250,Se pudre con el tiempo o se deshidrata y ya no se vende,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+72-04-49-69,3,Frutas,Frutas,500,1,,30,1,,1000,se hecha a perder muy rápido,10,1,,7,,#NULL!,#NULL!,,1,0 a 5 personas
+07-16-71-47,1,Jitomate,Jitomate,372,1,,120,1,,1920,merma,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+07-16-71-47,2,Aguacate,Aguacate,120,1,,3,1,,150,merma,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+07-16-71-47,3,Cilantro,Cilantro,200,6,gramos,100,6,gramos,50,merma,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+07-58-58-23,1,Bistec res,Carne de res,500,1,,30,1,,700,limpieza de carne,15,1,,10,,#NULL!,#NULL!,,1,0 a 5 personas
+07-58-58-23,2,Bistec cerdo,Carne de cerdo,100,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+78-29-84-61,1,Bistec,Bistec,550,1,,105,1,,400,selección de la carne,105,1,,10,,#NULL!,#NULL!,,1,0 a 5 personas
+78-29-84-61,2,Longaniza,Longaniza,400,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+78-29-84-61,3,Queso Oaxaca,Quesos,540,1,,24,1,,1824,"""desuero del queso """"merma""""""",0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+73-06-08-66,1,Gorditas (varios guisados),Comida preparada,2500,6,Pieza,240,1,,7000,Falta de refrigeración apropiada y el cliente lo deja.,80,1,,7,,#NULL!,#NULL!,,1,0 a 5 personas
+73-06-08-66,2,Desayunos (huevo),Comida preparada,640,6,Platillos,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+73-06-08-66,3,Comida corrida,Comida preparada,640,6,Platillos,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+73-06-08-66,4,Aguas frescas,Aguas frescas,1290,6,Vasos (600 ml),0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+73-06-08-66,5,Jugos (frutas de temporada),Jugos (frutas de temporada),380,6,Vasos (600 ml),0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+73-06-08-66,6,"Café (de grano, molido)","Café (de grano, molido)",380,6,Vasos (240 ml),0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+80-07-60-11,1,Birria,Comida preparada,20000,1,,1500,1,,12000,Echado a perder o los consumidores lo dejan,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,4,31 a 50 personas
+80-07-60-11,2,Pozole,Pozole,18000,3,,1000,3,,10000,se echo a perder,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,4,31 a 50 personas
+80-07-60-11,3,Tacos,Comida preparada,50000,1,,1300,1,,26000,clientes tiran comida,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,4,31 a 50 personas
+80-07-60-11,4,Carne asada,Comida preparada,15000,1,,500,1,,18000,no se vendió,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,4,31 a 50 personas
+80-07-60-11,5,Sopes,Comida preparada,18000,1,,100,1,,2500,se echo a perder,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,4,31 a 50 personas
+64-89-09-35,1,Tortillas,Tortillas,6000,1,,150,1,,2700,Descuido en la calibración de la máquina,150,1,,11,Los regala a un engordado de cerdos,#NULL!,#NULL!,,1,0 a 5 personas
+64-89-09-35,2,Masa,Masa,300,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+02-22-73-77,1,Pollos rostizados,Comida preparada,547,1,,1,6,Porcentaje,100,Pocas ventas o pollo golpeado,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+94-39-20-08,1,Tacos,Comida preparada,1000,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,2,6 a 10 personas
+22-69-64-75,1,Queso,Quesos,50,1,,5,1,,2000,la caducidad,5,1,,10,,#NULL!,#NULL!,,1,0 a 5 personas
+22-69-64-75,2,Crema,Crema,60,3,,20,1,,2000,la caducidad,10,1,,9,,#NULL!,#NULL!,,1,0 a 5 personas
+18-62-71-19,1,Harina,Harina,2,2,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+18-62-71-19,2,Huevo,Huevo,92,1,,15,1,,1000,pzas rotas,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+18-62-71-19,3,Azúcar,Azúcar,300,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+09-55-11-13,1,Pollo fresco,Pollo,547,1,,164,1,,5000,que esté golpeado el pollo,164,1,,6,,#NULL!,#NULL!,,1,0 a 5 personas
+81-30-37-04,1,Tamales,Tamales,2750,6,Pieza,150,6,Pieza,2400,Falta de demanda por cambio de clima (aumentó el calor),125,6,Pieza,3,,125,6,Pieza,1,0 a 5 personas
+28-46-36-32,1,Venta de pollo,Pollo,20000,1,,50,1,,15000,por temporada economica,25,1,,10,,#NULL!,#NULL!,,1,0 a 5 personas
+10-14-92-72,1,Arrachera,Arrachera,150,1,,20,1,,2000,por el manejo de preparación,20,1,,9,,#NULL!,#NULL!,,2,6 a 10 personas
+10-14-92-72,2,Carne molida,Carne molida,100,1,,5,1,,800,La preparación,5,1,,9,,#NULL!,#NULL!,,2,6 a 10 personas
+10-14-92-72,3,Longaniza,Carnes frías y embutidos,200,1,,20,1,,1000,preparación,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,2,6 a 10 personas
+62-92-67-84,1,Comida del día,Comida preparada,1000,6,platillos,30,6,platillos,2550,Falta de clientes,30,6,platillos,9,,#NULL!,#NULL!,,2,6 a 10 personas
+88-05-83-73,1,Venta de carne de res,Carne de res,60,1,,5,1,,5000,por la grasa y desperdicio,5,1,,10,,#NULL!,#NULL!,,1,0 a 5 personas
+44-28-49-31,1,Espinaca,Espinaca,72,1,,16,1,,128,producto maltratado,16,1,,8,,#NULL!,#NULL!,,1,0 a 5 personas
+44-28-49-31,2,Brócoli,Brócoli,20,1,,6,1,,60,caducidad,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+44-28-49-31,3,Lechuga romana,Lechuga,196,6,piezas,25,6,pzas,375,por que vienen agusanadas,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+37-12-48-61,1,Pollo,Pollo,3,2,,9,1,,800,falta de venta y exceso de inventario,4,1,,6,,#NULL!,#NULL!,,1,0 a 5 personas
+37-12-48-61,2,Huevo,Huevo,250,1,,4,1,,80,"piezas rotas, caducidad",0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+93-83-50-31,1,Pollo,Pollo,87360,1,,5460,1,,0,Innecesario,5460,1,,10,,#NULL!,#NULL!,,1,0 a 5 personas
+77-52-96-70,1,Naranja,Naranja,30,1,,5,1,,150,clima,2,1,,10,,#NULL!,#NULL!,,1,0 a 5 personas
+77-52-96-70,2,Mandarina,Mandarina,30,1,,10,1,,300,menor venta,5,1,,10,,#NULL!,#NULL!,,1,0 a 5 personas
+77-52-96-70,3,Guayaba,Guayaba,25,1,,8,1,,300,menor venta,5,1,,10,,#NULL!,#NULL!,,1,0 a 5 personas
+45-84-84-07,1,Café en grano,Café en grano,3,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+45-84-84-07,2,Pasteles,Pasteles,2,6,pzas,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+45-84-84-07,3,Tisanas,Tisanas,3,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+54-69-78-85,1,Pollo,Pollo,1500,1,,100,1,,4000,caducidad,50,1,,8,,#NULL!,#NULL!,,1,0 a 5 personas
+63-23-60-25,1,Pollo fresco,Pollo,2000,1,,50,1,,15000,menor venta de pollo,20,1,,10,,#NULL!,#NULL!,,1,0 a 5 personas
+12-33-17-05,1,Jitomate,Jitomate,7200,1,,720,1,NA,9125,condiciones climáticas,5,6,porcentaje,9,,#NULL!,#NULL!,,1,0 a 5 personas
+12-06-38-41,1,Oaxaca,Oaxaca,150,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+12-06-38-41,2,Queso rayado,Quesos,60,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+12-06-38-41,3,Panela,Quesos,84,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+12-74-49-92,1,Carne de cerdo,Carne de cerdo,600,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,3,11 a 30 personas
+12-74-49-92,2,Pollo,Pollo,240,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,3,11 a 30 personas
+12-74-49-92,3,Res,Carne de res,120,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,3,11 a 30 personas
+51-24-94-62,1,Pollo,Pollo,100,1,,3,1,,200,falta de venta,2,1,,6,,#NULL!,#NULL!,,1,0 a 5 personas
+51-24-94-62,2,Papa,Papa,120,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+51-24-94-62,3,Fresa,Fresa,40,1,,5,1,,600,frescura de la fruta,5,1,,7,,#NULL!,#NULL!,,1,0 a 5 personas
+51-24-94-62,4,Manzana,Manzana,40,1,,1,1,,50,frescura de la fruta,1,1,,7,,#NULL!,#NULL!,,1,0 a 5 personas
+51-24-94-62,5,Plátano,Plátano,35,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+51-24-94-62,6,Uva,Uva,30,1,,2,1,,200,caducidad,1,1,,7,,#NULL!,#NULL!,,1,0 a 5 personas
+51-24-94-62,7,Salchicha,Carnes frías y embutidos,20,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+51-24-94-62,8,Queso,Quesos,20,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+51-24-94-62,9,Arroz,Arroz,15,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+78-18-21-65,1,Pollo,Pollo,60,1,,2,1,,120,caducidad,1,1,,9,,#NULL!,#NULL!,,1,0 a 5 personas
+78-18-21-65,2,Carne de res,Carne de res,90,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+78-18-21-65,3,Queso,Quesos,20,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+78-18-21-65,4,Pan,Pan,250,6,piezas,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+78-18-21-65,5,Verdura,Verduras,200,1,,1,1,,50,caducidad,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+53-73-04-92,1,Carne de res,Carne de res,500,1,,50,1,,6500,poca venta,0,NA,NA,10,,#NULL!,#NULL!,,1,0 a 5 personas
+61-92-75-17,1,Chilaquiles,Comida preparada,50,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+61-92-75-17,2,Carne de pollo,Pollo,8,1,,1,1,,95,Merma,1,1,,7,,#NULL!,#NULL!,,1,0 a 5 personas
+61-92-75-17,3,Carne de res,Carne de res,8,1,,1,1,,100,Merma,1,1,,7,,#NULL!,#NULL!,,1,0 a 5 personas
+61-92-75-17,4,Pan,Pan,60,6,Piezas,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+72-91-55-52,1,Jitomate,Jitomate,52,1,,15,1,,240,merma,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+72-91-55-52,2,Cebolla,Cebolla,70,1,,31,1,,496,merma,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+72-91-55-52,3,Papa,Papa,60,1,,25,1,,250,merma,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+72-91-55-52,4,Tomate,Tomate,100,1,,15,1,,248,merma,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+72-91-55-52,5,Calabaza,Calabaza,12,1,,6,1,,90,merma,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+72-91-55-52,6,Tomate,Tomate,100,1,,31,1,,310,merma,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+97-73-87-30,1,Lechuga romana,Lechuga,144,1,,14,1,NA,300,Factores climáticos,7,6,Porciento,8,,#NULL!,#NULL!,,1,0 a 5 personas
+36-35-54-94,1,Longaniza,Longaniza,40,1,,8,1,,600,No sé vendio,8,1,,9,,#NULL!,#NULL!,,2,6 a 10 personas
+36-35-54-94,2,Tripa,Tripa,200,1,,1,1,,400,No sé vendio,1,1,,9,,#NULL!,#NULL!,,2,6 a 10 personas
+20-27-37-35,1,Tortilla de maíz,Tortillas,475,1,,5,1,NA,100,poca venta,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+65-10-32-47,1,Migas(caldo),Migas(caldo),450,3,,42,3,,700,No sé vendio todo,450,3,,7,,#NULL!,#NULL!,,1,0 a 5 personas
+50-66-00-68,1,Jitomate,Jitomate,728,1,,60,1,,992,merma,60,1,,3,,0,#NULL!,,1,0 a 5 personas
+50-66-00-68,2,Ejote,Ejote,155,1,,31,1,,620,merma,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+50-66-00-68,3,Cilantro,Cilantro,46,1,,6,1,,75,merma,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+50-66-00-68,4,Calabaza,Calabaza,125,1,,31,1,,372,merma,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+44-47-19-75,1,Guisados varios,Comida preparada,40,1,,1,1,,200,No sé vendio,1,1,,7,,#NULL!,#NULL!,,1,0 a 5 personas
+44-47-19-75,2,Tortillas,Tortillas,20,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+44-47-19-75,3,Frijoles,Frijoles,5,1,,500,6,gramos,60,No sé vendio,500,6,gramos,7,,#NULL!,#NULL!,,1,0 a 5 personas
+60-49-66-43,1,Mojarra,Pescados y mariscos,50,1,,2,1,,220,caducidad,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+60-49-66-43,2,Cazón,Pescados y mariscos,75,1,,2,1,,150,caducidad,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+60-49-66-43,3,Camarón,Pescados y mariscos,30,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+25-51-75-31,1,Guayaba,Guayaba,40,1,,8,1,,120,merma,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+31-28-80-45,1,Verduras,Verduras,10,2,,1,2,,10000,depende mucho de la temporada,800,1,,7,,#NULL!,#NULL!,,2,6 a 10 personas
+10-44-37-96,1,Huaraches,Comida preparada,140,1,,3,1,,50,No sé vendio,3,1,,7,,#NULL!,#NULL!,,2,6 a 10 personas
+10-44-37-96,2,Queso,Quesos,20,1,,1,1,,120,No sé vendio,1,1,,10,,#NULL!,#NULL!,,2,6 a 10 personas
+86-24-53-95,1,Paletas,Paletas,10800,6,piezas,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+86-24-53-95,2,Aguas,Aguas,2560,3,,100,3,,3500,por el clima y falta de venta,20,3,,4,,#NULL!,#NULL!,,1,0 a 5 personas
+86-24-53-95,3,Helados,Helados,2560,3,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+59-83-90-61,1,Uvas,Uvas,224,1,,2,1,,200,El cambio de clima las termina de cocer más rápido,1,1,,8,,#NULL!,#NULL!,,1,0 a 5 personas
+59-83-90-61,2,Peras,Peras,80,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+59-83-90-61,3,Manzana,Manzana,80,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+59-83-90-61,4,Kiwis,Kiwis,32,1,,0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas
+81-56-88-97,1,Naranja,Naranja,350,1,NA,1,1,,80,Debido a que está de temporada y cambia el estado de la fruta,1,1,,6,,#NULL!,#NULL!,,1,0 a 5 personas
+81-56-88-97,2,Mandarina,Mandarina,350,1,NA,1,1,,20,Debido a que se coce muy rápido,1,1,,6,,#NULL!,#NULL!,,1,0 a 5 personas
+81-56-88-97,3,Jitomate,Jitomate,10,6,"caja, 10 kilos",0,#NULL!,,#NULL!,,#NULL!,#NULL!,,#NULL!,,#NULL!,#NULL!,,1,0 a 5 personas

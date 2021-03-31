@@ -126,6 +126,15 @@ El conjunto de procedimientos aplicados a la BD de salida para llegar hasta la c
 <br>
 <br>
 
+Como resultado de todo este proceso, se obtienen siguientes bases de datos:
+
+- [Base de datos del cuestionario de unidades agropecuarias](base_de_datos/agropecuario/bd_agropecuario_pp_eramo2020.zip){target="_blank"}
+
+- [Base de datos del cuestionario de unidades económicas relacionadas con el sector alimentario](base_de_datos/establecimientos/bd_establecimientos_pp_eramo2020.zip){target="_blank"}
+
+<br>
+<br>
+
 ### **Captura de fotografías** 
 
 <br>
@@ -186,6 +195,6 @@ knitr::include_graphics("base_de_datos/diag_ent_rel.png")
 
 <br>
 
-***Está pendiente completar la elaboración del diagrama entidad-relación de la base de datos para explotación de la encuesta.***
+***(Está pendiente completar la elaboración del diagrama entidad-relación de la base de datos para explotación de la encuesta.)***
 
 <div/>
