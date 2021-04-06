@@ -79,7 +79,7 @@ labels6 <- c("Nacional", "Extranjero", "Ambos")
 lbls <- paste(labels6,",", frec6)
 
 
-pie(frec6, labels = lbls, col=sample(rainbow(length(lbls))),
+pie(frec6, labels = lbls, col=c("darkgreen","blueviolet","blue"),
     main="Origen de los alimentos en los establecimientos entrevistados", explode=0.1)
 
 ```
@@ -99,7 +99,7 @@ labels7 <- c("Sí lleva registro", "No lleva registro", "No está seguro")
 lbls <- paste(labels7,",", frec7)
 
 
-pie(frec7, labels = lbls, col=sample(rainbow(length(lbls))),
+pie(frec7, labels = lbls, col=c("darkgreen","orange","grey"),
     main="Establecimientos entrevistados que llevan registros de pérdidas", 
     explode=0.1)
 
@@ -123,7 +123,7 @@ labels8 <- c("Sí Conoce",
 lbls <- paste(labels8,",", frec8)
 
 
-pie(frec8, labels = lbls, col=sample(rainbow(length(lbls))),
+pie(frec8, labels = lbls, col=c("darkgreen","orange"),
     main="Conocimiento sobre Bancos de Alimentos", 
     explode=0.1)
 
@@ -140,7 +140,7 @@ labels9 <- c("Sí Conoce",
 lbls <- paste(labels9,",", frec9)
 
 
-pie(frec9, labels = lbls, col=sample(rainbow(length(lbls))),
+pie(frec9, labels = lbls, col=c("darkgreen","orange"),
     main="Conocimiento de Redes Alimentarias Alternativas", 
     explode=0.1)
 
@@ -240,7 +240,7 @@ ylab = "Frec",
 names.arg = df$word[1:9],
 border="red",
 col="blue",
-density=15)
+density=25)
 
 ```
 
