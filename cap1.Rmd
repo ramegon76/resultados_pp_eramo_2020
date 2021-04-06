@@ -128,9 +128,9 @@ El conjunto de procedimientos aplicados a la BD de salida para llegar hasta la c
 
 Como resultado de todo este proceso, se obtienen siguientes bases de datos:
 
-- [Base de datos del cuestionario de unidades agropecuarias](base_de_datos/agropecuario/bd_agropecuario_pp_eramo2020.zip){target="_blank"}
+- [Base de datos del cuestionario de unidades agropecuarias](base_de_datos/agropecuario/bd_agrop_pp_eramo2020.zip){target="_blank"}
 
-- [Base de datos del cuestionario de unidades económicas relacionadas con el sector alimentario](base_de_datos/establecimientos/bd_establecimientos_pp_eramo2020.zip){target="_blank"}
+- [Base de datos del cuestionario de unidades económicas relacionadas con el sector alimentario](base_de_datos/establecimientos/bd_estab_pp_eramo2020.zip){target="_blank"}
 
 <br>
 <br>
