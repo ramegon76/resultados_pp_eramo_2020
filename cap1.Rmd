@@ -135,6 +135,44 @@ Como resultado de todo este proceso, se obtienen siguientes bases de datos:
 <br>
 <br>
 
+Cuyos diagramas Entidad-Relación son los siguientes:
+
+<br>
+
+**Cuestionario agropecuario:**
+
+<br>
+
+```{r fig.align='center', out.width= '100%', echo=FALSE, cache=TRUE}
+
+knitr::include_graphics("base_de_datos/diag_ent_rel_agro.png")
+
+```
+
+<br>
+
+**Cuestionario de establecimientos:**
+
+<br>
+
+```{r fig.align='center', out.width= '100%', echo=FALSE, cache=TRUE}
+
+knitr::include_graphics("base_de_datos/diag_ent_rel_estab.png")
+
+```
+
+<br>
+
+Adicionalmente, las frecuencias captadas de las variables de los cuestionarios se pueden descargar en las siguientes ligas:
+
+- [Frecuencias cuestionario de unidades agropecuarias](base_de_datos/Frec_Agro_eramo2020.xlsx)
+
+- [Frecuencias cuestionario de establecimientos](base_de_datos/Frec_Est_eramo2020.xlsx)
+
+
+<br>
+<br>
+
 ### **Captura de fotografías** 
 
 <br>
@@ -195,6 +233,5 @@ knitr::include_graphics("base_de_datos/diag_ent_rel.png")
 
 <br>
 
-***(Está pendiente completar la elaboración del diagrama entidad-relación de la base de datos para explotación de la encuesta.)***
 
 <div/>
