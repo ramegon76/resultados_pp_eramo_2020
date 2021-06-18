@@ -221,15 +221,6 @@ Las tablas creadas para propósitos de control operativo de la prueba piloto. Co
 
 Como resultado de los procedimientos anteriores, se conformó la base de datos denominada [**pp_eramo2020_operativa.db**](base_de_datos/pp_eramo2020_operativa.db).
 
-Cuyo diagrama entidad-relación es el siguiente:
-
-<br>
-
-```{r diag_er, fig.align='center', out.width= '100%', echo=FALSE, cache=TRUE, fig.cap="**Diagrama Entidad-Relación de la Base de Datos**"}
-
-knitr::include_graphics("base_de_datos/diag_ent_rel.png")
-
-```
 
 <br>
 
